@@ -1,3 +1,132 @@
 .navbar{
     background-color: black;
+    padding: 15px;
+    width: 100vw;
+    height: 80px;
+}
+.navbar__burgerMenu{
+    display: none;
+    color: white;
+    border: 1px solid lightgray;
+    padding: 3px 6px;
+    border-radius: 4px;
+    transition: filter 300ms;
+    cursor: pointer;
+}
+.navbar__burgerMenu:hover{
+    filter: brightness(1.2);
+}
+.navbar__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar__logo > img{
+    height: 50px;
+    object-fit: contain;
+}
+.navbar__navLinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 700px;
+}
+.navbar__link{
+    color: white;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9em;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: filter 300ms;
+}
+.navbar__link:hover{
+    filter: brightness(1.2);
+}
+.navbar__link > li{
+    list-style-type: none;
+}
+.navbar__demo{
+    color: black;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9em;
+    background-color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.navbar__dropdown{
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #171717;
+    padding: 12px;
+    padding-bottom: 15px !important;
+    display: none;
+}
+.navbar__dropLink{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100vw;
+    color: white;
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 20px;
+    cursor: pointer;
+}
+.navbar__dropLink:hover{
+    background-color: #242424;
+}
+.navbar__dropLink > li{
+    list-style-type: none;
+}
+.navbar__dropDemo{
+    color: black;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9em;
+    background-color: white;
+    border: none;
+    padding: 13px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+@media screen and (max-width:1020px) {
+    .navbar__logo > img{
+        height: 40px;
+    }
+    .navbar__navLinks{
+        width: 550px;
+    }
+    .navbar__link{
+        font-size: 0.8em;
+    }
+    .navbar__demo{
+        font-size: 0.8em;
+    }
+}
+@media screen and (max-width:788px) {
+    .navbar__navLinks{
+        display: none;
+    }
+    .navbar__burgerMenu{
+        display: block;
+    }
+    .navbar__dropdown{
+        display: block;
+    }
 }
