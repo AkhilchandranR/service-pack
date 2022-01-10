@@ -1,0 +1,30 @@
+.advertisement{
+    background-color: #f6f6f6;
+    padding: 20px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+.advertisement__description{
+    text-align: center;
+}
+.advertisement__description > h1{
+    font-size: 3em;
+}
+.advertisement__description > p{
+    font-size: 1.2em ; 
+    width: 440px;
+    margin-top: 15px;
+}
+.advertisement__description > button{
+    background-color: black;
+    color: white;
+    padding: 16px 30px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-top: 35px;
+}

@@ -8,11 +8,11 @@ import mode from '../../images/mode.png';
 import stripe from '../../images/stripe.png';
 import typeform from '../../images/typeform.png'; 
 
-function TrustedClients() {
+function TrustedClients({heading}) {
     return (
         <Container maxWidth="xl">
             <div className="trustedClients">
-                <h1>Trusted by Customer Obsessed Clients</h1>
+                <h1>{heading}</h1>
                 <div className="trustedClients__clients">
                     <img src={buzzfeed} alt="buzzfeed"/>
                     <img src={hexatech} alt="hexatech"/>
