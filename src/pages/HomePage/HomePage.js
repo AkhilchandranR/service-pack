@@ -9,6 +9,7 @@ import Stats from '../../components/Stats/Stats';
 import './HomePage.css';
 import Products from '../../components/Products/Products';
 import Advertisement from '../../components/Advertisement/Advertisement';
+import Footer from '../../components/Footer/Footer';
 
 function HomePage() {
     return (
@@ -23,6 +24,7 @@ function HomePage() {
             <TrustedClients heading="Hassle free integration with your existing tools"/>
             <Products/>
             <Advertisement/>
+            <Footer/>
         </div>
     )
 }

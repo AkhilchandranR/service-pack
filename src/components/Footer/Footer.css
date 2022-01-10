@@ -1,0 +1,40 @@
+.footer{
+    background-color: #f6f6f6;
+    margin-top: 150px;
+    padding: 20px;
+    position: relative;
+}
+.footer__container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-right: 100px;
+    margin-top: 45px;
+    margin-bottom: 140px;
+}
+.footer__products{
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.footer__heading{
+    font-size: 1.1em;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.footer__content{
+    font-size: 1em;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.footer__sphere{
+    position: absolute;
+    right: 30px;
+    top: 15px;
+}
+.footer__copyright{
+    font-weight: 600;
+    font-size: 0.9em;
+    position: absolute;
+    bottom: 15px;
+}
