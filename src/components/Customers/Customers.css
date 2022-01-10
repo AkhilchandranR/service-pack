@@ -1,0 +1,38 @@
+.customers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 220px;
+}
+.customers__sectionName > span{
+    color: #0070C0;
+    font-weight: 600;
+}
+.customers > h1{
+    margin-top: 13px;
+}
+.customers__content{
+    margin-top: 13px;
+    width: 55%;
+    line-height: 25px;
+
+}
+.customers > button{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 4px;
+    font-size: 1em;
+    font-weight: 600;
+}
+@media screen and (max-width: 510px) {
+    .customers{
+        align-items: flex-start;
+    }
+    .customers > *{
+        margin-left: 10px;
+    }
+}
