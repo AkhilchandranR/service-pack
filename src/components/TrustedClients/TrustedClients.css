@@ -11,4 +11,15 @@
     justify-content: space-between;
     width: 100%;
     margin-top: 50px;
+    flex-wrap: wrap;
+}
+.trustedClients__clients > img{
+    width: 130px;
+    object-fit: contain;
+}
+
+@media screen and (max-width:768px) {
+   .trustedClients__clients > *{
+        flex: 1 0 40%;
+   } 
 }
