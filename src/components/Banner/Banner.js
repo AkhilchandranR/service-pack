@@ -3,6 +3,7 @@ import React from 'react';
 import './Banner.css';
 import rocket from '../../images/rocket.png';
 import Homebanner from '../../images/homebanner.png';
+import Slide from 'react-reveal/Slide';
 
 function Banner() {
     return (
@@ -19,9 +20,11 @@ function Banner() {
                          well and nurture them across all channels</p>
                         <button>Let's Talk</button>
                     </div>
-                    <div className="banner__image">
-                        <img src={Homebanner} alt="banner"/>
-                    </div>
+                        <div className="banner__image">
+                            <Slide right>
+                                <img src={Homebanner} alt="banner"/>
+                            </Slide>
+                        </div>
                 </div>
             </Container>
         </div>

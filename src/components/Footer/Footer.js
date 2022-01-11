@@ -17,7 +17,7 @@ function Footer() {
                     <img src={footerlogo} alt="footer logo"/>
                     <div className="footer__products">
                         <p className="footer__heading">Products</p>
-                        <p className="footer__heading">• ───────</p>
+                        <p className="footer__heading">•───────</p>
                         <p className="footer__content">Quality Work</p>
                         <p className="footer__content">Smart bot</p>
                         <p className="footer__content">Voice desk</p>
@@ -25,14 +25,14 @@ function Footer() {
                     </div>
                     <div className="footer__products">
                         <p className="footer__heading">Comapany</p>
-                        <p className="footer__heading">• ───────</p>
+                        <p className="footer__heading">•───────</p>
                         <p className="footer__content">About Us</p>
                         <p className="footer__content">Support</p>
                         <p className="footer__content">Locations</p>
                     </div>
                     <div className="footer__products">
                         <p className="footer__heading">Information</p>
-                        <p className="footer__heading">• ───────</p>
+                        <p className="footer__heading">•───────</p>
                         <p className="footer__content">Home</p>
                         <p className="footer__content">Platform</p>
                         <p className="footer__content">Comapny</p>
@@ -40,7 +40,7 @@ function Footer() {
                     </div>
                     <div className="footer__products">
                         <p className="footer__heading">Contact Us</p>
-                        <p className="footer__heading">• ───────</p>
+                        <p className="footer__heading">•───────</p>
                         <p className="footer__content">hello@servicepack.ai</p>
                         <div className="footer__socialmedia">
                             <div className="footer__socialIconFacebook">

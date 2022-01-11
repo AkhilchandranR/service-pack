@@ -17,8 +17,9 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    margin-right: 10px;
+    margin-right: 20px;
 }
+
 
 @media screen and (max-width: 1392px) {
     .product__cards {
@@ -28,7 +29,7 @@
         margin-top: 50px;
     }
     .product___cardSections{
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
 }
 @media screen and (max-width:747px) {

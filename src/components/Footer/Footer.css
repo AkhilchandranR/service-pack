@@ -17,8 +17,8 @@
 }
 .footer__products{
     margin-top: 20px;
-    margin-left: 150px;
     z-index: 10;
+    margin-left: 90px;
 }
 .footer__heading{
     font-size: 1.1em;
@@ -33,8 +33,10 @@
 }
 .footer__sphere{
     position: absolute;
-    right: 30px;
+    right: 0;
     top: 15px;
+    width: 350px;
+    object-fit: contain;
 }
 .footer__copyright{
     font-weight: 600;
@@ -60,7 +62,7 @@
     width: 36px;
     object-fit: contain;
 }
-@media screen and (max-width:1600px) {
+/* @media screen and (max-width:1600px) {
     .footer__products{
         margin-left: 125px;
     }
@@ -74,7 +76,7 @@
     .footer__products{
         margin-left: 55px;
     }
-}
+} */
 @media screen and (max-width:991px) {
     .footer__container{
         flex-direction: column;
