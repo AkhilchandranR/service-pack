@@ -45,6 +45,13 @@
     font-size: 1.1em;
     color: #202020;
     white-space: nowrap;
+    cursor: pointer;
+}
+.services__text > p:first-of-type:hover{
+    color: rgb(87, 123, 224);
+}
+.services__text > p:first-of-type:active{
+    color: rgb(87, 123, 224);
 }
 .services__text > p:nth-child(2){
     font-size: 1.2em;
@@ -61,6 +68,9 @@
     position: absolute;
     right: 0;
     top: -10px;
+}
+.active > p:first-of-type{
+    color: rgb(87, 123, 224) !important;
 }
 
 @media screen and (max-width:1076px) {
