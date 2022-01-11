@@ -31,6 +31,7 @@
         width: 70%;
     }
     .trustedClients__clients >img{
+        width: 130px;
         margin-top: 40px;
     }
 }

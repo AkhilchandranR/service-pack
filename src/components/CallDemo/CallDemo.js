@@ -6,7 +6,7 @@ import design from '../../images/design.png';
 
 function CallDemo() {
     return (
-        <Container maxWidth="xl">
+        <Container>
             <div className="callDemo">
                 <div className="callDemo__image">
                     <img src={calldemo} alt="DemoCall"/>

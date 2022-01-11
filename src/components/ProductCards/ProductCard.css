@@ -10,11 +10,11 @@
     padding-bottom: 30px;
 }
 .productCard > img{
-    width: 300px;
+    width: 240px;
     object-fit: cover;
 }
 .productCard__description{
-    width: 300px;
+    width: 230px;
     line-height: 20px;
     margin-top: 10px;
 }

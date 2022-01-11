@@ -11,7 +11,7 @@ function Navbar() {
 
     return (
         <div className="navbar">
-            <Container maxWidth="xl">
+            <Container>
                 <div className="navbar__container">
                     <div className="navbar__logo">
                         <img src={Logo} alt="service-pack-ai"/>

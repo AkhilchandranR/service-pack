@@ -11,10 +11,10 @@
     text-align: center;
 }
 .advertisement__description > h1{
-    font-size: 3em;
+    font-size: 2.5em;
 }
 .advertisement__description > p{
-    font-size: 1.2em ; 
+    font-size: 1.1em ; 
     width: 440px;
     margin-top: 15px;
 }
@@ -28,6 +28,10 @@
     font-weight: 600;
     margin-top: 35px;
 }
+.advertisement > img{
+    width: 350px;
+    object-fit: contain;
+}
 @media screen and (max-width:1290px) {
     .advertisement__description > h1{
         font-size: 2em;
@@ -39,7 +43,7 @@
         font-size: 1em;
     }
     .advertisement > img{
-        width: 300px;
+        width: 260px;
         object-fit: contain;
     } 
 }
