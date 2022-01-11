@@ -6,7 +6,7 @@ import { Container } from '@mui/material';
 
 function Advertisement() {
     return (
-        <Container maxWidth="xl">
+        <Container>
             <div className="advertisement"> 
                 <img src={adleft} alt="girl-on-a-rocket"/>
                 <div className="advertisement__description">

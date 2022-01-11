@@ -8,7 +8,7 @@ import voice from '../../images/voice.png';
 
 function Products() {
     return (
-        <Container maxWidth="xl">
+        <Container>
             <div className="products">
                 <h1>How AI enhances Customer Experience</h1>
                 <div className="product__cards">

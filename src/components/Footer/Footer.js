@@ -12,7 +12,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 function Footer() {
     return (
         <div className="footer">
-            <Container maxWidth="xl">
+            <Container>
                 <div className="footer__container">
                     <img src={footerlogo} alt="footer logo"/>
                     <div className="footer__products">

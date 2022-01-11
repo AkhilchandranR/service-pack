@@ -7,7 +7,7 @@ import Homebanner from '../../images/homebanner.png';
 function Banner() {
     return (
         <div className="banner">
-            <Container maxWidth="xl">
+            <Container>
                 <div className="banner__contents">
                     <div className="banner__textContent">
                         <p>────  CX to the power of AI</p>

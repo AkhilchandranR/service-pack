@@ -10,7 +10,7 @@ import typeform from '../../images/typeform.png';
 
 function TrustedClients({heading}) {
     return (
-        <Container maxWidth="xl">
+        <Container>
             <div className="trustedClients">
                 <h1>{heading}</h1>
                 <div className="trustedClients__clients">

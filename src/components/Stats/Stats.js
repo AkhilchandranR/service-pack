@@ -5,7 +5,7 @@ import StatComponent from './StatsComponent/StatComponent';
 
 function Stats() {
     return (
-        <Container maxWidth="xl">
+        <Container>
             <div className="stats">
                 <div className="stats__statComponent">
                      <StatComponent colour="#0070c0" amount="20" symbol="%" caption="Clickthrough Rate"/>
