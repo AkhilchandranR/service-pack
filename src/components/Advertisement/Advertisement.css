@@ -28,3 +28,39 @@
     font-weight: 600;
     margin-top: 35px;
 }
+@media screen and (max-width:1290px) {
+    .advertisement__description > h1{
+        font-size: 2em;
+    }
+    .advertisement__description > p{
+        font-size: 1em;
+    }
+    .advertisement__description > button{
+        font-size: 1em;
+    }
+    .advertisement > img{
+        width: 300px;
+        object-fit: contain;
+    } 
+}
+@media screen and (max-width:1100px) {
+    .advertisement > img{
+        width: 200px;
+    }
+}
+@media screen and (max-width:900px) {
+    .advertisement{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .advertisement > img{
+        width: 320px;
+    }
+    .advertisement__description{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .advertisement__description > p{
+        width: unset;
+    }
+}

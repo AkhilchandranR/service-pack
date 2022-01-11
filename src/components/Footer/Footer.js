@@ -3,6 +3,11 @@ import React from 'react';
 import './Footer.css';
 import footerlogo from '../../images/footerlogo.png';
 import sphere from '../../images/sphere.png';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import facebook from '../../images/facebook.png';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import InstagramIcon from '@mui/icons-material/Instagram';
+
 
 function Footer() {
     return (
@@ -37,6 +42,20 @@ function Footer() {
                         <p className="footer__heading">Contact Us</p>
                         <p className="footer__heading">• ───────</p>
                         <p className="footer__content">hello@servicepack.ai</p>
+                        <div className="footer__socialmedia">
+                            <div className="footer__socialIconFacebook">
+                                <img src={facebook} alt="facebook"/>
+                            </div>
+                            <div className="footer__socialIcon">
+                                <InstagramIcon/>
+                            </div>
+                            <div className="footer__socialIcon">
+                                <TwitterIcon/>
+                            </div>
+                            <div className="footer__socialIcon">
+                                <YouTubeIcon/>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <p className="footer__copyright">Copyright © Service Pack, Inc</p>

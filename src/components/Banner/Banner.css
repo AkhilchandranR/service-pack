@@ -57,7 +57,7 @@
     .banner__textContents{
         flex: 1;
     }
-    .banner__contents > h1{
+    .banner__textContent > h1{
         font-size: 2em !important;
         line-height: 50px;
         width: 100%;
@@ -66,6 +66,9 @@
 @media screen and (max-width:758px) {
     .banner__image > img{
         width: 100%;
-        object-fit: unset;
+        object-fit: cover;
+    }
+    .banner__subCaption{
+        width: unset;
     }
 }

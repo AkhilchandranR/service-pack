@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
+    position: relative;
 } 
 .services__heading > span{
     color: #ffbf00;
@@ -13,6 +14,7 @@
 }
 .services > h1{
     margin-top: 15px;
+    font-size: 2.5em;
 }
 .services__container{
     display: flex;
@@ -49,6 +51,24 @@
     color: #7f7f7f;
 }
 
+.services__designLeft{
+    position: absolute;
+    left:0;
+    bottom: 30px;
+    
+}
+.services__designRight{
+    position: absolute;
+    right: 0;
+    top: -10px;
+}
+
+@media screen and (max-width:1076px) {
+    .services__designLeft{
+        bottom: 70px;
+    }
+}
+
 @media screen and (max-width:1410px) {
     .services__container{
         width: 80vw;
@@ -65,6 +85,11 @@
     }
     .services__text > p:nth-child(2){
         font-size: 1.1em;
+    }
+}
+@media screen and (max-width:806px) {
+    .services__designLeft,.services__designRight{
+        display: none;
     }
 }
 @media screen and (max-width:740px) {

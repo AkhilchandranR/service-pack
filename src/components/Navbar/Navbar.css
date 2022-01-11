@@ -73,6 +73,7 @@
     padding: 12px;
     padding-bottom: 15px !important;
     display: none;
+    z-index: 20;
 }
 .navbar__dropLink{
     display: flex;

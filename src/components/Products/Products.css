@@ -3,6 +3,7 @@
 }
 .products > h1{
     text-align: center;
+    font-size: 2.5em;
 }
 .product__cards{
     display: flex;
@@ -10,4 +11,33 @@
     justify-content: space-between;
     width: 100%;
     margin-top: 50px;
+}
+.product___cardSections{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+@media screen and (max-width: 1392px) {
+    .product__cards {
+        flex-direction: column;
+    }
+    .product__cards > *{
+        margin-top: 50px;
+    }
+    .product___cardSections{
+        justify-content: space-around;
+    }
+}
+@media screen and (max-width:747px) {
+    .product___cardSections{
+        flex-direction: column;
+    }
+    .product___cardSections > *{
+        margin-top: 50px;
+    }
+    .product__cards{
+        margin-top: 20px !important;
+    }
 }

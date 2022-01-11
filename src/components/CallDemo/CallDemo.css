@@ -33,6 +33,11 @@
     top: 0;
     left: -35px;
 }
+.callDemo__description > img{
+    position: absolute;
+    bottom: 10px;
+    right: 150px;
+}
  @media screen and (max-width:991px) {
      .callDemo__image > img{
          width: 500px;
@@ -44,6 +49,17 @@
      .callDemo__description > p{
          font-size: 1em;
          width: fit-content;
+     }
+ }
+ @media screen and (max-width:1228px) {
+    .callDemo__description > img{
+        right: 0;
+        bottom: -20px;
+    }
+ }
+ @media screen and (max-width:943px) {
+     .callDemo__description > img{
+         bottom: -30px;
      }
  }
  @media screen and (max-width:830px) {
@@ -68,4 +84,8 @@
         object-fit: contain;
     } 
  }
- 
+ @media screen and (max-width:416px) {
+     .callDemo__description > img{
+         display: none;
+     }
+ }

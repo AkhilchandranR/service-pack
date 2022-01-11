@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 
+require('typeface-playfair-display')
+
 
 ReactDOM.render(
   <React.StrictMode>

@@ -12,9 +12,13 @@
     margin-top: 45px;
     margin-bottom: 140px;
 }
+.footer__container > img{
+    z-index: 10;
+}
 .footer__products{
     margin-top: 20px;
     margin-left: 150px;
+    z-index: 10;
 }
 .footer__heading{
     font-size: 1.1em;
@@ -37,4 +41,47 @@
     font-size: 0.9em;
     position: absolute;
     bottom: 15px;
+}
+.footer__socialmedia{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 190px;
+    margin-top: 20px;
+}
+.footer__socialIcon{
+    color: white;
+    background-color: #c2c2c2;
+    border-radius: 999px;
+    text-align: center;
+    padding: 5px 7px;
+}
+.footer__socialIconFacebook > img{
+    width: 36px;
+    object-fit: contain;
+}
+@media screen and (max-width:1600px) {
+    .footer__products{
+        margin-left: 125px;
+    }
+}
+@media screen and (max-width:1400px) {
+    .footer__products{
+        margin-left: 100px;
+    }
+}
+@media screen and (max-width:1150px) {
+    .footer__products{
+        margin-left: 55px;
+    }
+}
+@media screen and (max-width:991px) {
+    .footer__container{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:600px) {
+    .footer{
+        margin-top: 80px;
+    }
 }
