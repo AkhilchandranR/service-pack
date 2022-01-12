@@ -15,11 +15,10 @@
     resize: both;
 }
 .banner__textContent > h1{
-    font-size: 3em;
+    font-size: 2.9em;
     position: relative;
     line-height: 68px;
     width: 110%;
-    margin-top: 15px;
 }
 .banner__textContent > h1 > img{
     position: absolute;
@@ -39,7 +38,7 @@
     border-radius: 4px;
 }
 .banner__image > img{
-    width: 700px;
+    width: 670px;
     object-fit: contain;
     position: absolute;
     top: -40px;
