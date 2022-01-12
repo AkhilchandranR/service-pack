@@ -28,6 +28,10 @@
     font-weight: 600;
     margin-top: 35px;
 }
+.advertisement__description > button:hover{
+    background-color: white;
+    color: black;
+}
 .advertisement > img{
     width: 350px;
     object-fit: contain;

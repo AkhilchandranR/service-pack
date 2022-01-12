@@ -1,14 +1,15 @@
 .callDemo{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-top: 40px;
 }
 .callDemo__description{
     margin-top: 130px;
     position: relative;
 }
 .callDemo__description > h1{
-    font-size: 2.5em;
+    font-size: 2.8em;
 }
 .callDemo__description > p{
     margin-top: 23px;
@@ -36,11 +37,21 @@
 .callDemo__description > img{
     position: absolute;
     bottom: 10px;
-    right: 110px;
+    right: 70px;
 }
 .callDemo__image > img{
-    width: 450px;
+    width: 610px;
     object-fit: contain;
+}
+@media screen and (max-width: 1710px) {
+    .callDemo__image > img{
+        width: 500px;
+    }
+}
+@media screen and (max-width:1535px) {
+    .callDemo__description > h1{
+        font-size: 2.5em;
+    }
 }
 @media screen and (max-width:1030px) {
     .callDemo__thickLine{
@@ -70,7 +81,7 @@
  }
  @media screen and (max-width:943px) {
      .callDemo__description > img{
-         bottom: -30px;
+         bottom: -40px;
      }
  }
  @media screen and (max-width:830px) {
@@ -87,7 +98,6 @@
      .callDemo__thickLine{
          display: none;
      }
-
  }
  @media screen and (max-width:500px) {
     .callDemo__image > img{

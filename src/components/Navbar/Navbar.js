@@ -1,4 +1,3 @@
-import { Container } from '@mui/material';
 import React,{ useState } from 'react';
 import './Navbar.css';
 import Logo from '../../images/logo.png';
@@ -11,7 +10,7 @@ function Navbar() {
 
     return (
         <div className="navbar">
-            <Container>
+            <div className="container">
                 <div className="navbar__container">
                     <div className="navbar__logo">
                         <img src={Logo} alt="service-pack-ai"/>
@@ -71,7 +70,7 @@ function Navbar() {
                         </Fade>
                     }
                 </div>
-            </Container>
+            </div>
         </div>
     )
 }

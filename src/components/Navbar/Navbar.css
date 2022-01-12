@@ -1,8 +1,8 @@
 .navbar{
     background-color: black;
-    padding: 15px;
     width: 100vw;
     height: 80px;
+    padding: 15px 0px;
 }
 .navbar__burgerMenu{
     display: none;
@@ -29,14 +29,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 700px;
+    width: 600px;
 }
 .navbar__link{
     color: white;
-    font-family: Playfair Display;
     font-style: normal;
     font-weight: 600;
-    font-size: 0.9em;
+    font-size: 15px;
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -106,7 +105,7 @@
     margin-top: 10px;
 }
 
-@media screen and (max-width:1020px) {
+@media screen and (max-width:1100px) {
     .navbar__logo > img{
         height: 40px;
     }
@@ -114,10 +113,15 @@
         width: 550px;
     }
     .navbar__link{
-        font-size: 0.8em;
+        font-size: 13px;
     }
     .navbar__demo{
         font-size: 0.8em;
+    }
+}
+@media screen and (max-width:850px) {
+    .navbar__navLinks{
+        width: 500px;
     }
 }
 @media screen and (max-width:788px) {

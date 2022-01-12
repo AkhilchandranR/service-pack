@@ -1,16 +1,16 @@
 import { Container } from '@mui/material';
 import React from 'react';
 import './TrustedClients.css';
-import buzzfeed from '../../images/buzzfeed.png';
-import hexatech from '../../images/hexatech.png';
-import indeed from '../../images/indeed.png';
-import mode from '../../images/mode.png';
-import stripe from '../../images/stripe.png';
-import typeform from '../../images/typeform.png'; 
+import buzzfeed from '../../images/buzzfeed.svg';
+import hexatech from '../../images/hexatech.svg';
+import indeed from '../../images/indeed.svg';
+import mode from '../../images/mode.svg';
+import stripe from '../../images/stripe.svg';
+import typeform from '../../images/typeform.svg'; 
 
 function TrustedClients({heading}) {
     return (
-        <Container>
+        <div className="container">
             <div className="trustedClients">
                 <h1>{heading}</h1>
                 <div className="trustedClients__clients">
@@ -22,7 +22,7 @@ function TrustedClients({heading}) {
                     <img src={stripe} alt="stripe"/>
                 </div>
             </div>
-        </Container>
+        </div>
     )
 }
 

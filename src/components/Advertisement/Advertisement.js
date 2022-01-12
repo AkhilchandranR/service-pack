@@ -1,12 +1,12 @@
 import React from 'react';
 import './Advertisement.css';
-import adleft from '../../images/adleft.png';
+import adleft from '../../images/adleft.svg';
 import adright from '../../images/adright.png';
-import { Container } from '@mui/material';
+
 
 function Advertisement() {
     return (
-        <Container>
+        <div className="container">
             <div className="advertisement"> 
                 <img src={adleft} alt="girl-on-a-rocket"/>
                 <div className="advertisement__description">
@@ -16,7 +16,7 @@ function Advertisement() {
                 </div>
                 <img src={adright} alt="futureai"/>
             </div>
-        </Container>
+        </div>
     )
 }
 

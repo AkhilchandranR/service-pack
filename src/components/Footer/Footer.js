@@ -1,8 +1,7 @@
-import { Container } from '@mui/material';
 import React from 'react';
 import './Footer.css';
 import footerlogo from '../../images/footerlogo.png';
-import sphere from '../../images/sphere.png';
+import sphere from '../../images/sphere.svg';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import facebook from '../../images/facebook.png';
 import TwitterIcon from '@mui/icons-material/Twitter';
@@ -12,9 +11,10 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 function Footer() {
     return (
         <div className="footer">
-            <Container>
+            <div className="container">
                 <div className="footer__container">
                     <img src={footerlogo} alt="footer logo"/>
+                    <img className="footer__sphere" src={sphere} alt="sphere"/>
                     <div className="footer__products">
                         <p className="footer__heading">Products</p>
                         <p className="footer__heading">•───────</p>
@@ -59,8 +59,7 @@ function Footer() {
                     </div>
                 </div>
                 <p className="footer__copyright">Copyright © Service Pack, Inc</p>
-            </Container>
-            <img className="footer__sphere" src={sphere} alt="sphere"/>
+            </div>
         </div>
     )
 }
