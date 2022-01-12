@@ -35,7 +35,7 @@
     position: absolute;
     right: 0;
     top: 15px;
-    width: 350px;
+    width: 380px;
     object-fit: contain;
 }
 .footer__copyright{
@@ -62,21 +62,6 @@
     width: 36px;
     object-fit: contain;
 }
-/* @media screen and (max-width:1600px) {
-    .footer__products{
-        margin-left: 125px;
-    }
-}
-@media screen and (max-width:1400px) {
-    .footer__products{
-        margin-left: 100px;
-    }
-}
-@media screen and (max-width:1150px) {
-    .footer__products{
-        margin-left: 55px;
-    }
-} */
 @media screen and (max-width:991px) {
     .footer__container{
         flex-direction: column;

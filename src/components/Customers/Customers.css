@@ -37,6 +37,17 @@
     }
 }
 
+@media screen and (max-width:765px) {
+    .customers{
+        margin-top: 250px;
+    }
+}
+@media screen and (max-width:600px) {
+    .customers{
+        margin-top: 160px;
+    }
+}
+
 @media screen and (max-width: 510px) {
     .customers{
         align-items: flex-start;
@@ -46,5 +57,10 @@
     }
     .customers > *{
         margin-left: 10px;
+    }
+}
+@media screen and (max-width: 405px) {
+    .customers{
+        margin-top: 90px;
     }
 }

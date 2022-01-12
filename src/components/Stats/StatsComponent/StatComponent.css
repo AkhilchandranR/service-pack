@@ -9,8 +9,6 @@
 }
 .statComponent > h1{
     font-size: 3.2em;
-    position: relative;
-
 }
 .statComponent > h1 > span{
     font-weight: 400;
@@ -31,5 +29,10 @@
     }
     .statComponent > p{
         font-size: 1em;
+    }
+}
+@media screen and (max-width: 770px) {
+    .statComponent{
+        align-items: flex-start;
     }
 }

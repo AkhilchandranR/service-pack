@@ -9,12 +9,13 @@ import './HomePage.css';
 import Products from '../../components/Products/Products';
 import Advertisement from '../../components/Advertisement/Advertisement';
 import Footer from '../../components/Footer/Footer';
+import Homebanner from '../../images/homebanner.png';
 
 function HomePage() {
     return (
         <div className="homePage">
             <Navbar/>
-            <Banner/>
+            <Banner bannerImage={Homebanner} buttonColor="#000000"/>
             <Customers/>
             <TrustedClients heading="Trusted by Customer Obsessed Clients"/>
             <Services/>

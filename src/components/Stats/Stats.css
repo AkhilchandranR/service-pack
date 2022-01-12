@@ -33,12 +33,12 @@
 @media screen and (max-width: 770px) {
     .stats{
         flex-direction: column;
+        align-items: flex-start;
         padding: 30px;
         margin-top: 70px;
     }   
     .stats > *{
         margin-top: 30px;
-        padding-right: 0px !important;
     }
     .stats__statComponent{
         border-right: none;

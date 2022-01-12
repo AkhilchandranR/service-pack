@@ -5,12 +5,12 @@
 .banner__contents{
     display: flex;
     margin-top: 140px;
+    position: relative;
 }
 .banner__textContent{
     width: 50%;
     display: flex;
     flex-direction: column;
-    position: relative;
     z-index: 10;
     resize: both;
 }
@@ -32,7 +32,6 @@
 }
 .banner__textContent > button{
     margin-top: 15px;
-    background-color: black;
     color: white;
     border: none;
     width: 220px;
@@ -40,19 +39,23 @@
     border-radius: 4px;
 }
 .banner__image > img{
-    width: 750px;
+    width: 700px;
     object-fit: contain;
     position: absolute;
-    top: 130px;
-    right: 160px;
+    top: -40px;
+    right: 0;
+}
+@media screen and (max-width:1550px) {
+    .banner__image > img{
+        width: 680px;
+        right: 0px;
+    }
 }
 
 @media screen and (max-width:1100px) {
     .banner__image > img{
         width: 650px;
-        /* height: 100%; */
         object-fit: contain;
-        right: 50px;
     }
     .banner__textContents{
         flex: 1;
@@ -65,9 +68,10 @@
 }
 @media screen and (max-width:758px) {
     .banner__image > img{
-        height: 500px;
-        object-fit: cover;
+        width: 100vw;
+        object-fit: contain;
         right: 0;
+        top: 0px;
         object-position: center;
     }
     .banner__subCaption{
@@ -78,5 +82,17 @@
     }
     .banner__textContent > h1{
         line-height: 40px;
+    }
+    .banner__contents{
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width:500px) {
+    .banner__image > img{
+        height: 100vh;
+        object-fit: contain;
+    }
+    .banner__contents{
+        margin-top: 15px;
     }
 }
