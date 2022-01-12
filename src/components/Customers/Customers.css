@@ -36,6 +36,11 @@
         margin-top: 90px;
     }
 }
+@media screen and (max-width:770px) {
+    .customers{
+        margin-top: 160px;
+    }
+}
 
 @media screen and (max-width: 510px) {
     .customers{
@@ -46,5 +51,10 @@
     }
     .customers > *{
         margin-left: 10px;
+    }
+}
+@media screen and (max-width:380px) {
+    .customers{
+        margin-top: 75px;
     }
 }
