@@ -18,21 +18,24 @@ code {
   box-sizing: border-box;
 }
 .container{
-  width: 75%;
+  width: 80%;
   margin: 0 auto;
 }
 @media screen and (max-width:991px) {
   .container{
     width: 82%;
+    margin: 0 auto;
   }
 }
 @media screen and (max-width:768px) {
   .container{
     width: 90%;
+    margin: 0 auto;
   }
 }
 @media screen and (max-width:500px) {
   .container{
     width: 95%;
+    margin: 0 auto;
   }
 }

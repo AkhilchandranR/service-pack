@@ -33,7 +33,7 @@
     color: black;
 }
 .advertisement > img{
-    width: 350px;
+    width: 270px;
     object-fit: contain;
 }
 @media screen and (max-width:1290px) {
@@ -51,12 +51,17 @@
         object-fit: contain;
     } 
 }
-@media screen and (max-width:1100px) {
+@media screen and (max-width:1240px) {
     .advertisement > img{
-        width: 200px;
+        width: 170px;
     }
 }
-@media screen and (max-width:900px) {
+@media screen and (max-width:1100px) {
+    .advertisement > img{
+        width: 150px;
+    }
+}
+@media screen and (max-width:991px) {
     .advertisement{
         flex-direction: column;
         justify-content: center;

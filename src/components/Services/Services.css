@@ -15,12 +15,13 @@
 .services > h1{
     margin-top: 15px;
     font-size: 2.5em;
+    text-align: center;
 }
 .services__container{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 42vw;
+    width: fit-content;
     margin-top: 40px;
     border: 1px solid #e2e2e2;
     border-radius: 999px;
@@ -40,9 +41,10 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-right: 15px;
 }
 .services__text > p:first-of-type{
-    font-size: 1.1em;
+    font-size: 1em;
     color: #202020;
     white-space: nowrap;
     cursor: pointer;
@@ -54,7 +56,7 @@
     color: rgb(87, 123, 224);
 }
 .services__text > p:nth-child(2){
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: #7f7f7f;
 }
 
@@ -97,6 +99,6 @@
         flex: unset;
     }
     .services__container{
-        width: 95vw;
+        width: 90vw;
     }
 }

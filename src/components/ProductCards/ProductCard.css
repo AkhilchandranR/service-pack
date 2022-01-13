@@ -23,12 +23,12 @@
 }
 .productCard > button{
     position: absolute;
-    bottom: -27px;
+    bottom: -25px;
     background-color: black;
     color: white;
     border: none;
     border-radius: 100%;
-    padding: 15px;
+    padding: 10px 12px;
 }
 .productCard > button:hover{
     background-color: rgb(41, 36, 36);

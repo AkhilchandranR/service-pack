@@ -1,4 +1,3 @@
-import { Container } from '@mui/material';
 import React from 'react';
 import './TrustedClients.css';
 import buzzfeed from '../../images/buzzfeed.svg';

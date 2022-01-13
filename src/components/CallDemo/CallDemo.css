@@ -2,14 +2,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 .callDemo__description{
-    margin-top: 130px;
+    margin-top: 100px;
     position: relative;
 }
 .callDemo__description > h1{
-    font-size: 2.8em;
+    font-size: 45px;
 }
 .callDemo__description > p{
     margin-top: 23px;
@@ -34,26 +34,26 @@
     top: 0;
     left: -35px;
 }
+
 .callDemo__description > img{
     position: absolute;
     bottom: 10px;
     right: 70px;
 }
 .callDemo__image > img{
-    width: 610px;
+    width: 500px;
     object-fit: contain;
 }
-@media screen and (max-width: 1710px) {
-    .callDemo__image > img{
-        width: 500px;
-    }
-}
+
 @media screen and (max-width:1535px) {
     .callDemo__description > h1{
-        font-size: 2.5em;
+        font-size: 2em;
     }
 }
-@media screen and (max-width:1030px) {
+@media screen and (max-width:1190px) {
+    .callDemo__image >img{
+        width: 400px;
+    }
     .callDemo__thickLine{
         display: none;
     }

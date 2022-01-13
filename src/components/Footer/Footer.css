@@ -18,7 +18,7 @@
 .footer__products{
     margin-top: 20px;
     z-index: 10;
-    margin-left: 90px;
+    margin-left: 70px;
 }
 .footer__heading{
     font-size: 1.1em;
@@ -34,13 +34,8 @@
 .footer__sphere{
     position: absolute;
     right: 0;
-<<<<<<< HEAD
-    top: 20px;
-    width: 300px;
-=======
     top: 15px;
-    width: 380px;
->>>>>>> 680beb975f605d09beef64ac1aa2d7c77045ff94
+    width: 340px;
     object-fit: contain;
 }
 .footer__copyright{

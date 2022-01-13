@@ -1,10 +1,9 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyBCYkqiJwBFqT5gt0C0X1ZEFrTMabFBvbo",
-    authDomain: "servicepack-9fbfc.firebaseapp.com", 
-    projectId: "servicepack-9fbfc", 
-    storageBucket: "servicepack-9fbfc.appspot.com", 
-    messagingSenderId: "319582079435",  
-    appId: "1:319582079435:web:7ff5c00d29aac1bb8a4e4e", 
-    measurementId: "G-DTZY660MFJ"
-  
-  };
+  apiKey: "AIzaSyDcxptfhcVHSgbLuD6BPwuHhDqWSxk6IoY",
+  authDomain: "servicepack-645cf.firebaseapp.com",
+  projectId: "servicepack-645cf",
+  storageBucket: "servicepack-645cf.appspot.com",
+  messagingSenderId: "619951691165",
+  appId: "1:619951691165:web:a3242a035693c2142b0b74",
+  measurementId: "G-QKJHMSDRXC"
+};
