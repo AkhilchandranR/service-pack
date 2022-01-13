@@ -2,10 +2,12 @@ import React from 'react';
 import './Banner.css';
 import rocket from '../../images/rocket.png';
 import Slide from 'react-reveal/Slide';
+import vector1 from '../../images/Vector01.svg';
 
 function Banner({bannerImage,buttonColor}) {
     return (
         <div className="banner">
+            <img className='banner__vector' src={vector1} alt=''/>
             <div className="container">
                 <div className="banner__contents">
                     <div className="banner__textContent">

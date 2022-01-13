@@ -29,8 +29,7 @@
     margin-top: 35px;
 }
 .advertisement__description > button:hover{
-    background-color: white;
-    color: black;
+    background-color: rgb(41, 36, 36);
 }
 .advertisement > img{
     width: 270px;

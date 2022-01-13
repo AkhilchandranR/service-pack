@@ -17,10 +17,6 @@ function Products() {
                         <ProductCard picture={text} heading="Text Analytics" content="Lorem Ipsum has been the industry's
                         standard dummy text ever since the 1500s, when an unknown printer took a galley of type and 
                         scrambled it to make a type specimen book."/>
-                    
-                        <ProductCard picture={voice} heading="Voice Assistants" content="Lorem Ipsum has been the industry's
-                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and 
-                        scrambled it to make a type specimen book."/>
                         <ProductCard picture={voice} heading="Voice Assistants" content="Lorem Ipsum has been the industry's
                         standard dummy text ever since the 1500s, when an unknown printer took a galley of type and 
                         scrambled it to make a type specimen book."/>

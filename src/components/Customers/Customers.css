@@ -12,7 +12,7 @@
 }
 .customers > h1{
     margin-top: 13px;
-    font-size: 2.5em;
+    font-size: 2.2em;
     text-align: center;
 }
 .customers__content{
@@ -22,14 +22,17 @@
 
 }
 .customers > button{
-    margin-top: 20px;
     background-color: black;
     color: white;
+    padding: 16px 30px;
     border: none;
-    padding: 15px;
     border-radius: 4px;
-    font-size: 1em;
+    font-size: 1.1em;
     font-weight: 600;
+    margin-top: 25px;
+}
+.customers > button:hover{
+    background-color: rgb(41, 36, 36);
 }
 @media screen and (max-width:600px) {
     .customers{

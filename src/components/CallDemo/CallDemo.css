@@ -2,14 +2,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 70px;
 }
 .callDemo__description{
-    margin-top: 100px;
     position: relative;
 }
 .callDemo__description > h1{
-    font-size: 45px;
+    font-size: 2.4em;
 }
 .callDemo__description > p{
     margin-top: 23px;
@@ -19,12 +18,15 @@
 .callDemo__description > button{
     background-color: black;
     color: white;
+    padding: 16px 30px;
+    border: none;
+    border-radius: 4px;
     font-size: 1.1em;
     font-weight: 600;
-    border: none;
-    padding: 20px 40px;
-    border-radius: 4px;
     margin-top: 15px;
+}
+.callDemo__description > button:hover{
+    background-color: rgb(41, 36, 36);
 }
 .callDemo__thickLine{
     height: 45px;
@@ -87,6 +89,7 @@
  @media screen and (max-width:830px) {
      .callDemo{
          flex-direction: column;
+         align-items: center;
      }
      .callDemo__description{
          text-align: center;

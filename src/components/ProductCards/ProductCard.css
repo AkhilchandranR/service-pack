@@ -10,11 +10,11 @@
     padding-bottom: 30px;
 }
 .productCard > img{
-    width: 250px;
+    width: 330px;
     object-fit: cover;
 }
 .productCard__description{
-    width: 250px;
+    width: 330px;
     line-height: 20px;
     margin-top: 10px;
 }
@@ -33,22 +33,13 @@
 .productCard > button:hover{
     background-color: rgb(41, 36, 36);
 }
-@media screen and (max-width:1500px) {
+
+@media screen and (max-width:1374px) {
     .productCard > img{
-        width: 200px;
+        width: 280px;
     }
     .productCard__description{
-        width: 190px;
-        line-height: 18px;
-    }
-    
-}
-@media screen and (max-width:1250px) {
-    .productCard > img{
-        width: 170px;
-    }
-    .productCard__description{
-        width: 160px;
+        width: 280px;
         line-height: 17px;
     }
     .productCard__heading{
@@ -56,23 +47,33 @@
     }
     
 }
-@media screen and (max-width:1074px) {
+
+@media screen and (max-width:1175px) {
     .productCard > img{
-        width: 140px;
+        width: 260px;
     }
     .productCard__description{
-        width: 130px;
+        width: 260px;
     }
     .productCard__heading{
         font-size: 1.2em;
     }
 }
-@media screen and (max-width: 870px) {
+@media screen and (max-width:1106px){
     .productCard > img{
-        width: 430px;
+        width: 230px;
     }
     .productCard__description{
-        width: 425px;
+        width: 230px;
+    }
+
+}
+@media screen and (max-width: 964px) {
+    .productCard > img{
+        width: 400px;
+    }
+    .productCard__description{
+        width: 400px;
         line-height: 25px;
     }
     .productCard__heading{
@@ -80,16 +81,11 @@
     }
 
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width:500px){
     .productCard > img{
-        width: 300px;
+        width: 85vw;
     }
     .productCard__description{
-        width: 295px;
-        line-height: 22px;
+        width: 85vw;
     }
-    .productCard__heading{
-        font-size: 2em;
-    }
-
 }
