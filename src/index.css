@@ -17,3 +17,22 @@ code {
   padding: 0;
   box-sizing: border-box;
 }
+.container{
+  width: 75%;
+  margin: 0 auto;
+}
+@media screen and (max-width:991px) {
+  .container{
+    width: 82%;
+  }
+}
+@media screen and (max-width:768px) {
+  .container{
+    width: 90%;
+  }
+}
+@media screen and (max-width:500px) {
+  .container{
+    width: 95%;
+  }
+}

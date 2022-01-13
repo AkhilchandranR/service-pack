@@ -14,6 +14,7 @@ function Services() {
             <img className="services__designRight" src={design} alt="designRight"/>
             <p className="services__heading">── <span>OUR SERVICES</span> ──</p>
             <h1>One-stop shop for Contact Center AI</h1>
+            
             <div className="services__container">
                 <div className={`services__text ${(selected === 1) ? "active":""}`}>
                     <p onClick={()=>setSelected(1)}>Quality Monitering</p>

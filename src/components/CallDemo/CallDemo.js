@@ -1,12 +1,11 @@
-import { Container } from '@mui/material';
 import React from 'react';
 import './CallDemo.css';
-import calldemo from '../../images/calldemo.png';
+import calldemo from '../../images/calldemo.svg';
 import design from '../../images/design.png';
 
 function CallDemo() {
     return (
-        <Container>
+        <div className="container">
             <div className="callDemo">
                 <div className="callDemo__image">
                     <img src={calldemo} alt="DemoCall"/>
@@ -19,7 +18,7 @@ function CallDemo() {
                     <img src={design} alt="design"/>
                 </div>
             </div>
-        </Container>
+        </div>
     )
 }
 

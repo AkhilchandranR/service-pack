@@ -1,8 +1,8 @@
 .navbar{
     background-color: black;
-    padding: 15px;
     width: 100vw;
     height: 80px;
+    padding: 15px 0px;
 }
 .navbar__burgerMenu{
     display: none;
@@ -106,7 +106,7 @@
     margin-top: 10px;
 }
 
-@media screen and (max-width:1020px) {
+@media screen and (max-width:1100px) {
     .navbar__logo > img{
         height: 40px;
     }
@@ -118,6 +118,11 @@
     }
     .navbar__demo{
         font-size: 0.8em;
+    }
+}
+@media screen and (max-width:850px) {
+    .navbar__navLinks{
+        width: 500px;
     }
 }
 @media screen and (max-width:788px) {

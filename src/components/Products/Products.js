@@ -1,14 +1,13 @@
-import { Container } from '@mui/material';
 import React from 'react';
 import ProductCard from '../ProductCards/ProductCard';
 import './Products.css';
-import speech from '../../images/speech.png';
-import text from '../../images/text.png';
-import voice from '../../images/voice.png';
+import speech from '../../images/speech.svg';
+import text from '../../images/text.svg';
+import voice from '../../images/voice.svg';
 
 function Products() {
     return (
-        <Container>
+        <div className="container">
             <div className="products">
                 <h1>How AI enhances Customer Experience</h1>
                 <div className="product__cards">
@@ -27,7 +26,7 @@ function Products() {
                         scrambled it to make a type specimen book."/>
                 </div>
             </div>
-        </Container>
+        </div>
     )
 }
 

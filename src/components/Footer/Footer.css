@@ -1,6 +1,6 @@
 .footer{
     background-color: #f6f6f6;
-    margin-top: 150px;
+    margin-top: 90px;
     padding: 20px;
     position: relative;
 }
@@ -61,6 +61,14 @@
 .footer__socialIconFacebook > img{
     width: 36px;
     object-fit: contain;
+}
+@media screen and (max-width:1300px) {
+    .footer__container{
+        padding-right: 0px;
+    }
+    .footer__products{
+        margin-left: 30px;
+    }
 }
 @media screen and (max-width:991px) {
     .footer__container{

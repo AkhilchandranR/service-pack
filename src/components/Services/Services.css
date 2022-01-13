@@ -20,7 +20,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 50vw;
+    width: 42vw;
     margin-top: 40px;
     border: 1px solid #e2e2e2;
     border-radius: 999px;
@@ -79,16 +79,6 @@
     }
 }
 
-@media screen and (max-width:1410px) {
-    .services__container{
-        width: 80vw;
-    }
-}
-@media screen and (max-width:1050px) {
-    .services__container{
-        width: 95vw;
-    }
-}
 @media screen and (max-width:900px) {
     .services__text > p:first-of-type{
         font-size: 1em;
@@ -105,5 +95,8 @@
 @media screen and (max-width:740px) {
     .services__text{
         flex: unset;
+    }
+    .services__container{
+        width: 95vw;
     }
 }

@@ -1,4 +1,3 @@
-import { Container } from '@mui/material';
 import React from 'react';
 import './Banner.css';
 import rocket from '../../images/rocket.png';
@@ -7,7 +6,7 @@ import Slide from 'react-reveal/Slide';
 function Banner({bannerImage,buttonColor}) {
     return (
         <div className="banner">
-            <Container>
+            <div className="container">
                 <div className="banner__contents">
                     <div className="banner__textContent">
                         <p>────  CX to the power of AI</p>
@@ -25,7 +24,7 @@ function Banner({bannerImage,buttonColor}) {
                         </Slide>
                     </div>
                 </div>
-            </Container>
+            </div>
         </div>
     )
 }
