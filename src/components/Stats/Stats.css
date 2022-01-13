@@ -60,11 +60,11 @@
     position: relative;
 }
 .statComponent > p{
-    font-size: 1.3em;
+    font-size: 1.1em;
     font-weight: 600;
 }
 .statcomponent__number > h1{
-    font-size: 3.2em;
+    font-size: 3em;
 }
 .statcomponent__number > span{
     font-weight: 400;

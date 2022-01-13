@@ -9,7 +9,7 @@
     position: relative;
 }
 .callDemo__description > h1{
-    font-size: 3em;
+    font-size: 2.8em;
 }
 .callDemo__description > p{
     margin-top: 23px;
@@ -40,7 +40,7 @@
     right: 70px;
 }
 .callDemo__image > img{
-    width: 650px;
+    width: 610px;
     object-fit: contain;
 }
 @media screen and (max-width: 1710px) {

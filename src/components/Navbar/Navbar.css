@@ -29,14 +29,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 700px;
+    width: 600px;
 }
 .navbar__link{
     color: white;
-    font-family: Playfair Display;
     font-style: normal;
     font-weight: 600;
-    font-size: 0.9em;
+    font-size: 15px;
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -114,7 +113,7 @@
         width: 550px;
     }
     .navbar__link{
-        font-size: 0.8em;
+        font-size: 13px;
     }
     .navbar__demo{
         font-size: 0.8em;
