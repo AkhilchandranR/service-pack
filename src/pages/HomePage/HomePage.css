@@ -13,6 +13,9 @@
 .homepage__services{
     position: relative;
 }
+.homepage__stats{
+    margin-top: 90px;
+}
 .dots{
     position: absolute;
     width: 7px;
@@ -118,6 +121,7 @@
     bottom: 100px;
     left: 100px;
 }
+
 @media screen and (max-width:880px) {
     .homepage__clients > img{
         display: none;

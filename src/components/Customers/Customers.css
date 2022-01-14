@@ -12,7 +12,7 @@
 }
 .customers > h1{
     margin-top: 13px;
-    font-size: clamp(2.2em,3vw,1em);
+    font-size: 35px !important;
     text-align: center;
 }
 .customers__content{
@@ -24,22 +24,28 @@
 .customers > button{
     background-color: black;
     color: white;
-    padding: 16px 30px;
     border: none;
+    width: 220px;
+    padding: 12px;
     border-radius: 4px;
-    font-size: 1.1em;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 500;
     margin-top: 15px;
 }
 .customers > button:hover{
     background-color: rgb(41, 36, 36);
+}
+@media screen and (max-width:991px) {
+    .customers > h1{
+        font-size: 30px !important;
+    }
 }
 @media screen and (max-width:600px) {
     .customers{
         margin-top: 60px;
     }
     .customers__content{
-        width: 100%;
+        width: 98%;
         text-align: center;
     }
 }

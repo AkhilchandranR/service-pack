@@ -3,7 +3,7 @@
 }
 .products > h1{
     text-align: center;
-    font-size: 2.2em;
+    font-size: 35px !important;
 }
 .product__cards{
     display: flex;
@@ -12,7 +12,6 @@
     width: 100%;
     margin-top: 30px;
 }
-
 @media screen and (max-width: 964px) {
     .product__cards{
         flex-direction: column;

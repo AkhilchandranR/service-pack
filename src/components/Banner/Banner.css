@@ -35,7 +35,7 @@
     padding: 12px;
     border-radius: 4px;
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .banner__image > img{
@@ -58,27 +58,29 @@
 @media screen and (max-width:1295px) {
     .banner__image > img{
         width: 500px;
+        padding-top: 20px;
     }
 }
 
 @media screen and (max-width:1185px) {
     .banner__textContent > h1{
-        font-size: 2.5em;
+        font-size: 2.5em !important;
         line-height: 60px;
     }
     .banner__image > img{
         width: 440px;
+        padding-top: 30px
     }
 }
 @media screen and (max-width: 1102px) {
     .banner__textContent > h1{
-        font-size: 2.3em;
+        font-size: 2.3em !important;
         line-height: 47px;
     }
 }
 @media screen and (max-width: 1048px) {
     .banner__image > img{
-        width: 400px;
+        width: 410px;
     }
 }
 @media screen and (max-width: 991px) {
@@ -97,7 +99,7 @@
 }
 @media screen and (max-width: 500px) {
     .banner__textContent > h1{
-        font-size: 2.1em;
+        font-size: 2.1em !important;
         line-height: unset;
     }
 }

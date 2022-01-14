@@ -56,12 +56,14 @@ function HomePage() {
                 <Services/>
             </div>
 
-            <Stats 
-            colour1="#0070c0" amount1="20" symbol1="%" caption1="Clickthrough Rate"
-            colour2="#ffcd3a" amount2="60" symbol2="+" caption2="Downloads"
-            colour3="#32cd32" amount3="20" symbol3="+" caption3="Active Users"
-            colour4="#ff0066" amount4="60" symbol4="+" caption4="Downloads"
-            />
+            <div className='homepage__stats'>
+                <Stats 
+                colour1="#0070c0" amount1="20" symbol1="%" caption1="Clickthrough Rate"
+                colour2="#ffcd3a" amount2="60" symbol2="+" caption2="Downloads"
+                colour3="#32cd32" amount3="20" symbol3="+" caption3="Active Users"
+                colour4="#ff0066" amount4="60" symbol4="+" caption4="Downloads"
+                />
+            </div>
 
             <TrustedClients heading="Hassle free integration with your existing tools"/>
 
