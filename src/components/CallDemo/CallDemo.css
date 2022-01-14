@@ -2,17 +2,17 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 70px;
+    margin-top: 60px;
 }
 .callDemo__description{
     position: relative;
 }
 .callDemo__description > h1{
-    font-size: 2.4em;
+    font-size: 2.2em;
 }
 .callDemo__description > p{
     margin-top: 23px;
-    width: 400px;
+    width: 380px;
     font-size: 1.1em;
 }
 .callDemo__description > button{
@@ -40,16 +40,26 @@
 .callDemo__description > img{
     position: absolute;
     bottom: 10px;
-    right: 70px;
+    right: 40px;
+    z-index: -1;
 }
 .callDemo__image > img{
-    width: 500px;
+    width: 600px;
     object-fit: contain;
 }
 
 @media screen and (max-width:1535px) {
+    .callDemo__image > img{
+        width: 500px;
+    }
+    .callDemo__description{
+        margin-left: 20px;
+    }
     .callDemo__description > h1{
         font-size: 2em;
+    }
+    .callDemo__description > p{
+        width: unset;
     }
 }
 @media screen and (max-width:1190px) {
@@ -78,7 +88,7 @@
  @media screen and (max-width:1228px) {
     .callDemo__description > img{
         right: 0;
-        bottom: -20px;
+        bottom: -27px;
     }
  }
  @media screen and (max-width:943px) {

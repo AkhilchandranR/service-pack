@@ -1,1 +1,130 @@
-
+.homepage__customers{
+    position: relative;
+}
+.homepage__clients{
+    position:relative;
+}
+.homepage__clients > img{
+    position: absolute;
+    top: -50px;
+    left: 250px;
+    z-index: -4;
+}
+.homepage__services{
+    position: relative;
+}
+.dots{
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    z-index: -1;
+}
+.yellow{
+    background-color: #ffbf00;
+}
+.green{
+    background-color: #32cd32;
+}
+.c_one{
+    bottom: 20px;
+    right: 450px;
+}
+.cl_one{
+    top: -50px;
+    right: 200px;
+}
+.cl_two{
+    top: -20px;
+    left: 450px;
+}
+.cl_three{
+    top: 18px;
+    left: 255px;
+}
+.cl_four{
+    top: 0;
+    right: 455px;
+}
+.cl_five{
+    top: 28px;
+    left: 647px;
+}
+.cl_six{
+    bottom: 0;
+    right: 300px;
+}
+.cl_seven{
+    top: 50px;
+    left: 784px;
+}
+.s_one{
+    top: 10px;
+    left: 100px;
+}
+.s_two{
+    top: 110px;
+    left: 680px;
+}
+.s_three{
+    top: 120px;
+    right: 300px;
+}
+.s_four{
+    right: 0;
+    top: 200px;
+}
+.s_five{
+    right: 220px;
+    top: 225px;
+}
+.s_six{
+    right: 430px;
+    top: 240px;
+}
+.s_seven{
+    right: 100px;
+    bottom: 100px;
+}
+.s_eight{
+    bottom: 150px;
+    left: 10px;
+}
+.s_nine{
+    top: 210px;
+    left: 180px;
+}
+.s_ten{
+    top: 230px;
+    left: 380px;
+}
+.s_twelve{
+    top: -20px;
+    right: 120px;
+}
+.s_thirteen{
+    top: 70px;
+    left: 200px;
+}
+.s_fourteen{
+    top: 210px;
+    left: 655px;
+}
+.s_fifteen{
+    bottom: 200px;
+    right: 700px;
+}
+.s_sixteen{
+    bottom: 100px;
+    left: 100px;
+}
+@media screen and (max-width:880px) {
+    .homepage__clients > img{
+        display: none;
+    }
+}
+@media screen and (max-width: 791px) {
+    .dots{
+        display: none;
+    }
+}

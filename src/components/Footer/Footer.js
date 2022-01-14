@@ -11,6 +11,13 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 function Footer() {
     return (
         <div className="footer">
+            <div className="footer__dots f_one"></div>
+            <div className="footer__dots f_two"></div>
+            <div className="footer__dots f_three"></div>
+            <div className="footer__dots f_four"></div>
+            <div className="footer__dots f_five"></div>
+            <div className="footer__dots f_six"></div>
+            <div className="footer__dots f_seven"></div>
             <div className="container">
                 <div className="footer__container">
                     <img src={footerlogo} alt="footer logo"/>

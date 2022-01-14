@@ -1,6 +1,6 @@
 .footer{
     background-color: #f6f6f6;
-    margin-top: 70px;
+    margin-top: 100px;
     padding: 20px;
     position: relative;
 }
@@ -10,7 +10,7 @@
     justify-content: flex-start;
     padding-right: 100px;
     margin-top: 45px;
-    margin-bottom: 70px;
+    margin-bottom: 80px;
 }
 .footer__container > img{
     z-index: 10;
@@ -62,6 +62,42 @@
     width: 36px;
     object-fit: contain;
 }
+.footer__dots{
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #828282;
+}
+.f_one{
+    top: 40px;
+    left: 130px;
+}
+.f_two{
+    top: 140px;
+    left: 50px;
+}
+.f_three{
+    top: 230px;
+    left: 130px;
+}
+.f_four{
+    top: 190px;
+    left: 230px;
+}
+.f_five{
+    left: 250px;
+    bottom: 100px;
+}
+.f_six{
+    bottom: 10px;
+    left: 20px;
+}
+.f_seven{
+    bottom: 35px;
+    left: 150px;
+}
+
 @media screen and (max-width:1300px) {
     .footer__container{
         padding-right: 0px;
