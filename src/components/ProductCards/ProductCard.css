@@ -24,14 +24,14 @@
 .productCard > button{
     position: absolute;
     bottom: -25px;
-    background-color: black;
     color: white;
     border: none;
     border-radius: 100%;
     padding: 10px 12px;
+    transition: filter 0.2s;
 }
 .productCard > button:hover{
-    background-color: rgb(41, 36, 36);
+    filter: brightness(2.2);
 }
 
 @media screen and (max-width:1374px) {

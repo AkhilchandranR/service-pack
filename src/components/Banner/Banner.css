@@ -36,6 +36,10 @@
     border-radius: 4px;
     font-size: 15px;
     font-weight: 500;
+    transition: filter 0.2;
+}
+.banner__textContent > button:hover{
+    filter: brightness(2.2);
 }
 
 .banner__image > img{
@@ -101,5 +105,11 @@
     .banner__textContent > h1{
         font-size: 2.1em !important;
         line-height: unset;
+    }
+}
+@media screen and (min-width:1700px) {
+    .banner__vector{
+        width: 100%;
+        top: -220px;
     }
 }

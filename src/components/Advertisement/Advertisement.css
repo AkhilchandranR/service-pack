@@ -19,7 +19,6 @@
     margin-top: 15px;
 }
 .advertisement__description > button{
-    background-color: black;
     color: white;
     border: none;
     width: 220px;
@@ -28,9 +27,10 @@
     font-size: 15px;
     font-weight: 500;
     margin-top: 35px;
+    transition: filter 0.2;
 }
 .advertisement__description > button:hover{
-    background-color: rgb(41, 36, 36);
+    filter: brightness(2.2);
 }
 .advertisement > img{
     width: 270px;

@@ -11,13 +11,14 @@ import Advertisement from '../../components/Advertisement/Advertisement';
 import Footer from '../../components/Footer/Footer';
 import Homebanner from '../../images/homebanner.svg';
 import design from '../../images/design.png';
+import vector1 from '../../images/Vector01.svg';
 
 function HomePage() {
     return (
         <div className="homePage">
             <Navbar/>
 
-            <Banner bannerImage={Homebanner} buttonColor="#000000"/>
+            <Banner bannerImage={Homebanner} buttonColor="#000000" vector={vector1}/>
 
             <div className="homepage__customers">
                 <div className="dots yellow c_one"></div>
@@ -67,10 +68,10 @@ function HomePage() {
 
             <TrustedClients heading="Hassle free integration with your existing tools"/>
 
-            <Products/>
+            <Products buttoncolor="black"/>
 
             <div className="homepage__adv">
-                <Advertisement/>
+                <Advertisement buttoncolor="black"/>
             </div>
 
             <footer>

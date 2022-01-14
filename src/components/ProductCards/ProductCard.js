@@ -3,7 +3,7 @@ import './ProductCard.css';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 
-function ProductCard({picture,heading,content}) {
+function ProductCard({picture,heading,content,buttoncolor}) {
     return (
         <div className="productCard">
             <img src={picture} alt={heading}/>
@@ -11,7 +11,7 @@ function ProductCard({picture,heading,content}) {
             <p className="productCard__description">
                 {content}
             </p>
-            <button>
+            <button style={{backgroundColor:buttoncolor}}>
                 <ArrowForwardIcon/>
             </button>
         </div>
