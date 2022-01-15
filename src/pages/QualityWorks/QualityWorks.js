@@ -6,7 +6,7 @@ import TrustedClients from '../../components/TrustedClients/TrustedClients';
 import Advertisement from '../../components/Advertisement/Advertisement';
 import Products from '../../components/Products/Products';
 import Footer from '../../components/Footer/Footer';
-import banner2 from '../../images/banner2.png';
+import banner2 from '../../images/banner2.svg';
 
 import adleft from '../../images/adleft.svg';
 import adright from '../../images/adright.png';

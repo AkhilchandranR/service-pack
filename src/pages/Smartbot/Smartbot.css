@@ -4,3 +4,77 @@
 .smartbot__dashboard{
     margin-top: 60px;
 }
+.smartbot__chatbot{
+    position: relative;
+}
+.chatbot_dots{
+    position: absolute;
+    background-color: #ff0066;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+.sb_one {
+    top: 32px;
+    left: 260px;
+}
+.sb_two {
+    left: 410px;
+    top: 50px;
+}
+.sb_three{
+    left: 600px;
+    top: 55px;
+}
+.sb_four{
+    top: 90px;
+    left: 10px;
+}
+.sb_five{
+    top: 150px;
+    left: 125px;
+}
+.sb_six{
+    top: 200px;
+    left: 280px;
+}
+.sb_seven{
+    bottom: 100px;
+    left: 370px;
+}
+.sb_eight{
+    bottom: 120px;
+    left: 210px;
+}
+.sb_nine{
+    right: 0;
+    bottom: 100px;
+}
+.sb_ten{
+    right: 230px;
+    bottom: 90px;
+}
+.sb_eleven{
+    right: 450px;
+    bottom: 65px;
+}
+.sb_twelve{
+    right: 300px;
+    bottom: 160px;
+}
+.sb_thirteen{
+    top: 35px;
+    right: 500px;
+}
+.sb_fourteen{
+    top: 45px;
+    right: 80px;
+}
+.sb_fifteen{
+    top: 120px;
+    right: 350px;
+}
+.sb_sixteen{
+    top: 190px;
+    right: 200px;
+}

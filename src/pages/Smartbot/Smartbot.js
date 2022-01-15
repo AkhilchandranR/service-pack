@@ -36,7 +36,25 @@ function Smartbot() {
 
             <Products buttoncolor="#ff0066"/>
 
-            <Chatbotaction/>
+            <div className="smartbot__chatbot">
+                <div className='chatbot_dots sb_one'></div>
+                <div className='chatbot_dots sb_two'></div>
+                <div className='chatbot_dots sb_three'></div>
+                <div className='chatbot_dots sb_four'></div>
+                <div className='chatbot_dots sb_five'></div>
+                <div className='chatbot_dots sb_six'></div>
+                <div className='chatbot_dots sb_seven'></div>
+                <div className='chatbot_dots sb_eight'></div>
+                <div className='chatbot_dots sb_nine'></div>
+                <div className='chatbot_dots sb_ten'></div>
+                <div className='chatbot_dots sb_eleven'></div>
+                <div className='chatbot_dots sb_twelve'></div>
+                <div className='chatbot_dots sb_thirteen'></div>
+                <div className='chatbot_dots sb_fourteen'></div>
+                <div className='chatbot_dots sb_fifteen'></div>
+                <div className='chatbot_dots sb_sixteen'></div>
+                <Chatbotaction/>
+            </div>
 
             <div className="smartbot__adv">
                 <Advertisement 

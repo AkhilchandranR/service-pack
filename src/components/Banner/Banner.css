@@ -89,7 +89,7 @@
 }
 @media screen and (max-width: 991px) {
     .banner__contents{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .banner__subCaption{
         width: unset;
