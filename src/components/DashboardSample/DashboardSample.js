@@ -4,13 +4,13 @@ import dashboard from '../../images/dashboard.png';
 import './DashboardSample.css';
 import Slide from 'react-reveal/Slide';
 
-function DashboardSample() {
+function DashboardSample({colour,bgcolor,bgImage}) {
     const[selected,setSelected] = useState(1);
     return (
         <div className='dashboardSample'>
-            <p className="dashboardSample__sectionName">── <span>SAMPLE TITLE</span> ──</p>
+            <p className="dashboardSample__sectionName">── <span style={{color:colour}}>SAMPLE TITLE</span> ──</p>
             <h1>Sample title sample title</h1>
-            <div className='dashboard__contents'>
+            <div className='dashboard__contents'style={{backgroundColor:bgcolor}}>
                 <div className='dashboardSample__body'>
                     <div className='dashboard__options'>
                         <div className={`dashboard__option  ${(selected === 1) ? "activeOption":""}`} onClick={()=>setSelected(1)}>
@@ -41,7 +41,7 @@ function DashboardSample() {
                         }
                     </div>
                 </div>
-                <div className='dashboard__fill'></div>  
+                <div className='dashboard__fill' style={{backgroundImage:`linear-gradient(${bgImage})`}}></div>  
             </div>
         </div>
     )

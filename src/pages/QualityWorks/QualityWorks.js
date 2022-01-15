@@ -32,7 +32,7 @@ function QualityWorks() {
             </div>
 
             <div className='qualityworks__dashboard'>
-                <DashboardSample/>
+                <DashboardSample colour="#0070C0" bgcolor="#f4fbff" bgImage="to right, #bddff6,#c6e4f8,#cfe9fa,#d8eefd,#e1f3ff"/>
             </div>
 
             <TrustedClients heading="Hassle free integration with your existing tools"/>

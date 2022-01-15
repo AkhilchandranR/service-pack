@@ -1,0 +1,11 @@
+.chatbotaction{
+    margin-top: 90px;
+    text-align: center;
+}
+.chatbotaction > h1{
+    font-size: 35px !important;
+}
+.chatbotaction > img{
+    max-width: 85vw;
+    object-fit: contain;
+}

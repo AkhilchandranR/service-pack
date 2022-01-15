@@ -1,5 +1,4 @@
 .dashboardSample__sectionName > span{
-    color: #0070C0;
     font-weight: 600;
     font-size: 1.2em;
 }
@@ -15,13 +14,13 @@
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
-    width: 80vw;
+    width: 82vw;
     padding: 50px 0px;
     margin-left: auto;
     margin-right: auto;
 }
 .dashboard__option{
-    padding: 16px 20px;
+    padding: 16px 23px;
     margin-top: 20px;
     cursor: pointer;
 }
@@ -35,13 +34,13 @@
     box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
 .dashboard__contents{
-    background-color: #f4fbff;
     width: 100vw;
     position: relative;
+    margin-top: 15px;
 }
 .dashboard__fill{
     position: absolute;
-    background-image: linear-gradient(to right, #bddff6,#c6e4f8,#cfe9fa,#d8eefd,#e1f3ff);
+    /* background-image: linear-gradient(to right, #bddff6,#c6e4f8,#cfe9fa,#d8eefd,#e1f3ff); */
     width: 300px;
     height: 265px;
     right: 0;
@@ -52,14 +51,17 @@
     background-color: white;
     box-shadow: 0 8px 16px rgba(0,0,0,0.2);
     border-radius: 10px;
+    margin-right: 10px;
 }
 @media screen and (max-width: 992px) {
+    .dashboard__illustration{
+        margin-top: 100px;
+    }
     .dashboard__illustration > img{
         width: 360px;
-        height: 400px;
     }
     .dashboard__fill{
-        height: 150px;
+        /* height: 150px; */
         top: 240px;
     }
 }
