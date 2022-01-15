@@ -7,8 +7,13 @@ import Advertisement from '../../components/Advertisement/Advertisement';
 import Products from '../../components/Products/Products';
 import Footer from '../../components/Footer/Footer';
 import banner2 from '../../images/banner2.png';
+
+import adleft from '../../images/adleft.svg';
+import adright from '../../images/adright.png';
+
 import vector2 from '../../images/Vector01.svg';
 import './QualityWorks.css';
+import DashboardSample from '../../components/DashboardSample/DashboardSample';
 
 function QualityWorks() {
     return (
@@ -26,12 +31,17 @@ function QualityWorks() {
                 />
             </div>
 
+            <div className='qualityworks__dashboard'>
+                <DashboardSample/>
+            </div>
+
             <TrustedClients heading="Hassle free integration with your existing tools"/>
 
             <Products buttoncolor="#0070c0"/>
 
             <div className="qualityworks__adv">
-                <Advertisement buttoncolor="#0070c0"/>
+                <Advertisement 
+                buttoncolor="#0070c0" imageLeft={adleft} imageRight={adright}/>
             </div>
             <Footer/>
         </div>

@@ -22,7 +22,7 @@ function Banner({bannerImage,buttonColor,vector}) {
                     </div>
                     <div className="banner__image">
                         <Slide right>
-                            <img src={bannerImage} alt="banner"/>
+                            <img src={bannerImage} alt="banner illustration"/>
                         </Slide>
                     </div>
                 </div>

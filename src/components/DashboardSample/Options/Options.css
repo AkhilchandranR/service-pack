@@ -1,0 +1,43 @@
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 500px;
+}
+.options__logo{
+    margin-right: 30px;
+}
+.options__logo > img{
+    width: 55px;
+    object-fit: contain;
+}
+.options__description > h1{
+    font-size: 30px !important;
+    font-weight: 550 !important;
+    margin-bottom: 13px;
+}
+.options__description > p{
+    color: gray;
+}
+@media screen and (max-width: 1110px) {
+    .options{
+        width: 370px;
+    }
+    .options__logo > img{
+        width: 50px;
+    }
+    .options__logo{
+        margin-right: 15px;
+    }
+    .options__description > h1{
+        font-size: 26px !important;
+    }
+    .options__description > p{
+        font-size: 0.9rem;
+    }
+}
+@media screen and (max-width:850px) {
+    .options{
+        width: 80vw;
+    }
+}

@@ -12,6 +12,8 @@ import Footer from '../../components/Footer/Footer';
 import Homebanner from '../../images/homebanner.svg';
 import design from '../../images/design.png';
 import vector1 from '../../images/Vector01.svg';
+import adleft from '../../images/adleft.svg';
+import adright from '../../images/adright.png';
 
 function HomePage() {
     return (
@@ -71,7 +73,8 @@ function HomePage() {
             <Products buttoncolor="black"/>
 
             <div className="homepage__adv">
-                <Advertisement buttoncolor="black"/>
+                <Advertisement 
+                buttoncolor="black" imageLeft={adleft} imageRight={adright}/>
             </div>
 
             <footer>
