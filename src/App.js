@@ -7,11 +7,13 @@ import Smartbot from './pages/Smartbot/Smartbot';
 import VoiceDesk from './pages/VoiceDesk/VoiceDesk';
 import Textlens from './pages/Textlens/Textlens';
 import Platform from './pages/Platform/Platform';
+import Blog from './pages/Blog/Blog';
 
 function App() {
   return (
     <div className="App">
       <Routes>
+        <Route path="/blog" element={<Blog/>}/>
         <Route path="/platform" element={<Platform/>}/>
         <Route path="/textlens" element={<Textlens/>}/>
         <Route path="/voicedesk" element={<VoiceDesk/>}/>

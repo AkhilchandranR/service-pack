@@ -72,7 +72,9 @@ function HomePage() {
 
             <TrustedClients heading="Hassle free integration with your existing tools"/>
 
-            <Products buttoncolor="black"/>
+            <div className='homepage__products'>
+                <Products buttoncolor="black" heading="How AI enhances Customer Experience"/>
+            </div>
 
             <div className="homepage__adv">
                 <Advertisement 

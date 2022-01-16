@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../../components/Navbar/Navbar';
-import Banner from '../../components/Banner/Banner';
+import Banner2 from '../../components/Banner2/Banner2';
 import Stats from '../../components/Stats/Stats';
 import DashboardSample from '../../components/DashboardSample/DashboardSample';
 import TrustedClients from '../../components/TrustedClients/TrustedClients';
@@ -13,12 +13,13 @@ import adright from '../../images/adright.png';
 import Footer from '../../components/Footer/Footer';
 import banner6 from '../../images/banner6.svg';
 import './Platform.css';
+import Textaction from '../../components/Textaction/Textaction';
 
 function Platform() {
     return (
         <div className='platform'>
             <Navbar/>
-            <Banner 
+            <Banner2 
             bannerImage={banner6} buttonColor="#7030a0"
             heading="Heading about omni- Channel Customer Service Platform"/>
 
@@ -37,7 +38,13 @@ function Platform() {
 
             <TrustedClients heading="Hassle free integration with your existing tools"/>
 
-            <Products buttoncolor="#7030a0"/>
+            <div className='platform__products'>
+                <Products buttoncolor="#7030a0" heading="How AI enhances Customer Experience"/>
+            </div>
+
+            <div className='platform__action'>
+                <Textaction bColor="#7030a0"/>
+            </div>
 
             <div className="platform__adv">
                 <Advertisement 

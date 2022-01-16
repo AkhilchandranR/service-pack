@@ -1,0 +1,39 @@
+.voicedeskAction{
+    text-align: center;
+    background-color: #f6f6f6;
+    padding: 40px 0px;
+    position: relative;
+}
+.voicedeskAction > img{
+    width: 100px;
+    object-fit: contain;
+    margin-top:18px;
+}
+.voicedeskAction > h1{
+    font-size: 35px !important;
+    margin-bottom: 18px;
+}
+.actionLeft{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 320px !important;
+    object-fit: contain;
+}
+.actionRight{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 320px !important;
+    object-fit: contain;
+}
+@media screen and (max-width:725px) {
+    .actionLeft, .actionRight{
+        width: 250px !important;
+    }
+}
+@media screen and (max-width: 550px) {
+    .actionRight, .actionLeft{
+        display: none;
+    }
+}

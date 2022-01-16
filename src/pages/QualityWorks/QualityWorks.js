@@ -39,7 +39,9 @@ function QualityWorks() {
 
             <TrustedClients heading="Hassle free integration with your existing tools"/>
 
-            <Products buttoncolor="#0070c0"/>
+            <div className='qualityworks__products'>
+                <Products buttoncolor="#0070c0" heading="How AI enhances Customer Experience"/>
+            </div>
 
             <div className="qualityworks__adv">
                 <Advertisement 

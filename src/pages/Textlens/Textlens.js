@@ -13,6 +13,7 @@ import adright from '../../images/adright.png';
 import Footer from '../../components/Footer/Footer';
 import banner5 from '../../images/banner5.svg';
 import './Textlens.css';
+import Textaction from '../../components/Textaction/Textaction';
 
 function Textlens() {
     return (
@@ -37,7 +38,13 @@ function Textlens() {
 
             <TrustedClients heading="Hassle free integration with your existing tools"/>
 
-            <Products buttoncolor="#32cd32"/>
+            <div className='textLens__products'>
+                <Products buttoncolor="#32cd32" heading="How AI enhances Customer Experience"/>
+            </div>
+
+            <div className='textLens__action'>
+                <Textaction bColor="#32cd32"/>
+            </div>
 
             <div className="textLens__adv">
                 <Advertisement 

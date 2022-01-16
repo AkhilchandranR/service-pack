@@ -35,8 +35,9 @@ function Smartbot() {
             </div>
 
             <TrustedClients heading="Hassle free integration with your existing tools"/>
-
-            <Products buttoncolor="#ff0066"/>
+            <div className='smartbot__products'>
+                <Products buttoncolor="#ff0066" heading="How AI enhances Customer Experience"/>
+            </div>
 
             <div className="smartbot__chatbot">
                 <div className='chatbot_dots sb_one'></div>

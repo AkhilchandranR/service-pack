@@ -1,0 +1,63 @@
+.textAction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f6f6f6;
+    padding: 40px 0px;
+    position: relative;
+}
+.textAction > h1{
+    font-size: 35px !important;
+    margin-bottom: 18px;
+}
+.textAction__action{
+    text-align: center;
+    background-color: white;
+    width: 450px;
+    max-width: 85vw;
+    padding: 20px 0px;
+    border-radius: 8px;
+    z-index: 10;
+}
+.textAction__action > p{
+    color: gray;
+}
+.textAction__action > button{
+    color: white;
+    border: none;
+    width: 220px;
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: filter 0.2;
+    margin-top: 30px;
+}
+.textAction__action > button:hover{
+    filter: brightness(2.2);
+}
+
+.actionLeft{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 320px !important;
+    object-fit: contain;
+}
+.actionRight{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 320px !important;
+    object-fit: contain;
+}
+@media screen and (max-width:725px) {
+    .actionLeft, .actionRight{
+        width: 250px !important;
+    }
+}
+@media screen and (max-width: 550px) {
+    .actionRight, .actionLeft{
+        display: none;
+    }
+}

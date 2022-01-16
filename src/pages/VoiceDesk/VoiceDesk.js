@@ -13,6 +13,7 @@ import adright from '../../images/adright.png';
 import Footer from '../../components/Footer/Footer';
 import banner4 from '../../images/banner4.svg';
 import './VoiceDesk.css';
+import VoicedeskAction from '../../components/VoicedeskAction/VoicedeskAction';
 
 function VoiceDesk() {
     return (
@@ -37,9 +38,15 @@ function VoiceDesk() {
 
             <TrustedClients heading="Hassle free integration with your existing tools"/>
 
-            <Products buttoncolor="#ffbf00"/>
+            <div className='voiceDesk__products'>
+                <Products buttoncolor="#ffbf00" heading="How AI enhances Customer Experience"/>
+            </div>
 
-            <div className="smartbot__adv">
+            <div className='voiceDesk__action'>
+                <VoicedeskAction/>
+            </div>
+
+            <div className="voiceDesk__adv">
                 <Advertisement 
                 buttoncolor="#ffbf00" imageLeft={adleft} imageRight={adright}/>
             </div>
