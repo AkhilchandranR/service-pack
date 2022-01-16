@@ -20,7 +20,9 @@ function QualityWorks() {
         <div className="qualityWorks">
             <Navbar/>
 
-            <Banner bannerImage={banner2} buttonColor="#0070c0"/>
+            <Banner 
+            bannerImage={banner2} buttonColor="#0070c0"
+            heading="Empowering Customer Experience with Artificial Intelligence ."/>
 
             <div className='qualityworks__stats'>
                 <Stats 

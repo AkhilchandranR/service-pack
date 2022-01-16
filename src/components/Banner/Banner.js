@@ -4,7 +4,7 @@ import rocket from '../../images/rocket.png';
 import Slide from 'react-reveal/Slide';
 
 
-function Banner({bannerImage,buttonColor,vector}) {
+function Banner({bannerImage,buttonColor,vector,heading}) {
     return (
         <div className="banner">
             <img className='banner__vector' src={vector} alt=''/>
@@ -13,7 +13,7 @@ function Banner({bannerImage,buttonColor,vector}) {
                     <div className="banner__textContent">
                         <p>────  CX to the power of AI</p>
                         <h1>
-                            Empowering Customer Experience with Artificial Intelligence . 
+                            {heading} 
                             <img src={rocket} alt="rocket"/> 
                         </h1>
                         <p className="banner__subCaption">Our cognitive AI suit helps understand your customers

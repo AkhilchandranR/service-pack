@@ -20,7 +20,9 @@ function HomePage() {
         <div className="homePage">
             <Navbar/>
 
-            <Banner bannerImage={Homebanner} buttonColor="#000000" vector={vector1}/>
+            <Banner 
+            bannerImage={Homebanner} buttonColor="#000000" 
+            vector={vector1} heading="Empowering Customer Experience with Artificial Intelligence ."/>
 
             <div className="homepage__customers">
                 <div className="dots yellow c_one"></div>

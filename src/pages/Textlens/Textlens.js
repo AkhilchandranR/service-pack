@@ -11,37 +11,37 @@ import adleft from '../../images/adleft.svg';
 import adright from '../../images/adright.png';
 
 import Footer from '../../components/Footer/Footer';
-import banner4 from '../../images/banner4.svg';
-import './VoiceDesk.css';
+import banner5 from '../../images/banner5.svg';
+import './Textlens.css';
 
-function VoiceDesk() {
+function Textlens() {
     return (
-        <div className='voiceDesk'>
+        <div className='textLens'>
             <Navbar/>
             <Banner 
-            bannerImage={banner4} buttonColor="#ffbf00"
+            bannerImage={banner5} buttonColor="#34cd32"
             heading="Empowering Customer Experience with Artificial Intelligence ."/>
 
-            <div className='voiceDesk__stats'>
+            <div className='textlens__stats'>
                 <Stats 
-                colour1="#ffbf00" amount1="20" symbol1="%" caption1="Clickthrough Rate"
-                colour2="#ffbf00" amount2="60" symbol2="+" caption2="Downloads"
-                colour3="#ffbf00" amount3="20" symbol3="+" caption3="Active Users"
-                colour4="#ffbf00" amount4="60" symbol4="+" caption4="Downloads"
+                colour1="#32cd32" amount1="20" symbol1="%" caption1="Clickthrough Rate"
+                colour2="#32cd32" amount2="60" symbol2="+" caption2="Downloads"
+                colour3="#32cd32" amount3="20" symbol3="+" caption3="Active Users"
+                colour4="#32cd32" amount4="60" symbol4="+" caption4="Downloads"
                 />
             </div>
 
-            <div className='voiceDesk__dashboard'>
-                <DashboardSample colour="#ffbf00" bgcolor="#ffeef5" bgImage="to right,  #f1d993, #f5e0a4, #f8e7b4, #fceec5, #fff5d6"/>
+            <div className='textLens__dashboard'>
+                <DashboardSample colour="#32cd32" bgcolor="#ecffec" bgImage="to right,#9ef19e, #aef5ad, #bdf8bd, #ccfccc, #dbffdb"/>
             </div>
 
             <TrustedClients heading="Hassle free integration with your existing tools"/>
 
-            <Products buttoncolor="#ffbf00"/>
+            <Products buttoncolor="#32cd32"/>
 
-            <div className="smartbot__adv">
+            <div className="textLens__adv">
                 <Advertisement 
-                buttoncolor="#ffbf00" imageLeft={adleft} imageRight={adright}/>
+                buttoncolor="#32cd32" imageLeft={adleft} imageRight={adright}/>
             </div>
 
             <Footer/>
@@ -50,4 +50,4 @@ function VoiceDesk() {
     )
 }
 
-export default VoiceDesk
+export default Textlens
