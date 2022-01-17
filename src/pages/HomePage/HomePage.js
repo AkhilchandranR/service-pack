@@ -22,7 +22,8 @@ function HomePage() {
 
             <Banner 
             bannerImage={Homebanner} buttonColor="#000000" 
-            vector={vector1} heading="Empowering Customer Experience with Artificial Intelligence ."/>
+            vector={vector1} heading="Empowering Customer Experience with Artificial Intelligence ."
+            caption="────  CX to the power of AI"/>
 
             <div className="homepage__customers">
                 <div className="dots yellow c_one"></div>

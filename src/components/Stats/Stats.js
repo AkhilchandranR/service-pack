@@ -57,7 +57,7 @@ function Stats({ colour1,symbol1,amount1,caption1,
 
     
     return (
-        <div className="container">
+        <div className="container_full">
             <h1 className='stats__heading'>Heading</h1>
             <div className="stats">
                 <div className="stats__statComponent">

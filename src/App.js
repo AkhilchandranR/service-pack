@@ -8,11 +8,13 @@ import VoiceDesk from './pages/VoiceDesk/VoiceDesk';
 import Textlens from './pages/Textlens/Textlens';
 import Platform from './pages/Platform/Platform';
 import Blog from './pages/Blog/Blog';
+import Contact from './pages/Contact/Contact';
 
 function App() {
   return (
     <div className="App">
       <Routes>
+        <Route path="/contact" element={<Contact/>}/>
         <Route path="/blog" element={<Blog/>}/>
         <Route path="/platform" element={<Platform/>}/>
         <Route path="/textlens" element={<Textlens/>}/>

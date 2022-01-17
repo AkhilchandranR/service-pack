@@ -1,6 +1,6 @@
 import React,{ useState } from 'react';
 import './Navbar.css';
-import Logo from '../../images/logo.png';
+import Logo from '../../images/logo.svg';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import MenuIcon from '@mui/icons-material/Menu';
 import Fade from 'react-reveal/Fade';

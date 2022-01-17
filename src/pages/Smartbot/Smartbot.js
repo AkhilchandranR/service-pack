@@ -19,7 +19,8 @@ function Smartbot() {
             <Navbar/>
             <Banner 
             bannerImage={banner3} buttonColor="#ff0066"
-            heading="Empowering Customer Experience with Artificial Intelligence ."/>
+            heading="Empowering Customer Experience with Artificial Intelligence ."
+            caption="────  CX to the power of AI"/>
 
             <div className='smartbot__stats'>
                 <Stats 
@@ -31,7 +32,7 @@ function Smartbot() {
             </div>
 
             <div className='smartbot__dashboard'>
-                <DashboardSample colour="#ff0066" bgcolor="#fff8e2" bgImage="to right, #fbb4d1,#fcc0d9,#fdcce0,#fed8e8,#ffe4e4"/>
+                <DashboardSample colour="#ff0066" bgcolor="#ffeef5" bgImage="to right, #fbb4d1,#fcc0d9,#fdcce0,#fed8e8,#ffe4e4"/>
             </div>
 
             <TrustedClients heading="Hassle free integration with your existing tools"/>

@@ -21,7 +21,8 @@ function Textlens() {
             <Navbar/>
             <Banner 
             bannerImage={banner5} buttonColor="#34cd32"
-            heading="Empowering Customer Experience with Artificial Intelligence ."/>
+            heading="Empowering Customer Experience with Artificial Intelligence ."
+            caption="────  CX to the power of AI"/>
 
             <div className='textlens__stats'>
                 <Stats 

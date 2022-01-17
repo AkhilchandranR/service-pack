@@ -4,14 +4,14 @@ import rocket from '../../images/rocket.png';
 import Slide from 'react-reveal/Slide';
 
 
-function Banner({bannerImage,buttonColor,vector,heading}) {
+function Banner({bannerImage,buttonColor,vector,heading,caption}) {
     return (
         <div className="banner">
             <img className='banner__vector' src={vector} alt=''/>
             <div className="container">
                 <div className="banner__contents">
                     <div className="banner__textContent">
-                        <p>────  CX to the power of AI</p>
+                        <p>{caption}</p>
                         <h1>
                             {heading} 
                             <img src={rocket} alt="rocket"/> 

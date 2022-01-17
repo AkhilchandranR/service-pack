@@ -22,7 +22,8 @@ function QualityWorks() {
 
             <Banner 
             bannerImage={banner2} buttonColor="#0070c0"
-            heading="Empowering Customer Experience with Artificial Intelligence ."/>
+            heading="Empowering Customer Experience with Artificial Intelligence ."
+            caption="────  CX to the power of AI"/>
 
             <div className='qualityworks__stats'>
                 <Stats 

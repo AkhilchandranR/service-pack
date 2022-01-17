@@ -21,7 +21,8 @@ function VoiceDesk() {
             <Navbar/>
             <Banner 
             bannerImage={banner4} buttonColor="#ffbf00"
-            heading="Empowering Customer Experience with Artificial Intelligence ."/>
+            heading="Empowering Customer Experience with Artificial Intelligence ."
+            caption="────  CX to the power of AI"/>
 
             <div className='voiceDesk__stats'>
                 <Stats 
@@ -33,7 +34,7 @@ function VoiceDesk() {
             </div>
 
             <div className='voiceDesk__dashboard'>
-                <DashboardSample colour="#ffbf00" bgcolor="#ffeef5" bgImage="to right,  #f1d993, #f5e0a4, #f8e7b4, #fceec5, #fff5d6"/>
+                <DashboardSample colour="#ffbf00" bgcolor="#fff8e2" bgImage="to right,  #f1d993, #f5e0a4, #f8e7b4, #fceec5, #fff5d6"/>
             </div>
 
             <TrustedClients heading="Hassle free integration with your existing tools"/>
