@@ -87,7 +87,7 @@ function HomePage() {
                 <Footer/>
             </footer>
 
-            <SignIn/>
+            {/* <SignIn/> */}
             
         </div>
     )

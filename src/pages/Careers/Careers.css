@@ -1,0 +1,35 @@
+.careers__postings{
+    margin-top: 70px;
+}
+.careers__postings > h1{
+    text-align: center;
+}
+.careers__typeSearch{
+    background-color: #fafafa;
+    color: grey;
+    border: none;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    flex: 0.25;
+}
+.careers__search > div:first-of-type{
+    flex: 0.4 !important;
+}
+.careers__typeSearch > input{
+    border: none;
+    background-color: transparent;
+    flex: 1;
+}
+.careers__typeSearch > input:focus{
+    outline: none;
+}
+.careers__search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+}

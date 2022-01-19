@@ -11,11 +11,13 @@ import Blog from './pages/Blog/Blog';
 import Contact from './pages/Contact/Contact';
 import Support from './pages/Support/Support';
 import About from './pages/About/About';
+import Careers from './pages/Careers/Careers';
 
 function App() {
   return (
     <div className="App">
       <Routes>
+        <Route path="/careers" element={<Careers/>}/>
         <Route path="/about" element={<About/>}/>
         <Route path="/support" element={<Support/>}/>
         <Route path="/contact" element={<Contact/>}/>
