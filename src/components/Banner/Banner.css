@@ -36,10 +36,10 @@
     border-radius: 4px;
     font-size: 15px;
     font-weight: 500;
-    transition: filter 0.2;
+    transition: filter 0.2s;
 }
 .banner__textContent > button:hover{
-    filter: brightness(2.2);
+    filter: opacity(0.9);
 }
 
 .banner__image > img{

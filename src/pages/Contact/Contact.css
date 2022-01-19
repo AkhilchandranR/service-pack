@@ -1,0 +1,155 @@
+.contact{
+    position: relative;
+}
+.contact__addressCard{
+    text-align: center;
+    margin-right: 10px;
+    border-right: 1px solid lightgray;
+    padding-left: 45px;
+    padding-right: 45px;
+    z-index: 10;
+}
+.contact__address{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+.contact__address > .contact__addressCard:last-of-type{
+    border-right: none;
+}
+.contact__addressCard > img{
+    width: 100px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+.contact__addressCard > h1{
+    font-size: 32px !important;
+    margin-bottom: 10px;
+}
+.contact__addressCard > p{
+    font-size: 1.1em !important;
+    margin-bottom: 3px;
+}
+
+.bluedot{
+    position: absolute;
+}
+.crdots{
+    position: absolute;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+}
+.cr_one{
+    top: 450px;
+    left: 25px;
+}
+.cr_two{
+    top: 350px;
+    right: 20px;
+}
+.cr_three{
+    bottom: 400px;
+    right: 200px;
+}
+.cr_on{
+    top: 80px;
+    left: 800px;
+}
+.cr_tw{
+    top: 85px;
+    right: 470px;
+}
+.cr_thre{
+    top: 150px;
+    right: 200px;
+}
+.cr_four{
+    top: 180px;
+    right: 400px;
+}
+.cr_five{
+    top: 190px;
+    left: 750px;
+}
+.cr_six{
+    top: 200px;
+    left: 440px;
+}
+.cr_seven{
+    top: 300px;
+    left: 30px;
+}
+.cr_eight{
+    top: 400px;
+    left: 85px;
+}
+.cr_nine{
+    top: 500px;
+    left: 700px;
+}
+.cr_ten{
+    top: 550px;
+    right: 150px;
+}
+.cr_eleven{
+    bottom: 700px;
+    right: 0px;
+}
+.cr_twelve{
+    bottom: 670px;
+    right: 230px;
+}
+.cr_thirteen{
+    bottom: 500px;
+    right: 180px;
+}
+.cr_fourteen{
+    bottom: 600px;
+    left: 0;
+}
+.cr_fifteen{
+    bottom: 520px;
+    left: 250px;
+}
+.cr_sixteen{
+    top: 610px;
+    left: 200px;
+}
+.cr_seventeen{
+    top: 650px;
+    left: 300px;
+}
+.cr_eighteen{
+    bottom: 420px;
+    left: 450px;
+}
+.cr_nineteen{
+    bottom: 550px;
+    left: 140px;
+}
+.cr_twenty{
+    top: 600px;
+    left: 650px;
+}
+.cr_twentyone{
+    top: 210px;
+    right: 70px;
+}
+
+@media screen and (max-width:800px) {
+    .contact__address{
+        flex-direction: column;
+    }
+    .contact__addressCard{
+        border-right: none;
+        margin-bottom: 30px;
+    }
+    .contact__addressCard > img{
+        width: 200px;
+    }
+    .crdots{
+        display: none;
+    }
+}

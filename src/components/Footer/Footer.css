@@ -29,7 +29,10 @@
     font-weight: 700;
     margin-bottom: 9px;
 }
-
+.footer__logo{
+    width: 220px;
+    object-fit: contain;
+}
 .footer__content{
     font-size: 1em;
     font-weight: 500;

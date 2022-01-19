@@ -9,11 +9,13 @@ import Textlens from './pages/Textlens/Textlens';
 import Platform from './pages/Platform/Platform';
 import Blog from './pages/Blog/Blog';
 import Contact from './pages/Contact/Contact';
+import Support from './pages/Support/Support';
 
 function App() {
   return (
     <div className="App">
       <Routes>
+        <Route path="/support" element={<Support/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/blog" element={<Blog/>}/>
         <Route path="/platform" element={<Platform/>}/>

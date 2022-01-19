@@ -1,0 +1,41 @@
+.support__buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+.support__buttons > button{
+    background-color: black;
+    color: white;
+    flex: 0.30;
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+    font-size: 15px;
+    transition: filter 0.2;
+    cursor: pointer;
+}
+.support__buttons > button:hover{
+    filter: opacity(0.9);
+}
+.support__buttons > button > p{
+    margin-left: 5px;
+    white-space: nowrap;
+}
+@media screen and (max-width: 800px) {
+    .support__buttons{
+        flex-direction: column;
+        justify-content: unset;
+        align-items: unset;
+    }
+    .support__buttons > button{
+        margin-top: 15px;
+    }
+}

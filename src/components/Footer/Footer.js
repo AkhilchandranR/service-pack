@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import footerlogo from '../../images/footerlogo.png';
+import footerlogo from '../../images/logo.svg';
 import sphere from '../../images/sphere.svg';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import facebook from '../../images/facebook.png';
@@ -20,7 +20,7 @@ function Footer() {
             <div className="footer__dots f_seven"></div>
             <div className="container">
                 <div className="footer__container">
-                    <img src={footerlogo} alt="footer logo"/>
+                    <img src={footerlogo} alt="footer logo" className='footer__logo'/>
                     <img className="footer__sphere" src={sphere} alt="sphere"/>
                     <div className="footer__products">
                         <p className="footer__heading">Products</p>

@@ -31,9 +31,10 @@
     font-size: 15px;
     font-weight: 500;
     margin-top: 15px;
+    transition: filter 0.2;
 }
 .customers > button:hover{
-    background-color: rgb(41, 36, 36);
+    filter: opacity(0.9);
 }
 @media screen and (max-width:991px) {
     .customers > h1{

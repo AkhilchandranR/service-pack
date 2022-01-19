@@ -25,9 +25,10 @@
     font-size: 15px;
     font-weight: 500;
     margin-top: 15px;
+    transition: filter 0.2s;
 }
 .callDemo__description > button:hover{
-    background-color: rgb(41, 36, 36);
+    filter: opacity(0.9);
 }
 .callDemo__thickLine{
     height: 45px;
