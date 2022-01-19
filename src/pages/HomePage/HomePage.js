@@ -14,6 +14,7 @@ import design from '../../images/design.png';
 import vector1 from '../../images/Vector01.svg';
 import adleft from '../../images/adleft.svg';
 import adright from '../../images/adright.png';
+import SignIn from '../../components/SigninModal/SignIn';
 
 function HomePage() {
     return (
@@ -85,6 +86,9 @@ function HomePage() {
             <footer>
                 <Footer/>
             </footer>
+
+            <SignIn/>
+            
         </div>
     )
 }
