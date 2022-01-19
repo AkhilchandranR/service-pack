@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{ useState } from 'react';
 import Navbar from '../../components/Navbar/Navbar';
 import Banner from '../../components/Banner/Banner';
 import supportBanner from '../../images/supportbanner.svg'
@@ -9,6 +9,7 @@ import './Support.css';
 import Footer from '../../components/Footer/Footer';
 
 function Support() {
+    const [selected,setSelected] = useState(1);
     return (
         <div className='support'>
             <Navbar/>
@@ -17,15 +18,15 @@ function Support() {
              heading="A title about our availability around the clock ."/>
 
              <div className='support__buttons'>
-                 <button>
+                 <button className={`${(selected === 1) ? "clicked" : ""}`} onClick={() => setSelected(1)}>
                      <LightbulbOutlinedIcon/>
                      <p>Knowledge Base</p>
                  </button>
-                 <button>
+                 <button className={`${(selected === 2) ? "clicked" : ""}`} onClick={() => setSelected(2)}>
                      <ContactSupportSharpIcon/>
                      <p>Frequently Asked Questions</p>
                  </button>
-                 <button>
+                 <button className={`${(selected === 3) ? "clicked" : ""}`} onClick={() => setSelected(3)}>
                      <ChatOutlinedIcon/>
                      <p>Talkdesk</p>
                  </button>
