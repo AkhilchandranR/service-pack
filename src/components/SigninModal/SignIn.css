@@ -31,6 +31,7 @@
 }
 .signIn__image > img{
     width: 500px;
+    object-fit: contain;
 }
 .signIn__form > img{
     width: 150px;
@@ -54,4 +55,16 @@
     display: flex;
     justify-content: flex-start;
     width: 350px;
+}
+.signIn__checkbox{
+    display: flex;
+    align-items: flex-start;
+    width: 350px;
+    margin-top: 15px;
+}
+.signIn__checkbox > p{
+    margin-left: 5px;
+}
+.signIn__checkbox > input{
+    margin-top: 5px;
 }

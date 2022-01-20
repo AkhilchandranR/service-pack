@@ -27,12 +27,93 @@ function Careers() {
                     <MicIcon/>
                 </div>
                 <div className='careers__typeSearch'>
-                    <input type='selection' placeholder='Filter by Role'/>
+                    <select value='' className='careers__selectOption'>
+                        <option value="" disabled selected hidden>Filter by role</option>
+                        <option value="manager">Manager</option>
+                        <option value="developer">Developer</option>
+                    </select>
                     <ArrowDropDownIcon/>
                 </div>
                 <div className='careers__typeSearch'>
-                    <input type='selection' placeholder='Filter by Location'/>
+                    <select value='' className='careers__selectOption'>
+                        <option value="" disabled selected hidden>Filter by location</option>
+                        <option value="usa">USA</option>
+                        <option value="uk">UK</option>
+                        <option value="india">India</option>
+                    </select>
                     <ArrowDropDownIcon/>
+                </div>
+            </div>
+        </div>
+
+        <div className='careers__jobs'>
+            <div className='careers__jobSection'>
+                <h3>Customer Success</h3>
+                <div className='careers__jobPosts'>
+                    <div className='related_posts'>
+                        <p>Implementation Manager</p>
+                        <p>Hyderabad</p>
+                    </div>
+                    <div className='related_posts'>
+                        <p>Principal Customer Success Manager</p>
+                        <p>San Francisco</p>
+                    </div>
+                </div>
+            </div>
+
+            <div className='careers__jobSection'>
+                <h3>Customer Success</h3>
+                <div className='careers__jobPosts'>
+                    <div className='related_posts'>
+                        <p>Implementation Manager</p>
+                        <p>Hyderabad</p>
+                    </div>
+                    <div className='related_posts'>
+                        <p>Principal Customer Success Manager</p>
+                        <p>San Francisco</p>
+                    </div>
+                </div>
+            </div>
+
+            <div className='careers__jobSection'>
+                <h3>Customer Success</h3>
+                <div className='careers__jobPosts'>
+                    <div className='related_posts'>
+                        <p>Implementation Manager</p>
+                        <p>Hyderabad</p>
+                    </div>
+                    <div className='related_posts'>
+                        <p>Principal Customer Success Manager</p>
+                        <p>San Francisco</p>
+                    </div>
+                </div>
+            </div>
+
+            <div className='careers__jobSection'>
+                <h3>Customer Success</h3>
+                <div className='careers__jobPosts'>
+                    <div className='related_posts'>
+                        <p>Implementation Manager</p>
+                        <p>Hyderabad</p>
+                    </div>
+                    <div className='related_posts'>
+                        <p>Principal Customer Success Manager</p>
+                        <p>San Francisco</p>
+                    </div>
+                </div>
+            </div>
+
+            <div className='careers__jobSection'>
+                <h3>Customer Success</h3>
+                <div className='careers__jobPosts'>
+                    <div className='related_posts'>
+                        <p>Implementation Manager</p>
+                        <p>Hyderabad</p>
+                    </div>
+                    <div className='related_posts'>
+                        <p>Principal Customer Success Manager</p>
+                        <p>San Francisco</p>
+                    </div>
                 </div>
             </div>
         </div>

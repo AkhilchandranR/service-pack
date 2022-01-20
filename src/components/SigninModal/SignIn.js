@@ -46,6 +46,13 @@ function SignIn() {
                             <input type='password'/>
                         </div>
                     </div>
+                    
+                    <div className='signIn__checkbox'>
+                        <input type='checkbox'/>
+                        <p>By creating an account you agree to the terms of use and our privacy policies</p>
+                    </div>
+
+                    <button>Sign Up</button>
                 </form>
             </div>
         </div>
