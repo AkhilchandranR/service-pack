@@ -1,11 +1,15 @@
 import React from 'react';
 import './BreadCrumbs.css';
 
-function BreadCrumbs() {
+function BreadCrumbs({links}) {
     return (
         <div className='breadCrumbs'>
-            <p>Home</p> >
-            <p>Blog</p>
+            {links.map((link)=>(
+                <>
+                <p>{link.name}</p>
+                <span> > </span>
+                </>
+            ))}
         </div>
     )
 }

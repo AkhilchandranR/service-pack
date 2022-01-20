@@ -2,6 +2,8 @@
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
+    margin-top: 20px;
+    margin-left: 30px;
 }
 .breadCrumbs > p{
     color: gray;
@@ -10,4 +12,7 @@
 }
 .breadCrumbs > p:last-of-type{
     color: black;
+}
+.breadCrumbs > span:last-of-type{
+    display: none;
 }

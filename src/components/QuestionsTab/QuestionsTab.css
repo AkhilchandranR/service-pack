@@ -1,0 +1,31 @@
+.questionsTab{
+    width: 320px;
+    border-radius: 7px;
+    margin-bottom: 25px;
+}
+.questionsTab__heading{
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    padding: 7px;
+    border-radius: 7px 7px 0px 0px;
+}
+.questionsTab__body{
+    border: 1px solid lightgray;
+    padding: 12px 10px;
+    border-radius: 0px 0px 7px 7px;
+    height: max-content;
+}
+.questionsTab__body > p{
+    color: grey;
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+@media screen and (max-width:740px) {
+    .questionsTab{
+        width: 75vw;
+    }
+    .questionsTab__body{
+        height: max-content;
+    }
+}

@@ -10,7 +10,7 @@ function Blog() {
     return (
         <div className='blog'>
             <div className='blog__breadCrumbs'>
-                <BreadCrumbs/>
+                <BreadCrumbs links={[{name:"Home"},{name:"Blog"}]}/>
             </div>
             
             <img src={design} alt='' className='blog__fill d_one'/>
