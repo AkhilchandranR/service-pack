@@ -9,7 +9,8 @@ function KnowledgeBase() {
   return (
     <div className='knowledgeBase'>
         <Navbar/>
-        <BreadCrumbs links={[{name:"Support"},{name:"Knowledge Base"}]}/>
+        <BreadCrumbs 
+        links={[{name:"Service Pack"},{name:"Knowledge Base"}]}/>
 
         <div className='knowledge__body'>
             <h1>Knowledge Base</h1>

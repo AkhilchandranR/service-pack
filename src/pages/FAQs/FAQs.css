@@ -1,0 +1,12 @@
+.faqs__body{
+    margin-top: 30px;
+}
+.faqs__body > h1{
+    text-align: center;
+}
+.faqs__questionsTab{
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    width: fit-content;
+}

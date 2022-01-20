@@ -21,7 +21,7 @@ function Navbar() {
                             <ArrowDropDownIcon/>
                         </div>
                         <div className="navbar__link">
-                            <li>Features</li>
+                            <li>Solutions</li>
                             <ArrowDropDownIcon/>
                         </div>
                         <div className="navbar__link">

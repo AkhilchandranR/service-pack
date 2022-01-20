@@ -13,12 +13,14 @@ import Support from './pages/Support/Support';
 import About from './pages/About/About';
 import Careers from './pages/Careers/Careers';
 import KnowledgeBase from './pages/KnowledgeBase/KnowledgeBase';
+import FAQs from './pages/FAQs/FAQs';
 
 function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/support/knowledgebase" element={<KnowledgeBase/>}/>
+        <Route path="/servicepack/faqs" element={<FAQs/>}/>
+        <Route path="/servicepack/knowledgebase" element={<KnowledgeBase/>}/>
         <Route path="/careers" element={<Careers/>}/>
         <Route path="/about" element={<About/>}/>
         <Route path="/support" element={<Support/>}/>
