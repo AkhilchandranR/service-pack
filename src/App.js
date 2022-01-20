@@ -14,6 +14,7 @@ import About from './pages/About/About';
 import Careers from './pages/Careers/Careers';
 import KnowledgeBase from './pages/KnowledgeBase/KnowledgeBase';
 import FAQs from './pages/FAQs/FAQs';
+import Features from './pages/Features/Features';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Routes>
         <Route path="/servicepack/faqs" element={<FAQs/>}/>
         <Route path="/servicepack/knowledgebase" element={<KnowledgeBase/>}/>
+        <Route path="/solutions" element={<Features/>}/> 
         <Route path="/careers" element={<Careers/>}/>
         <Route path="/about" element={<About/>}/>
         <Route path="/support" element={<Support/>}/>
