@@ -1,6 +1,7 @@
 import React from 'react';
 import signin from '../../images/signin.svg';
 import logo from '../../images/logo.svg';
+import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
 import './SignIn.css';
 
 function SignIn() {
@@ -44,6 +45,7 @@ function SignIn() {
                         <p className='signIn__label'>Password</p>
                         <div className='signIn__input'>
                             <input type='password'/>
+                            <VisibilityOffIcon/>
                         </div>
                     </div>
                     

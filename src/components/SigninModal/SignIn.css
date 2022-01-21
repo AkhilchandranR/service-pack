@@ -4,7 +4,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 .signIn{
     position: fixed;
@@ -16,7 +16,7 @@
 .signIn__modal{
     transform: translate(-50%,-50%);
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 .signIn__image{
@@ -28,6 +28,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 11px;
+    border-radius: 0px 16px 16px 0px;
 }
 .signIn__image > img{
     width: 500px;
@@ -36,6 +38,7 @@
 .signIn__form > img{
     width: 150px;
     object-fit: contain;
+    margin-bottom: 15px;
 }
 .signIn__input{
     background-color: #fafafa;
@@ -45,16 +48,31 @@
     display: flex;
     width: 350px;
     border-radius: 8px;
+    margin-bottom: 5px;
+}
+.signIn__input > .MuiSvgIcon-root{
+    font-size: 1rem !important;
 }
 .signIn__input > input{
     flex: 1;
     border: none;
     background-color: transparent;
 }
+.signIn__input > input:focus{
+    outline: none;
+}
 .signIn__heading{
     display: flex;
     justify-content: flex-start;
     width: 350px;
+    margin-bottom: 15px;
+}
+.signIn__heading > h1{
+    font-size: 28px !important;
+}
+.signIn__label{
+    font-size: 0.9rem;
+    font-weight: 600;
 }
 .signIn__checkbox{
     display: flex;
@@ -64,7 +82,45 @@
 }
 .signIn__checkbox > p{
     margin-left: 5px;
+    font-size: 0.9rem;
 }
 .signIn__checkbox > input{
     margin-top: 5px;
+}
+.signIn__form > button{
+    margin-top: 15px;
+    color: white;
+    background-color: black;
+    border: none;
+    width: 170px;
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: filter 0.2s;
+    cursor: pointer;
+}
+.signIn__form > button:hover{
+    filter: opacity(0.9);
+}
+@media screen and (max-width:991px) {
+    .signIn__form{
+        border-radius: 12px;
+    }
+    .signIn__heading{
+        justify-content: center;
+        width: 75vw;
+    }
+    .signIn__image{
+        display: none;
+    }
+    .signIn__form{
+        width: 80vw;
+    }
+    .signIn__input{
+        width: 75vw;
+    }
+    .signIn__checkbox{
+        width: 75vw;
+    }
 }
