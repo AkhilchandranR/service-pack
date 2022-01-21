@@ -1,0 +1,80 @@
+.featuresDashboardReverse{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.featuresReverse__fill{
+    position: absolute;
+    background-image: linear-gradient(to right, #cfcfcf, #d8d8d8, #e2e2e2, #ebebeb, #f5f5f5);
+    width: 300px;
+    height: 265px;
+    right: -15%;
+    top: 160px;
+    border-radius: 19px;
+}
+.featuresDashboardReverse > img{
+    width: 520px;
+    object-fit: contain;
+    z-index: 10;
+}
+.featuresDashboard__content > h1{
+    font-size: 36px !important;
+    width: 350px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.featuresDashboard__content > h1 > img{
+    position: absolute;
+    bottom: 0;
+}
+.features__subCaption{
+    width: 370px;
+}
+.featuresDashboard__content > button{
+    margin-top: 15px;
+    color: white;
+    background-color: black;
+    border: none;
+    width: 220px;
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: filter 0.2s;
+}
+.featuresDashboard__content > button:hover{
+    filter: opacity(0.9);
+}
+@media screen and (max-width:1100px) {
+    .featuresDashboardReverse > img{
+        width: 450px;
+    }
+    .featuresReverse__fill{
+        top: 100px;
+    }
+}
+@media screen and (max-width:991px) {
+    .featuresDashboardReverse{
+        flex-direction: column;
+        align-items: unset;
+        justify-content: unset;
+    }
+    .featuresDashboardReverse > img {
+        width: 80vw;
+        margin-right: unset;
+        margin-top: 20px;
+    }
+    .featuresDashboard__content > h1{
+        width: unset;
+    }
+    .features__subCaption{
+        width: unset;
+    }
+    .featuresReverse__fill{
+        display: none;
+    }
+}
