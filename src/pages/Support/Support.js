@@ -7,9 +7,11 @@ import ContactSupportSharpIcon from '@mui/icons-material/ContactSupportSharp';
 import ChatOutlinedIcon from '@mui/icons-material/ChatOutlined';
 import './Support.css';
 import Footer from '../../components/Footer/Footer';
+import { useNavigate } from 'react-router-dom';
 
 function Support() {
     const [selected,setSelected] = useState(1);
+    const navigate = useNavigate();
     return (
         <div className='support'>
             <Navbar/>
@@ -18,11 +20,11 @@ function Support() {
              heading="A title about our availability around the clock ."/>
 
              <div className='support__buttons'>
-                 <button className={`${(selected === 1) ? "clicked" : ""}`} onClick={() => setSelected(1)}>
+                 <button className={`${(selected === 1) ? "clicked" : ""}`} onClick={() => {setSelected(1);navigate('/servicepack/knowledgebase')}}>
                      <LightbulbOutlinedIcon/>
                      <p>Knowledge Base</p>
                  </button>
-                 <button className={`${(selected === 2) ? "clicked" : ""}`} onClick={() => setSelected(2)}>
+                 <button className={`${(selected === 2) ? "clicked" : ""}`} onClick={() => {setSelected(2);;navigate('/servicepack/faqs')}}>
                      <ContactSupportSharpIcon/>
                      <p>Frequently Asked Questions</p>
                  </button>

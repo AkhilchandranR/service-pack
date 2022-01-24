@@ -3,6 +3,7 @@
     width: 100vw;
     height: 80px;
     padding: 15px 0px;
+    z-index: 999;
 }
 .navbar__burgerMenu{
     display: none;
@@ -30,6 +31,7 @@
     align-items: center;
     justify-content: space-between;
     width: 600px;
+    position: relative;
 }
 .navbar__link{
     color: white;
@@ -46,6 +48,37 @@
 }
 .navbar__link > li{
     list-style-type: none;
+}
+.navbar__dropdownMenu{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgb(34, 33, 33);
+    color: white;
+    overflow: hidden;
+    z-index: 999;
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+    border-radius: 8px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+.activated{
+    opacity: 1;
+    top: 110%;
+}
+.navbar__dropdownLinks{
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 5px;
+}
+.navbar__dropdownLinks > a > p{
+    color: white;
+    margin-top: 7px;
+}
+.navbar__dropdownLinks > a >p:hover{
+    filter: opacity(0.5);
 }
 .navbar__demo{
     color: black;
@@ -133,5 +166,8 @@
     }
     .navbar__dropdown{
         display: block;
+    }
+    .navbar__dropdownMenu{
+        display: none;
     }
 }

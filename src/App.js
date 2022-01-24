@@ -15,11 +15,13 @@ import Careers from './pages/Careers/Careers';
 import KnowledgeBase from './pages/KnowledgeBase/KnowledgeBase';
 import FAQs from './pages/FAQs/FAQs';
 import Features from './pages/Features/Features';
+import Articles from './pages/Articles/Articles';
 
 function App() {
   return (
     <div className="App">
       <Routes>
+        <Route path="/servicepack/knowledgebase/gettingstarted" element={<Articles/>}/>
         <Route path="/servicepack/faqs" element={<FAQs/>}/>
         <Route path="/servicepack/knowledgebase" element={<KnowledgeBase/>}/>
         <Route path="/solutions" element={<Features/>}/> 
