@@ -14,6 +14,7 @@ import Footer from '../../components/Footer/Footer';
 import banner5 from '../../images/banner5.svg';
 import './Textlens.css';
 import Textaction from '../../components/Textaction/Textaction';
+import vector from '../../images/tlvector.svg';
 
 function Textlens() {
     return (
@@ -22,7 +23,7 @@ function Textlens() {
             <Banner 
             bannerImage={banner5} buttonColor="#34cd32"
             heading="Empowering Customer Experience with Artificial Intelligence ."
-            caption="────  CX to the power of AI"/>
+            caption="────  CX to the power of AI" vector={vector}/>
 
             <div className='textlens__stats'>
                 <Stats 

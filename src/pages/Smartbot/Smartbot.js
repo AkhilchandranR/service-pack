@@ -12,6 +12,7 @@ import Advertisement from '../../components/Advertisement/Advertisement';
 import adleft from '../../images/adleftpink.svg';
 import adright from '../../images/adrightpink.svg';
 import Footer from '../../components/Footer/Footer';
+import vector from '../../images/smvector.svg';
 
 function Smartbot() {
     return (
@@ -20,7 +21,7 @@ function Smartbot() {
             <Banner 
             bannerImage={banner3} buttonColor="#ff0066"
             heading="Empowering Customer Experience with Artificial Intelligence ."
-            caption="────  CX to the power of AI"/>
+            caption="────  CX to the power of AI" vector={vector}/>
 
             <div className='smartbot__stats'>
                 <Stats 

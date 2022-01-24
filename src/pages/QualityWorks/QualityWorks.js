@@ -7,10 +7,9 @@ import Advertisement from '../../components/Advertisement/Advertisement';
 import Products from '../../components/Products/Products';
 import Footer from '../../components/Footer/Footer';
 import banner2 from '../../images/banner2.svg';
-
-
 import adleftblue from '../../images/adleftblue.svg';
 import adright from '../../images/adrightblue.svg';
+import vector from '../../images/qwvector.svg';
 
 import './QualityWorks.css';
 import DashboardSample from '../../components/DashboardSample/DashboardSample';
@@ -23,7 +22,7 @@ function QualityWorks() {
             <Banner 
             bannerImage={banner2} buttonColor="#0070c0"
             heading="Empowering Customer Experience with Artificial Intelligence ."
-            caption="────  CX to the power of AI"/>
+            caption="────  CX to the power of AI" vector={vector}/>
 
             <div className='qualityworks__stats'>
                 <Stats 

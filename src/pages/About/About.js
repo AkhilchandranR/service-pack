@@ -10,6 +10,7 @@ import adright from '../../images/adrightblack.svg';
 import './About.css';
 import Footer from '../../components/Footer/Footer';
 import Advertisement from '../../components/Advertisement/Advertisement';
+import vector from '../../images/aboutvector.svg';
 
 function About() {
     return (
@@ -17,7 +18,8 @@ function About() {
             <Navbar/>
             <Banner 
             bannerImage={aboutbanner} buttonColor="#000000" 
-            heading="Our vision statement our vision statement our vision"/>
+            heading="Our vision statement our vision statement our vision"
+            vector={vector}/>
 
             <div className='container'>
                 <div className='about__sectionOne'>

@@ -14,6 +14,7 @@ import Footer from '../../components/Footer/Footer';
 import banner6 from '../../images/banner6.svg';
 import './Platform.css';
 import Textaction from '../../components/Textaction/Textaction';
+import vector from '../../images/pvector.svg';
 
 function Platform() {
     return (
@@ -21,7 +22,8 @@ function Platform() {
             <Navbar/>
             <Banner2 
             bannerImage={banner6} buttonColor="#7030a0"
-            heading="Heading about omni- Channel Customer Service Platform"/>
+            heading="Heading about omni- Channel Customer Service Platform"
+            vector={vector}/>
 
             <div className='platform__stats'>
                 <Stats 

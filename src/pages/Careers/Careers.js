@@ -7,6 +7,7 @@ import Footer from '../../components/Footer/Footer';
 import SearchIcon from '@mui/icons-material/Search';
 import MicIcon from '@mui/icons-material/Mic';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import vector from '../../images/cvector.svg';
 
 
 function Careers() {
@@ -16,6 +17,7 @@ function Careers() {
         <Banner2 
         bannerImage={careerbanner} buttonColor="#000000" 
         heading="An exciting statement to lit a curiosity of working with us "
+        vector={vector}
         />
 
         <div className='careers__postings'>

@@ -10,6 +10,8 @@ import Advertisement from '../../components/Advertisement/Advertisement';
 import adleft from '../../images/adleftyello.svg';
 import adright from '../../images/adrightyellow.svg';
 
+import vector from '../../images/vdvector.svg';
+
 import Footer from '../../components/Footer/Footer';
 import banner4 from '../../images/banner4.svg';
 import './VoiceDesk.css';
@@ -22,7 +24,7 @@ function VoiceDesk() {
             <Banner 
             bannerImage={banner4} buttonColor="#ffbf00"
             heading="Empowering Customer Experience with Artificial Intelligence ."
-            caption="────  CX to the power of AI"/>
+            caption="────  CX to the power of AI" vector={vector}/>
 
             <div className='voiceDesk__stats'>
                 <Stats 

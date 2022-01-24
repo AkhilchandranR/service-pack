@@ -14,6 +14,7 @@ import card2 from '../../images/card2.png';
 import card3 from '../../images/card3.png';
 import adleft from '../../images/adleftblack.svg';
 import adright from '../../images/adrightblack.svg';
+import vector from '../../images/fvector.svg';
 
 function Features() {
   return(
@@ -23,7 +24,8 @@ function Features() {
 
           <Banner 
             bannerImage={featuresbanner} buttonColor="#000000" 
-            heading="Empowering Customer Experience with Artificial Intelligence ."/>
+            heading="Empowering Customer Experience with Artificial Intelligence ." 
+            vector={vector}/>
           
           <div className='features__sectionDashboard'>
             <FeaturesDashboard heading="Heading about quality audit automation"/>
