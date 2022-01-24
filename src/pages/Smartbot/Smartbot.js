@@ -9,8 +9,8 @@ import banner3 from '../../images/banner3.svg';
 import './Smartbot.css';
 import Chatbotaction from '../../components/Chatbotaction/Chatbotaction';
 import Advertisement from '../../components/Advertisement/Advertisement';
-import adleft from '../../images/adleft.svg';
-import adright from '../../images/adright.png';
+import adleft from '../../images/adleftpink.svg';
+import adright from '../../images/adrightpink.svg';
 import Footer from '../../components/Footer/Footer';
 
 function Smartbot() {

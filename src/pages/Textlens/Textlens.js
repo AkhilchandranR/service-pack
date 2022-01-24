@@ -7,8 +7,8 @@ import TrustedClients from '../../components/TrustedClients/TrustedClients';
 import Products from '../../components/Products/Products';
 import Advertisement from '../../components/Advertisement/Advertisement';
 
-import adleft from '../../images/adleft.svg';
-import adright from '../../images/adright.png';
+import adleft from '../../images/adleftgreen.svg';
+import adright from '../../images/adrightgreen.svg';
 
 import Footer from '../../components/Footer/Footer';
 import banner5 from '../../images/banner5.svg';

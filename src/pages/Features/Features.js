@@ -12,8 +12,8 @@ import Footer from '../../components/Footer/Footer';
 import card1 from '../../images/card1.png';
 import card2 from '../../images/card2.png';
 import card3 from '../../images/card3.png';
-import adleft from '../../images/adleft.svg';
-import adright from '../../images/adright.png';
+import adleft from '../../images/adleftblack.svg';
+import adright from '../../images/adrightblack.svg';
 
 function Features() {
   return(

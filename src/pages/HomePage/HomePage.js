@@ -13,7 +13,7 @@ import Homebanner from '../../images/homebanner.svg';
 import design from '../../images/design.png';
 import vector1 from '../../images/Vector01.svg';
 import adleft from '../../images/adleft.svg';
-import adright from '../../images/adright.png';
+import adright from '../../images/adrightblue.svg';
 import SignIn from '../../components/SigninModal/SignIn';
 
 function HomePage() {

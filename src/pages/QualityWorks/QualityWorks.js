@@ -8,10 +8,10 @@ import Products from '../../components/Products/Products';
 import Footer from '../../components/Footer/Footer';
 import banner2 from '../../images/banner2.svg';
 
-import adleft from '../../images/adleft.svg';
-import adright from '../../images/adright.png';
 
-import vector2 from '../../images/Vector01.svg';
+import adleftblue from '../../images/adleftblue.svg';
+import adright from '../../images/adrightblue.svg';
+
 import './QualityWorks.css';
 import DashboardSample from '../../components/DashboardSample/DashboardSample';
 
@@ -46,7 +46,7 @@ function QualityWorks() {
 
             <div className="qualityworks__adv">
                 <Advertisement 
-                buttoncolor="#0070c0" imageLeft={adleft} imageRight={adright}/>
+                buttoncolor="#0070c0" imageLeft={adleftblue} imageRight={adright}/>
             </div>
             <Footer/>
         </div>
