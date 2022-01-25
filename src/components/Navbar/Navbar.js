@@ -26,6 +26,12 @@ function Navbar() {
     const[openCompany,setOpenCompany] = useState(false);
     const[openResources,setOpenResources] = useState(false);
 
+    //mobile versions....
+    const[openproducts,setOpenproducts] = useState(false);
+    const[opensolutions,setOpensolutions] = useState(false);
+    const[opencompany,setOpencompany] = useState(false);
+    const[openresource,setOpenresource] = useState(false);
+
     return (
         <div className="navbar">
             <div className="container">
@@ -168,25 +174,128 @@ function Navbar() {
                     {openDropDown &&
                         <Fade top>
                         <div className="navbar__dropdown">
-                            <div className="navbar__dropLink">
+                            <div className="navbar__dropLink" onClick={()=>setOpenproducts(!openproducts)}>
                                 <li>Products</li>
                                 <ArrowDropDownIcon/>
+                                {openproducts && <Fade>
+                                    <div className='navbar__dropdownProductsMobile'>
+                                        <Link to="/qualityworks">
+                                            <div className='navbar__menuItem'>
+                                                <img src={qwicon} alt="icon"/>
+                                                <p>Quality Works</p>
+                                            </div>
+                                        </Link>
+                                        <Link to="/smartbot">
+                                            <div className='navbar__menuItem'>
+                                                <img src={smartbot} alt="icon"/>
+                                                <p>Smart Bot</p>
+                                            </div>
+                                        </Link>
+                                        <Link to="/voicedesk">
+                                            <div className='navbar__menuItem'>
+                                                <img src={voicedesk} alt="icon"/>
+                                                <p>Voice Desk</p>
+                                            </div>
+                                        </Link>
+                                        <Link to="/textlens">
+                                            <div className='navbar__menuItem'>
+                                                <img src={textlens} alt="icon"/>
+                                                <p>Text Lens</p>
+                                            </div>
+                                        </Link>
+                                    </div>
+                                </Fade> }
+                                
                             </div>
 
-                            <div className="navbar__dropLink">
+                            <div className="navbar__dropLink" onClick={()=>setOpensolutions(!opensolutions)}>
                                 <li>Features</li>
                                 <ArrowDropDownIcon/>
+                                {opensolutions && 
+                                    <Fade>
+                                    <div className='navbar__dropdownProductsMobile'>
+                                        <Link to="/solutions">
+                                            <div className='navbar__menuItem'>
+                                                <img src={customer} alt="icon"/>
+                                                <p>Customer Experience(CX)</p>
+                                            </div>
+                                        </Link>
+                                        <Link to="/solutions">
+                                            <div className='navbar__menuItem'>
+                                                <img src={employee} alt="icon"/>
+                                                <p>Employee Experience(EX)</p>
+                                            </div>
+                                        </Link>
+                                        <Link to="/solutions">
+                                            <div className='navbar__menuItem'>
+                                                <img src={operation} alt="icon"/>
+                                                <p>Operational Experience</p>
+                                            </div>
+                                        </Link>
+                                    </div>
+                                </Fade>
+                            }
                             </div>
                             <div className="navbar__dropLink">
-                                <li>Platform</li>
+                                <Link to="/platform">
+                                    <li>Platform</li>
+                                </Link>
                             </div>
-                            <div className="navbar__dropLink">
+                            <div className="navbar__dropLink" onClick={()=>setOpencompany(!opencompany)}>
                                 <li>Company</li>
                                 <ArrowDropDownIcon/>
+                                {opencompany && 
+                                    <Fade>
+                                    <div className='navbar__dropdownProductsMobile'>
+                                        <Link to="/about">
+                                            <div className='navbar__menuItem'>
+                                                <img src={about} alt="icon"/>
+                                                <p>About us</p>
+                                            </div>
+                                        </Link>
+                                        <Link to="/careers">
+                                            <div className='navbar__menuItem'>
+                                                <img src={career} alt="icon"/>
+                                                <p>Careers</p>
+                                            </div>
+                                        </Link>
+                                        <Link to="/contact">
+                                            <div className='navbar__menuItem'>
+                                                <img src={contact} alt="icon"/>
+                                                <p>Contact Us</p>
+                                            </div>
+                                        </Link>
+                                        <Link to="/support">
+                                            <div className='navbar__menuItem'>
+                                                <img src={support} alt="icon"/>
+                                                <p>Support</p>
+                                            </div>
+                                        </Link>
+                                    </div>
+                                </Fade>
+                            }
                             </div>
-                            <div className="navbar__dropLink">
+                            <div className="navbar__dropLink" onClick={()=>setOpenresource(!openresource)}>
                                 <li>Resources</li>
                                 <ArrowDropDownIcon/>
+                                {openresource && 
+                                    <Fade>
+                                    <div className='navbar__dropdownProductsMobile'>
+                                        <Link to="/blog">
+                                            <div className='navbar__menuItem'>
+                                                <img src={blog} alt="icon"/>
+                                                <p>Blog</p>
+                                            </div>
+                                        </Link>
+                                        <Link to="/">
+                                            <div className='navbar__menuItem'>
+                                                <img src={media} alt="icon"/>
+                                                <p>Media</p>
+                                            </div>
+                                        </Link>
+                                    </div>
+                                </Fade>
+                            }
                             </div>
                             <button className="navbar__dropDemo">Get a Demo</button>
                         </div> 
