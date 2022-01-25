@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../../components/Navbar/Navbar';
-import Banner from '../../components/Banner/Banner';
+import Banner2 from '../../components/Banner2/Banner2';
 import Stats from '../../components/Stats/Stats';
 import TrustedClients from '../../components/TrustedClients/TrustedClients';
 import Advertisement from '../../components/Advertisement/Advertisement';
@@ -19,7 +19,7 @@ function QualityWorks() {
         <div className="qualityWorks">
             <Navbar/>
 
-            <Banner 
+            <Banner2 
             bannerImage={banner2} buttonColor="#0070c0"
             heading="Empowering Customer Experience with Artificial Intelligence ."
             caption="────  CX to the power of AI" vector={vector}/>

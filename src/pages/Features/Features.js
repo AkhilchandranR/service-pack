@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../../components/Navbar/Navbar';
-import Banner from '../../components/Banner/Banner';
+import Banner2 from '../../components/Banner2/Banner2';
 import featuresbanner from '../../images/featuresbanner.svg';
 import './Features.css';
 import FeaturesDashboard from '../../components/FeaturesDashboard/FeaturesDashboard';
@@ -22,14 +22,10 @@ function Features() {
       <div className='features'>
           <Navbar/>
 
-          <Banner 
+          <Banner2 
             bannerImage={featuresbanner} buttonColor="#000000" 
             heading="Empowering Customer Experience with Artificial Intelligence ." 
             vector={vector}/>
-          
-          <div className='features__sectionDashboard'>
-            <FeaturesDashboard heading="Heading about quality audit automation"/>
-          </div>
 
           <div className='features__cards'>
             <FeaturesCard cardImg={card1} cardHeading="Strategy & Research."/>

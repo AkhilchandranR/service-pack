@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../../components/Navbar/Navbar';
-import Banner from '../../components/Banner/Banner';
+import Banner3 from '../../components/Banner3/Banner3';
 import Stats from '../../components/Stats/Stats';
 import DashboardSample from '../../components/DashboardSample/DashboardSample';
 import TrustedClients from '../../components/TrustedClients/TrustedClients';
@@ -20,7 +20,7 @@ function Textlens() {
     return (
         <div className='textLens'>
             <Navbar/>
-            <Banner 
+            <Banner3
             bannerImage={banner5} buttonColor="#34cd32"
             heading="Empowering Customer Experience with Artificial Intelligence ."
             caption="────  CX to the power of AI" vector={vector}/>

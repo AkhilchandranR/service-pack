@@ -16,7 +16,7 @@ function About() {
     return (
         <div className='about'>
             <Navbar/>
-            <Banner 
+            <Banner
             bannerImage={aboutbanner} buttonColor="#000000" 
             heading="Our vision statement our vision statement our vision"
             vector={vector}/>

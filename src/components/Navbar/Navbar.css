@@ -33,7 +33,6 @@
     align-items: center;
     justify-content: space-between;
     width: 600px;
-    position: relative;
     z-index: 99;
 }
 .navbar__link{
@@ -45,37 +44,40 @@
     align-items: center;
     cursor: pointer;
     transition: filter 300ms;
+    position: relative;
+    z-index: 99;
+}
+.navbar__dropdownProducts{
+    position: absolute;
+    top: 120%;
+    left: 0;
+    background-color: rgb(17, 15, 15);
+    border-radius: 7px;
+    padding-bottom: 10px;
+    padding-top: 8px;
+}
+.navbar__menuItem{
+    color: white !important;
+    padding: 8px 20px;
+    display: flex;
+    align-items: center;
+}
+.navbar__menuItem :hover{
+    filter: opacity(0.6);
+}
+.navbar__menuItem > img{
+    width: 25px;
+    object-fit: contain;
+    margin-right: 10px;
+}
+.navbar__menuItem > p{
+    white-space: nowrap;
 }
 .navbar__link:hover{
     filter: brightness(1.2);
 }
 .navbar__link > li{
     list-style-type: none;
-}
-.navbar__dropdownMenu{
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: rgb(34, 33, 33);
-    color: white;
-    overflow: hidden;
-    z-index: 999;
-    display: flex;
-    align-items: flex-start;
-    padding: 10px;
-    border-radius: 8px;
-}
-.navbar__dropdownLinks{
-    margin-top: 15px;
-    margin-left: 20px;
-    padding: 5px;
-}
-.navbar__dropdownLinks > a > p{
-    color: white;
-    margin-top: 7px;
-}
-.navbar__dropdownLinks > a >p:hover{
-    filter: opacity(0.5);
 }
 .navbar__demo{
     color: black;

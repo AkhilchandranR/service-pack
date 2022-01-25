@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../../components/Navbar/Navbar';
-import Banner2 from '../../components/Banner2/Banner2';
+import Banner3 from '../../components/Banner3/Banner3';
 import Stats from '../../components/Stats/Stats';
 import DashboardSample from '../../components/DashboardSample/DashboardSample';
 import TrustedClients from '../../components/TrustedClients/TrustedClients';
@@ -20,7 +20,7 @@ function Platform() {
     return (
         <div className='platform'>
             <Navbar/>
-            <Banner2 
+            <Banner3
             bannerImage={banner6} buttonColor="#7030a0"
             heading="Heading about omni- Channel Customer Service Platform"
             vector={vector}/>

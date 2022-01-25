@@ -1,6 +1,5 @@
 import React,{ useEffect,useState } from 'react';
 import './Stats.css';
-import CloudDownloadIcon from '@mui/icons-material/CloudDownload';
 
 
 function Stats({ colour1,symbol1,amount1,caption1,
@@ -63,7 +62,6 @@ function Stats({ colour1,symbol1,amount1,caption1,
                 <div className="stats__statComponent">
                      <div className="statComponent">
                         <div className="statcomponent__number" ref={ref}>
-                            <CloudDownloadIcon style={{color:colour1}} className="statsComponent__cloud"/>
                             <h1 style={{color:colour1}} id="statsComponent__cloudnumber1">{amount1}</h1>
                             <span style={{color:colour1}}>{symbol1}</span>
                         </div>
@@ -74,7 +72,6 @@ function Stats({ colour1,symbol1,amount1,caption1,
                 <div className="statComponent">
                         
                         <div className="statcomponent__number" ref={ref}>
-                        <CloudDownloadIcon style={{color:colour2}} className="statsComponent__cloud"/>
                             <h1 style={{color:colour2}} id="statsComponent__cloudnumber2">{amount2}</h1>
                             <span style={{color:colour2}}>{symbol2}</span>
                         </div>
@@ -85,7 +82,6 @@ function Stats({ colour1,symbol1,amount1,caption1,
                 <div className="statComponent">
                         
                         <div className="statcomponent__number" ref={ref}>
-                        <CloudDownloadIcon style={{color:colour3}} className="statsComponent__cloud"/>
                         <h1 style={{color:colour3}} id="statsComponent__cloudnumber3">{amount3}</h1>
                         <span style={{color:colour3}}>{symbol3}</span>
                         </div>
@@ -96,7 +92,6 @@ function Stats({ colour1,symbol1,amount1,caption1,
                 <div className="statComponent">
                         
                         <div className="statcomponent__number" ref={ref}>
-                        <CloudDownloadIcon style={{color:colour4}} className="statsComponent__cloud"/>
                         <h1 style={{color:colour4}} id="statsComponent__cloudnumber4">{amount4}</h1>
                         <span style={{color:colour4}}>{symbol4}</span>
                         </div>

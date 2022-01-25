@@ -6,6 +6,7 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 import facebook from '../../images/facebook.png';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import { Link } from 'react-router-dom';
 
 
 function Footer() {
@@ -25,30 +26,54 @@ function Footer() {
                     <div className="footer__products">
                         <p className="footer__heading">Products</p>
                         <p className="footer__headingUnderline">•───────</p>
-                        <p className="footer__content">Quality Work</p>
-                        <p className="footer__content">Smart bot</p>
-                        <p className="footer__content">Voice desk</p>
-                        <p className="footer__content">Text Lens</p>
+                        <Link to="/qualityworks">
+                            <p className="footer__content">Quality Work</p>
+                        </Link>
+                        <Link to="/smartbot">
+                            <p className="footer__content">Smart Bot</p>
+                        </Link>
+                        <Link to="/voicedesk">
+                            <p className="footer__content">Voice Desk</p>
+                        </Link>
+                        <Link to="/textlens">
+                            <p className="footer__content">Text Lens</p>
+                        </Link>
                     </div>
                     <div className="footer__products">
                         <p className="footer__heading">Comapany</p>
                         <p className="footer__headingUnderline">•───────</p>
-                        <p className="footer__content">About Us</p>
-                        <p className="footer__content">Support</p>
-                        <p className="footer__content">Locations</p>
+                        <Link to="/about">
+                            <p className="footer__content">About Us</p>
+                        </Link>
+                        <Link to="/support">
+                            <p className="footer__content">Support</p>
+                        </Link>
+                        <Link to="/">
+                            <p className="footer__content">Locations</p>
+                        </Link>
                     </div>
                     <div className="footer__products">
                         <p className="footer__heading">Information</p>
                         <p className="footer__headingUnderline">•───────</p>
-                        <p className="footer__content">Home</p>
-                        <p className="footer__content">Platform</p>
-                        <p className="footer__content">Comapny</p>
-                        <p className="footer__content">Support</p>
+                        <Link to="/">
+                            <p className="footer__content">Home</p>
+                        </Link>
+                        <Link to="/platform">
+                            <p className="footer__content">Platform</p>
+                        </Link>
+                        <Link to="/">
+                            <p className="footer__content">Company</p>
+                        </Link>
+                        <Link to="/support">
+                            <p className="footer__content">Support</p>
+                        </Link>
                     </div>
                     <div className="footer__products">
                         <p className="footer__heading">Contact Us</p>
                         <p className="footer__headingUnderline">•───────</p>
-                        <p className="footer__content">hello@servicepack.ai</p>
+                        <Link to="/contact">
+                            <p className="footer__content">hello@servicepack.ai</p>
+                        </Link>
                         <div className="footer__socialmedia">
                             <div className="footer__socialIconFacebook">
                                 <img src={facebook} alt="facebook"/>
