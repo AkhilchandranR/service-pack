@@ -57,7 +57,9 @@ function Navbar() {
             <div className="container">
                 <div className="navbar__container">
                     <div className="navbar__logo">
-                        <img src={Logo} alt="service-pack-ai"/>
+                        <Link to="/">
+                            <img src={Logo} alt="service-pack-ai"/>
+                        </Link>
                     </div>
                     <ul className="navbar__navLinks">
                         <div className="navbar__link" onClick={handleProducts}>

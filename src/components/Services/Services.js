@@ -4,7 +4,6 @@ import design from '../../images/design.png';
 import CallDemo from '../../components/CallDemo/CallDemo';
 import QmcallDemo from '../../components/QmCalldemo/QmcallDemo';
 import calldemo from '../../images/calldemo.svg';
-import Slide from 'react-reveal/Slide';
 
 import banner3 from '../../images/banner3.svg';
 import banner4 from '../../images/banner4.svg';
@@ -40,24 +39,16 @@ function Services() {
             </div>
         </div>
         {(selected === 1) &&
-        <Slide left>
             <QmcallDemo illImage={calldemo}/>
-        </Slide>
         }
         {(selected === 2) && 
-        <Slide left>
         <CallDemo illImage={banner3}/>
-        </Slide>
         }
         {(selected === 3) && 
-        <Slide left>
         <CallDemo illImage={banner4}/>
-        </Slide>
         }
         {(selected === 4) && 
-        <Slide left>
         <CallDemo illImage={banner5}/>
-        </Slide>
         }
         </>
     )

@@ -1,8 +1,8 @@
 .footer{
     background-color: #f6f6f6;
-    margin-top: 100px;
-    padding-top: 20px;
-    padding-bottom: 25px;
+    margin-top: 120px;
+    padding-top: 10px;
+    padding-bottom: 50px;
     position: relative;
 }
 .footer__container{
@@ -10,14 +10,14 @@
     align-items: flex-start;
     justify-content: flex-start;
     padding-right: 100px;
-    margin-top: 45px;
-    margin-bottom: 80px;
+    margin-top: 35px;
+    margin-bottom: 92px;
 }
 .footer__container > img{
     z-index: 10;
 }
 .footer__products{
-    margin-top: 20px;
+    margin-top: 8px;
     z-index: 10;
     margin-left: 70px;
 }

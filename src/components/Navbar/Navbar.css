@@ -24,9 +24,13 @@
     align-items: center;
     justify-content: space-between;
 }
-.navbar__logo > img{
+.navbar__logo{
+    z-index: 99;
+}
+.navbar__logo > a > img{
     height: 50px;
     object-fit: contain;
+    cursor: pointer;
 }
 .navbar__navLinks{
     display: flex;
@@ -151,7 +155,7 @@
 }
 
 @media screen and (max-width:1100px) {
-    .navbar__logo > img{
+    .navbar__logo > a > img{
         height: 40px;
     }
     .navbar__navLinks{
