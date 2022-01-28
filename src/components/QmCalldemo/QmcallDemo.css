@@ -45,13 +45,13 @@
     right: 40px;
     z-index: -1;
 }
-.callDemo__image > img{
-    width: 360px;
+.QmcallDemo__image > img{
+    width: 430px;
     object-fit: contain;
 }
 
 @media screen and (min-width:1600px) {
-    .callDemo__image > img{
+    .QmcallDemo__image > img{
         width: 500px;
         margin-right: 50px;
     }
@@ -63,17 +63,17 @@
     }
 }
 @media screen and (max-width:1190px) {
-    .callDemo__image >img{
-        width: 340px;
+    .QmcallDemo__image >img{
+        width: 360px;
+        margin-right: 20px;
     }
     .callDemo__thickLine{
         display: none;
     }
 }
  @media screen and (max-width:991px) {
-     .callDemo__image > img{
-         width: 320px;
-         margin-right: 20px;
+     .QmcallDemo__image > img{
+         width: 350px;
      }
      .callDemo__description > h1{
          font-size: 25px !important;
@@ -112,12 +112,12 @@
      .callDemo__thickLine{
          display: none;
      }
-     .callDemo__image > img{
+     .QmcallDemo__image > img{
          margin-right: 0px !important;
      }
  }
  @media screen and (max-width:500px) {
-    .callDemo__image > img{
+    .QmcallDemo__image > img{
         width: 90vw;
         object-fit: contain;
     } 
@@ -129,7 +129,7 @@
  }
 
  @media screen and (min-width: 1700px) {
-     .callDemo__image > img{
+     .QmcallDemo__image > img{
          width: 705px;
      }
      .callDemo__description > h1{

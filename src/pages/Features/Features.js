@@ -37,11 +37,11 @@ function Features() {
             <FeaturesDashboardReverse heading="Heading about Quality Metric 1"/>
           </div>
 
-          <div className='features__sectionDashboard'>
+          <div className='features__sectionDashboard2'>
             <FeaturesDashboard heading="Heading about Quality Metric 1"/>
           </div>
 
-          <div className='features__sectionDashboard'>
+          <div className='features__sectionDashboard2'>
             <FeaturesDashboardReverse heading="Heading about Quality Metric 1"/>
           </div>
           

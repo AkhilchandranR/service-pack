@@ -2,7 +2,7 @@
     background-color: #f6f6f6;
     margin-top: 100px;
     padding-top: 20px;
-    padding-bottom: 23px;
+    padding-bottom: 25px;
     position: relative;
 }
 .footer__container{
@@ -11,7 +11,7 @@
     justify-content: flex-start;
     padding-right: 100px;
     margin-top: 45px;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 .footer__container > img{
     z-index: 10;
@@ -24,20 +24,21 @@
 .footer__heading{
     font-size: 1.1em;
     font-weight: 700;
+    margin-bottom: -5px;
 }
 .footer__headingUnderline{
     font-size: 1.1em;
     font-weight: 700;
-    margin-bottom: 9px;
+    margin-bottom: 5px;
 }
 .footer__logo{
-    width: 220px;
+    width: 150px;
     object-fit: contain;
 }
 .footer__content{
     font-size: 1em;
     font-weight: 500;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     color: black !important;
 }
 .footer__sphere{
@@ -123,5 +124,10 @@
 @media screen and (max-width:600px) {
     .footer{
         margin-top: 80px;
+    }
+}
+@media screen and (min-width:1600px){
+    .footer__container{
+        justify-content: space-around;
     }
 }

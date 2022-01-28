@@ -2,7 +2,13 @@ import React,{ useState } from 'react';
 import './Services.css';
 import design from '../../images/design.png';
 import CallDemo from '../../components/CallDemo/CallDemo';
+import QmcallDemo from '../../components/QmCalldemo/QmcallDemo';
+import calldemo from '../../images/calldemo.svg';
 import Slide from 'react-reveal/Slide';
+
+import banner3 from '../../images/banner3.svg';
+import banner4 from '../../images/banner4.svg';
+import banner5 from '../../images/banner5.svg';
 
 function Services() {
     const[selected,setSelected] = useState(1);
@@ -35,22 +41,22 @@ function Services() {
         </div>
         {(selected === 1) &&
         <Slide left>
-            <CallDemo/>
+            <QmcallDemo illImage={calldemo}/>
         </Slide>
         }
         {(selected === 2) && 
         <Slide left>
-        <CallDemo/>
+        <CallDemo illImage={banner3}/>
         </Slide>
         }
         {(selected === 3) && 
         <Slide left>
-        <CallDemo/>
+        <CallDemo illImage={banner4}/>
         </Slide>
         }
         {(selected === 4) && 
         <Slide left>
-        <CallDemo/>
+        <CallDemo illImage={banner5}/>
         </Slide>
         }
         </>

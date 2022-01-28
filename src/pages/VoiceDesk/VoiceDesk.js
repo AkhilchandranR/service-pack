@@ -45,9 +45,9 @@ function VoiceDesk() {
                 <Products buttoncolor="#ffbf00" heading="How AI enhances Customer Experience"/>
             </div>
 
-            <div className='voiceDesk__action'>
+            {/* <div className='voiceDesk__action'>
                 <VoicedeskAction/>
-            </div>
+            </div> */}
 
             <div className="voiceDesk__adv">
                 <Advertisement 

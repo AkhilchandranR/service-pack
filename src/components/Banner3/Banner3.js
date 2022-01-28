@@ -3,13 +3,14 @@ import rocket from '../../images/rocket.png';
 import Slide from 'react-reveal/Slide';
 import './Banner3.css';
 
-function Banner3({bannerImage,buttonColor,vector,heading}) {
+function Banner3({bannerImage,buttonColor,vector,heading,caption}) {
     return (
         <div className='banner3'>
             <img className='banner3__vector' src={vector} alt=''/>
             <div className="container">
                 <div className="banner3__contents">
                     <div className="banner3__textContent">
+                        <p>{caption}</p>
                         <h1>
                             {heading} 
                             <img src={rocket} alt="rocket"/> 

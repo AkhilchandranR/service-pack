@@ -44,9 +44,9 @@ function Platform() {
                 <Products buttoncolor="#7030a0" heading="How AI enhances Customer Experience"/>
             </div>
 
-            <div className='platform__action'>
+            {/* <div className='platform__action'>
                 <Textaction bColor="#7030a0"/>
-            </div>
+            </div> */}
 
             <div className="platform__adv">
                 <Advertisement 

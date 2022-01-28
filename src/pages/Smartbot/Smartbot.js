@@ -41,7 +41,7 @@ function Smartbot() {
                 <Products buttoncolor="#ff0066" heading="How AI enhances Customer Experience"/>
             </div>
 
-            <div className="smartbot__chatbot">
+            {/* <div className="smartbot__chatbot">
                 <div className='chatbot_dots sb_one'></div>
                 <div className='chatbot_dots sb_two'></div>
                 <div className='chatbot_dots sb_three'></div>
@@ -59,7 +59,7 @@ function Smartbot() {
                 <div className='chatbot_dots sb_fifteen'></div>
                 <div className='chatbot_dots sb_sixteen'></div>
                 <Chatbotaction/>
-            </div>
+            </div> */}
 
             <div className="smartbot__adv">
                 <Advertisement 

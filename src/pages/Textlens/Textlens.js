@@ -44,9 +44,9 @@ function Textlens() {
                 <Products buttoncolor="#32cd32" heading="How AI enhances Customer Experience"/>
             </div>
 
-            <div className='textLens__action'>
+            {/* <div className='textLens__action'>
                 <Textaction bColor="#32cd32"/>
-            </div>
+            </div> */}
 
             <div className="textLens__adv">
                 <Advertisement 

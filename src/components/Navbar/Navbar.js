@@ -12,12 +12,7 @@ import textlens from '../../images/lens.png';
 import customer from '../../images/customer.png';
 import operation from '../../images/operational.png';
 import employee from '../../images/employee.png'; 
-import about from '../../images/aboutus.png';
-import career from '../../images/career.png';
-import contact from '../../images/contact.png';
-import support from '../../images/support.png';
-import media from '../../images/mediaicon.png';
-import blog from '../../images/blogicon.png';
+
 
 function Navbar() {
     const[openDropDown,setOpenDropDown] = useState(false);
@@ -32,6 +27,31 @@ function Navbar() {
     const[opencompany,setOpencompany] = useState(false);
     const[openresource,setOpenresource] = useState(false);
 
+    const handleProducts = () =>{
+        setOpenProducts(!openProducts);
+        setOpenResources(false);
+        setOpenSolutions(false);
+        setOpenCompany(false);
+    }
+    const handleSolutions = () =>{
+        setOpenSolutions(!openSolutions);
+        setOpenProducts(false);
+        setOpenResources(false);
+        setOpenCompany(false);
+    }
+    const handleResources = () =>{
+        setOpenResources(!openResources);
+        setOpenProducts(false);
+        setOpenSolutions(false);
+        setOpenCompany(false);
+    }
+    const handleCompany = () =>{
+        setOpenCompany(!openCompany);
+        setOpenProducts(false);
+        setOpenResources(false);
+        setOpenSolutions(false);
+    }
+
     return (
         <div className="navbar">
             <div className="container">
@@ -40,11 +60,10 @@ function Navbar() {
                         <img src={Logo} alt="service-pack-ai"/>
                     </div>
                     <ul className="navbar__navLinks">
-                        <div className="navbar__link" onClick={()=>setOpenProducts(!openProducts)}>
+                        <div className="navbar__link" onClick={handleProducts}>
                             <li>Products</li>
                             <ArrowDropDownIcon/>
                             {openProducts && 
-                                    <Fade>
                                     <div className='navbar__dropdownProducts'>
                                         <Link to="/qualityworks">
                                             <div className='navbar__menuItem'>
@@ -70,36 +89,39 @@ function Navbar() {
                                                 <p>Text Lens</p>
                                             </div>
                                         </Link>
+                                        <Link to="/">
+                                            <div className='navbar__menuItem'>
+                                                <img src={textlens} alt="icon"/>
+                                                <p>Coco</p>
+                                            </div>
+                                        </Link>
                                     </div>
-                                </Fade>
                             }
                         </div>
-                        <div className="navbar__link" onClick={()=>setOpenSolutions(!openSolutions)}>
+                        <div className="navbar__link" onClick={handleSolutions}>
                             <li>Solutions</li>
                             <ArrowDropDownIcon/>
                             {openSolutions && 
-                                    <Fade>
                                     <div className='navbar__dropdownProducts'>
                                         <Link to="/solutions">
                                             <div className='navbar__menuItem'>
                                                 <img src={customer} alt="icon"/>
-                                                <p>Customer Experience(CX)</p>
+                                                <p>Customer Experience (CX)</p>
                                             </div>
                                         </Link>
                                         <Link to="/solutions">
                                             <div className='navbar__menuItem'>
                                                 <img src={employee} alt="icon"/>
-                                                <p>Employee Experience(EX)</p>
+                                                <p>Employee Experience (EX)</p>
                                             </div>
                                         </Link>
                                         <Link to="/solutions">
                                             <div className='navbar__menuItem'>
                                                 <img src={operation} alt="icon"/>
-                                                <p>Operational Experience</p>
+                                                <p>Operational Experience (OX)</p>
                                             </div>
                                         </Link>
                                     </div>
-                                </Fade>
                             }
                         </div>
                         <div className="navbar__link">
@@ -107,60 +129,50 @@ function Navbar() {
                                 <li>Platform</li>
                             </Link>
                         </div>
-                        <div className="navbar__link" onClick={()=>setOpenCompany(!openCompany)}>
+                        <div className="navbar__link" onClick={handleCompany}>
                             <li>Company</li>
                             <ArrowDropDownIcon/>
                             {openCompany && 
-                                    <Fade>
                                     <div className='navbar__dropdownProducts'>
                                         <Link to="/about">
                                             <div className='navbar__menuItem'>
-                                                <img src={about} alt="icon"/>
                                                 <p>About us</p>
                                             </div>
                                         </Link>
                                         <Link to="/careers">
                                             <div className='navbar__menuItem'>
-                                                <img src={career} alt="icon"/>
                                                 <p>Careers</p>
                                             </div>
                                         </Link>
                                         <Link to="/contact">
                                             <div className='navbar__menuItem'>
-                                                <img src={contact} alt="icon"/>
                                                 <p>Contact Us</p>
                                             </div>
                                         </Link>
                                         <Link to="/support">
                                             <div className='navbar__menuItem'>
-                                                <img src={support} alt="icon"/>
                                                 <p>Support</p>
                                             </div>
                                         </Link>
                                     </div>
-                                </Fade>
                             }
                         </div>
-                        <div className="navbar__link" onClick={()=>setOpenResources(!openResources)}>
+                        <div className="navbar__link" onClick={handleResources}>
                             <li>Resources</li>
                             <ArrowDropDownIcon/>
                             {openResources && 
-                                    <Fade>
                                     <div className='navbar__dropdownProducts'>
                                         <Link to="/blog">
                                             <div className='navbar__menuItem'>
-                                                <img src={blog} alt="icon"/>
                                                 <p>Blog</p>
                                             </div>
                                         </Link>
                                         <Link to="/">
                                             <div className='navbar__menuItem'>
-                                                <img src={media} alt="icon"/>
                                                 <p>Media</p>
                                             </div>
                                         </Link>
                                     </div>
-                                </Fade>
                             }
                         </div>
                         <button className="navbar__demo">Get a Demo</button>
@@ -201,6 +213,12 @@ function Navbar() {
                                             <div className='navbar__menuItem'>
                                                 <img src={textlens} alt="icon"/>
                                                 <p>Text Lens</p>
+                                            </div>
+                                        </Link>
+                                        <Link to="/">
+                                            <div className='navbar__menuItem'>
+                                                <img src={textlens} alt="icon"/>
+                                                <p>Coco</p>
                                             </div>
                                         </Link>
                                     </div>
@@ -249,25 +267,21 @@ function Navbar() {
                                     <div className='navbar__dropdownProductsMobile'>
                                         <Link to="/about">
                                             <div className='navbar__menuItem'>
-                                                <img src={about} alt="icon"/>
                                                 <p>About us</p>
                                             </div>
                                         </Link>
                                         <Link to="/careers">
                                             <div className='navbar__menuItem'>
-                                                <img src={career} alt="icon"/>
                                                 <p>Careers</p>
                                             </div>
                                         </Link>
                                         <Link to="/contact">
                                             <div className='navbar__menuItem'>
-                                                <img src={contact} alt="icon"/>
                                                 <p>Contact Us</p>
                                             </div>
                                         </Link>
                                         <Link to="/support">
                                             <div className='navbar__menuItem'>
-                                                <img src={support} alt="icon"/>
                                                 <p>Support</p>
                                             </div>
                                         </Link>
@@ -283,13 +297,11 @@ function Navbar() {
                                     <div className='navbar__dropdownProductsMobile'>
                                         <Link to="/blog">
                                             <div className='navbar__menuItem'>
-                                                <img src={blog} alt="icon"/>
                                                 <p>Blog</p>
                                             </div>
                                         </Link>
                                         <Link to="/">
                                             <div className='navbar__menuItem'>
-                                                <img src={media} alt="icon"/>
                                                 <p>Media</p>
                                             </div>
                                         </Link>

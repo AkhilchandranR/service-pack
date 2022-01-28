@@ -1,12 +1,12 @@
 import React from 'react';
-import './CallDemo.css';
+import './QmcallDemo.css';
 import design from '../../images/design.png';
 
-function CallDemo({ illImage }) {
+function QmCallDemo({ illImage }) {
     return (
         <div className="container">
             <div className="callDemo">
-                <div className="callDemo__image">
+                <div className="QmcallDemo__image">
                     <img src={illImage} alt="DemoCall"/>
                 </div>
                 <div className="callDemo__description">
@@ -21,4 +21,4 @@ function CallDemo({ illImage }) {
     )
 }
 
-export default CallDemo
+export default QmCallDemo
