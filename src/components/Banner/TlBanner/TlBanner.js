@@ -20,7 +20,7 @@ function TlBanner({bannerImage,buttonColor,vector,heading,caption}) {
                         <button style={{backgroundColor:buttonColor}}>Let's Talk</button>
                     </div>
                     <div className="TlBanner__image">
-                        <Slide right>
+                        <Slide bottom>
                             <img src={bannerImage} alt="banner illustration"/>
                         </Slide>
                     </div>

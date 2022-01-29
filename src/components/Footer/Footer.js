@@ -7,10 +7,12 @@ import facebook from '../../images/facebook.png';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import { Link } from 'react-router-dom';
+import Slide from 'react-reveal/Slide';
 
 
 function Footer() {
     return (
+        <Slide bottom>
         <div className="footer">
             <div className="footer__dots f_one"></div>
             <div className="footer__dots f_two"></div>
@@ -23,7 +25,9 @@ function Footer() {
                 <div className="footer__container">
                     <div className='footer__logoContainer'>
                         <img src={footerlogo} alt="footer logo" className='footer__logo'/>
-                        <p>The pursuit of happy customers</p>
+                        <Slide bottom delay={1000}>
+                         <p>The pursuit of happy customers</p>
+                        </Slide>
                     </div>
                     <img className="footer__sphere" src={sphere} alt="sphere"/>
                     <div className="footer__products">
@@ -96,6 +100,7 @@ function Footer() {
                 <p className="footer__copyright">Copyright © Service Pack, Inc</p>
             </div>
         </div>
+        </Slide>
     )
 }
 

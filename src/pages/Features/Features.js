@@ -15,6 +15,7 @@ import card3 from '../../images/card3.png';
 import adleft from '../../images/adleftblack.svg';
 import adright from '../../images/adrightblack.svg';
 import vector from '../../images/fvector.svg';
+import Slide from 'react-reveal/Slide';
 
 function Features() {
   return(
@@ -27,11 +28,14 @@ function Features() {
             heading="Empowering Customer Experience with Artificial Intelligence ." 
             vector={vector}/>
 
-          <div className='features__cards'>
-            <FeaturesCard cardImg={card1} cardHeading="Strategy & Research."/>
-            <FeaturesCard cardImg={card2} cardHeading="Report & Analytics."/>
-            <FeaturesCard cardImg={card3} cardHeading="Marketing & Management"/>
-          </div>
+          <Slide bottom>
+            <div className='features__cards'>
+              <FeaturesCard cardImg={card1} cardHeading="Strategy & Research."/>
+              <FeaturesCard cardImg={card2} cardHeading="Report & Analytics."/>
+              <FeaturesCard cardImg={card3} cardHeading="Marketing & Management"/>
+            </div>
+          </Slide>
+          
 
           <div className='features__sectionDashboard'>
             <FeaturesDashboardReverse heading="Heading about Quality Metric 1"/>

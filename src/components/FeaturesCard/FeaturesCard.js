@@ -1,6 +1,7 @@
 import React from 'react';
 import './FeaturesCard.css';
 
+
 function FeaturesCard({cardImg,cardHeading}) {
   return(
       <div className='featuresCard'>

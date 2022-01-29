@@ -20,7 +20,7 @@ function Banner3({bannerImage,buttonColor,vector,heading,caption}) {
                         <button style={{backgroundColor:buttonColor}}>Let's Talk</button>
                     </div>
                     <div className="banner3__image">
-                        <Slide right>
+                        <Slide bottom>
                             <img src={bannerImage} alt="banner illustration"/>
                         </Slide>
                     </div>

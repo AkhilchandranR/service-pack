@@ -4,12 +4,15 @@ import './Products.css';
 import speech from '../../images/speech.svg';
 import text from '../../images/text.svg';
 import voice from '../../images/voice.svg';
+import Slide from 'react-reveal/Slide';
 
 function Products({buttoncolor,heading}) {
     return (
         <div className="container">
             <div className="products">
-                <h1>{heading}</h1>
+                <Slide bottom>
+                    <h1>{heading}</h1>
+                </Slide>
                 <div className="product__cards">
                         <ProductCard picture={speech} heading="Speech Analytics" content="Lorem Ipsum has been the industry's
                         standard dummy text ever since the 1500s, when an unknown printer took a galley of type and 

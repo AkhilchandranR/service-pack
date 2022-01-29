@@ -21,7 +21,7 @@ function careersBanner({bannerImage,buttonColor,vector,heading,caption}) {
                         <button style={{backgroundColor:buttonColor}}>Let's Talk</button>
                     </div>
                     <div className="careersBanner__image">
-                        <Slide right>
+                        <Slide bottom>
                             <img src={bannerImage} alt="Banner illustration"/>
                         </Slide>
                     </div>
