@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../../components/Navbar/Navbar';
-import Banner from '../../components/Banner/Banner';
+import ContactBanner from '../../components/Banner/ContactBanner/ContactBanner';
 import Footer from '../../components/Footer/Footer';
 import usa from '../../images/usa.png';
 import uk from '../../images/uk.png';
@@ -39,7 +39,7 @@ function Contact() {
             <div className='crdots green cr_twentyone'></div>
 
             <Navbar/>
-            <Banner
+            <ContactBanner
             bannerImage={contactbanner} buttonColor="#000000"
             heading="A title about our locations a title about"/>
 

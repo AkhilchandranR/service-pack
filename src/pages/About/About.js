@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../../components/Navbar/Navbar';
-import Banner from '../../components/Banner/Banner';
+import AboutBanner from '../../components/Banner/AboutBanner/AboutBanner';
 import aboutbanner from '../../images/aboutbanner.svg';
 import about3 from '../../images/about3.svg';
 import about2 from '../../images/about2.svg';
@@ -16,7 +16,7 @@ function About() {
     return (
         <div className='about'>
             <Navbar/>
-            <Banner
+            <AboutBanner
             bannerImage={aboutbanner} buttonColor="#000000" 
             heading="Our vision statement our vision statement our vision"
             vector={vector}/>

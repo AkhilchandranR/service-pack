@@ -21,7 +21,10 @@ function Footer() {
             <div className="footer__dots f_seven"></div>
             <div className="container">
                 <div className="footer__container">
-                    <img src={footerlogo} alt="footer logo" className='footer__logo'/>
+                    <div className='footer__logoContainer'>
+                        <img src={footerlogo} alt="footer logo" className='footer__logo'/>
+                        <p>The pursuit of happy customers</p>
+                    </div>
                     <img className="footer__sphere" src={sphere} alt="sphere"/>
                     <div className="footer__products">
                         <p className="footer__heading">Products</p>

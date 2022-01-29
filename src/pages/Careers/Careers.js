@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../../components/Navbar/Navbar';
-import Banner2 from '../../components/Banner2/Banner2';
+import CareersBanner from '../../components/Banner/CareersBanner/CareersBanner';
 import careerbanner from '../../images/careerbanner.svg';
 import './Careers.css';
 import Footer from '../../components/Footer/Footer';
@@ -14,7 +14,7 @@ function Careers() {
   return(
     <div className='careers'>
         <Navbar/>
-        <Banner2 
+        <CareersBanner
         bannerImage={careerbanner} buttonColor="#000000" 
         heading="An exciting statement to lit a curiosity of working with us "
         vector={vector}
