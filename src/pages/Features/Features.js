@@ -36,7 +36,6 @@ function Features() {
             </div>
           </Slide>
           
-
           <div className='features__sectionDashboard'>
             <FeaturesDashboardReverse heading="Heading about Quality Metric 1"/>
           </div>

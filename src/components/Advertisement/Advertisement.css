@@ -27,10 +27,11 @@
     font-size: 15px;
     font-weight: 500;
     margin-top: 35px;
-    transition: filter 0.2s;
+    transition: transform 0.2s;
 }
 .advertisement__description > button:hover{
     filter: opacity(0.9);
+    transform: scale(1.05);
 }
 .advertisement > img{
     width: 270px;
