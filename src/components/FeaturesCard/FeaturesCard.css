@@ -5,7 +5,7 @@
     border-radius: 9px;
 }
 .featuresCard > img{
-    width: 100px;
+    height: 85px;
     object-fit: contain;
     margin-bottom: 13px;
 }

@@ -16,11 +16,17 @@ import KnowledgeBase from './pages/KnowledgeBase/KnowledgeBase';
 import FAQs from './pages/FAQs/FAQs';
 import Features from './pages/Features/Features';
 import Articles from './pages/Articles/Articles';
+import Cx from './pages/Cx/Cx';
+import Ex from './pages/Ex/Ex';
+import Ox from './pages/Ox/Ox';
 
 function App() {
   return (
     <div className="App">
       <Routes>
+        <Route path="/operational-experience" element={<Ox/>}/>
+        <Route path="/employee-experience" element={<Ex/>}/>
+        <Route path="/customer-experience" element={<Cx/>}/>
         <Route path="/servicepack/knowledgebase/gettingstarted" element={<Articles/>}/>
         <Route path="/servicepack/faqs" element={<FAQs/>}/>
         <Route path="/servicepack/knowledgebase" element={<KnowledgeBase/>}/>

@@ -1,0 +1,22 @@
+.ox__cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 135px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ox__cards > *{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.ox__features1{
+    margin-top: 90px;
+}
+@media screen and (min-width: 1300px) {
+    .ox__cards  > *{
+        margin-right: 18px;
+    }
+}

@@ -105,19 +105,19 @@ function Navbar() {
                             <ArrowDropDownIcon/>
                             {openSolutions && 
                                     <div className='navbar__dropdownProducts'>
-                                        <Link to="/solutions">
+                                        <Link to="/customer-experience">
                                             <div className='navbar__menuItem'>
                                                 <img src={customer} alt="icon"/>
                                                 <p>Customer Experience (CX)</p>
                                             </div>
                                         </Link>
-                                        <Link to="/solutions">
+                                        <Link to="/employee-experience">
                                             <div className='navbar__menuItem'>
                                                 <img src={employee} alt="icon"/>
                                                 <p>Employee Experience (EX)</p>
                                             </div>
                                         </Link>
-                                        <Link to="/solutions">
+                                        <Link to="/operational-experience">
                                             <div className='navbar__menuItem'>
                                                 <img src={operation} alt="icon"/>
                                                 <p>Operational Experience (OX)</p>
