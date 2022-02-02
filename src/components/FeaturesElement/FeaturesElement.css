@@ -14,7 +14,8 @@
     object-fit: contain;
 }
 .featuresElement > img{
-    height: 300px;
+    height: 285px;
+    max-width: 391px;
     object-fit: contain;
     z-index: 10;
     margin-right: 20px;
@@ -71,6 +72,7 @@
 }
 @media screen and (min-width:1600px) {
     .featuresElement > img{
+        max-width: unset;
         width: 550px;
         height: unset;
     }

@@ -5,11 +5,11 @@ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import MenuIcon from '@mui/icons-material/Menu';
 import { Fade } from 'react-reveal';
 import { Link } from 'react-router-dom';
-import qwicon from '../../images/QualityWorks_Logo.svg';
-import smartbot from '../../images/SmartBot_Logo.svg';
-import voicedesk from '../../images/VoiceDesk_Logo.svg';
-import textlens from '../../images/TextLens_Logo.svg';
-import coco from '../../images/CoCo.svg';
+import qwicon from '../../images/Quality_Works_Logo.svg';
+import smartbot from '../../images/Smart_Bot_Logo.svg';
+import voicedesk from '../../images/Voice_Desk_Logo.svg';
+import textlens from '../../images/Text_Lens_Logo.svg';
+import coco from '../../images/CoCo_Bot_Logo.svg';
 
 
 function Navbar() {
@@ -89,7 +89,7 @@ function Navbar() {
                                                 <img src={qwicon} alt="icon"/>
                                                 <div className='navbar__itemDesc'>
                                                     <p>Quality Works</p>
-                                                    <p>Call Quality Monitering</p>
+                                                    <p>Call Complaince Automation</p>
                                                 </div>
                                             </div>
                                         </Link>
@@ -98,7 +98,7 @@ function Navbar() {
                                                 <img src={smartbot} alt="icon"/>
                                                 <div className='navbar__itemDesc'>
                                                     <p>Smart Bot</p>
-                                                    <p>AI Robot</p>
+                                                    <p>Conversational AI Bot</p>
                                                 </div>
                                             </div>
                                         </Link>
@@ -107,7 +107,7 @@ function Navbar() {
                                                 <img src={voicedesk} alt="icon"/>
                                                 <div className='navbar__itemDesc'>
                                                     <p>Voice Desk</p>
-                                                    <p>Virtual Voice Assistants</p>
+                                                    <p>Virtual Voice Bots</p>
                                                 </div>
                                             </div>
                                         </Link>
@@ -116,7 +116,7 @@ function Navbar() {
                                                 <img src={textlens} alt="icon"/>
                                                 <div className='navbar__itemDesc'>
                                                     <p>Text Lens</p>
-                                                    <p>Text Lens</p>
+                                                    <p>Review Analytics Platform</p>
                                                 </div>
                                             </div>
                                         </Link>
@@ -125,7 +125,7 @@ function Navbar() {
                                                 <img src={coco} alt="icon"/>
                                                 <div className='navbar__itemDesc'>
                                                     <p>CoCo</p>
-                                                    <p>Coco</p>
+                                                    <p>Contactless Biometric Bot</p>
                                                 </div>
                                             </div>
                                         </Link>
@@ -225,31 +225,46 @@ function Navbar() {
                                         <Link to="/qualityworks">
                                             <div className='navbar__menuItem'>
                                                 <img src={qwicon} alt="icon"/>
-                                                <p>Quality Works</p>
+                                                <div className='navbar__itemDesc'>
+                                                    <p>Quality Works</p>
+                                                    <p>Call Complaince Automation</p>
+                                                </div>
                                             </div>
                                         </Link>
                                         <Link to="/smartbot">
                                             <div className='navbar__menuItem'>
                                                 <img src={smartbot} alt="icon"/>
-                                                <p>Smart Bot</p>
+                                                <div className='navbar__itemDesc'>
+                                                    <p>Smart Bot</p>
+                                                    <p>Conversational AI Bot</p>
+                                                </div>
                                             </div>
                                         </Link>
                                         <Link to="/voicedesk">
                                             <div className='navbar__menuItem'>
                                                 <img src={voicedesk} alt="icon"/>
-                                                <p>Voice Desk</p>
+                                                <div className='navbar__itemDesc'>
+                                                    <p>Voice Desk</p>
+                                                    <p>Virtual Voice Bots</p>
+                                                </div>
                                             </div>
                                         </Link>
                                         <Link to="/textlens">
                                             <div className='navbar__menuItem'>
                                                 <img src={textlens} alt="icon"/>
-                                                <p>Text Lens</p>
+                                                <div className='navbar__itemDesc'>
+                                                    <p>Text Lens</p>
+                                                    <p>Review Analytics Platform</p>
+                                                </div>
                                             </div>
                                         </Link>
                                         <Link to="/">
                                             <div className='navbar__menuItem'>
                                                 <img src={textlens} alt="icon"/>
-                                                <p>Coco</p>
+                                                <div className='navbar__itemDesc'>
+                                                    <p>CoCo</p>
+                                                    <p>Contactless Biometric Bot</p>
+                                                </div>
                                             </div>
                                         </Link>
                                     </div>

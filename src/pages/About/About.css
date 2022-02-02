@@ -11,11 +11,11 @@
     margin-top: 90px;
 }
 .about__sectionOne > img{
-    height: 300px;
+    height: 290px;
     object-fit: contain;
 }
 .about__sectionTwo > img{
-    height: 300px;
+    height: 275px;
     object-fit: contain;
 }
 .about__sectionOneHeading > h1{

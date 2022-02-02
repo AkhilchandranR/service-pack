@@ -48,7 +48,7 @@
 }
 
 .featuresBanner__image > img{
-    width: 475px;
+    width: 455px;
     object-fit: contain;
 }
 
@@ -64,7 +64,7 @@
         line-height: 60px;
     }
     .featuresBanner__image > img{
-        width: 440px;
+        width: 430px;
     }
     .featuresBanner__textContent > h1 > img{
         bottom: 15px;
