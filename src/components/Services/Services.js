@@ -29,25 +29,25 @@ function Services() {
                 <div className="services__container">
                     <div className={`services__text ${(selected === 1) ? "active":""}`}>
                         <p onClick={()=>setSelected(1)}>Quality Monitering</p>
-                        <p>>></p>
                     </div>
                     <div className={`services__text ${(selected === 2) ? "active":""}`}>
                         <p onClick={()=>setSelected(2)}>Virtual Assistants</p>
-                        <p>>></p>
                     </div>
                     <div className={`services__text ${(selected === 3) ? "active":""}`}>
                         <p onClick={()=>setSelected(3)}>Conersational AI</p>
-                        <p>>></p>
                     </div>
                     <div className={`services__text ${(selected === 4) ? "active":""}`}>
                         <p onClick={()=>setSelected(4)}>Review Analytics</p>
+                    </div>
+                    <div className={`services__text ${(selected === 5) ? "active":""}`}>
+                        <p onClick={()=>setSelected(5)}>Biometric Bot</p>
                     </div>
                 </div>
             </Slide>
 
         </div>
         {(selected === 1) &&
-            <QmcallDemo illImage={calldemo}/>
+        <QmcallDemo illImage={calldemo}/>
         }
         {(selected === 2) && 
         <CallDemo illImage={banner3}/>
@@ -57,6 +57,9 @@ function Services() {
         }
         {(selected === 4) && 
         <CallDemo illImage={banner5}/>
+        }
+        {(selected === 5) && 
+        <QmcallDemo illImage={calldemo}/>
         }
         </>
     )

@@ -8,7 +8,7 @@ function Stats({ colour1,symbol1,amount1,caption1,
     colour4,symbol4,amount4,caption4 }) {
 
     const ref = React.useRef();
-    const onScreen = useOnScreen(ref,"-100px");
+    const onScreen = useOnScreen(ref,"-200px");
     
     function useOnScreen(ref, rootMargin = "0px") {
         const [isIntersecting, setIntersecting] = useState(false);
