@@ -23,7 +23,7 @@ function About() {
 
             <div className='container'>
                 <div className='about__sectionOne'>
-                    <img src={about3} alt="who we are"/>
+                    <img src={about2} alt="who we are"/>
                     <div className='about__sectionOneHeading'>
                         <h1>
                             Who we are ? Who we are ? Who we are ?
@@ -44,7 +44,7 @@ function About() {
                          well and nurture them across all channels</p>
                         <button>Let's Talk</button>
                     </div>
-                    <img src={about2} alt='what we do'/>
+                    <img src={about3} alt='what we do'/>
                 </div>                    
             </div>
             <Advertisement buttoncolor="black" imageLeft={adleft} imageRight={adright}/>

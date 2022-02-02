@@ -14,15 +14,15 @@
     object-fit: contain;
 }
 .featuresElementRev > img{
-    width: 450px;
+    height: 300px;
     object-fit: contain;
     z-index: 10;
     margin-right: 20px;
 }
 .featuresElementRev__content > h1{
-    font-size: 44px !important;
+    font-size: 46px !important;
     width: 380px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     position: relative;
 }
 .featuresElementRev__content > h1 > img{
@@ -34,6 +34,7 @@
 }
 .featuresElementRev__subCaption{
     width: 370px;
+    margin-bottom: 15px;
 }
 .featuresElementRev__content > button{
     margin-top: 15px;
@@ -50,11 +51,6 @@
 .featuresElementRev__content > button:hover{
     filter: opacity(0.9);
 }
-@media screen and (max-width: 1192px) {
-    .featuresElementRev > img{
-        width: 370px;
-    }
-}
 @media screen and (max-width:991px) {
     .featuresElementRev{
         flex-direction: column-reverse;
@@ -62,7 +58,7 @@
         justify-content: unset;
     }
     .featuresElementRev > img {
-        width: 80vw;
+        max-width: 80vw;
         margin-right: unset;
         margin-top: 20px;
     }
@@ -76,6 +72,7 @@
 @media screen and (min-width:1600px) {
     .featuresElementRev > img{
         width: 550px;
+        height: unset;
     }
     .featuresElementRev__content > h1{
         width: 600px;

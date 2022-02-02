@@ -2,20 +2,20 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 60px;
+    margin-top: 110px;
 }
 .about__sectionTwo{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 70px;
+    margin-top: 90px;
 }
 .about__sectionOne > img{
-    width: 500px;
+    height: 300px;
     object-fit: contain;
 }
 .about__sectionTwo > img{
-    width: 500px;
+    height: 300px;
     object-fit: contain;
 }
 .about__sectionOneHeading > h1{
@@ -44,15 +44,18 @@
 }
 
 @media screen and (max-width:1100px) {
-    .about__sectionOne > img , .about__sectionTwo > img{
-        width: 400px;
+    .about__sectionOne > img{
+        margin-right: 20px;
+    }
+    .about__sectionTwo > img{
+        margin-left: 20px;
     }
     .about__sectionOneHeading > h1{
         font-size: 30px !important;
-        width: 400px;
+        width: unset;
     }
     .aboutOne__subCaption{
-        width: 300px;
+        width: unset;
     }
 }
 @media screen and (max-width:900px) {
@@ -63,9 +66,25 @@
         flex-direction: column-reverse;
     }
     .about__sectionOne > img , .about__sectionTwo > img{
-        width: 90vw;
+        max-width: 90vw;
     } 
+    .about__sectionOne > img{
+        margin-right: unset;
+    }
+    .about__sectionTwo > img{
+        margin-left: unset;
+    }
     .about__sectionOneHeading > h1, .aboutOne__subCaption{
         width: unset;
+    }
+}
+@media screen and (min-width: 1600px) {
+    .about__sectionTwo > img , .about__sectionOne > img{
+        width: 600px;
+        height: unset;
+    }
+    .about__sectionOneHeading > h1{
+        font-size: 55px;
+        width: 500px;
     }
 }

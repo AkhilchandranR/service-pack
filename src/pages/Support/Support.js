@@ -1,6 +1,6 @@
 import React,{ useState } from 'react';
 import Navbar from '../../components/Navbar/Navbar';
-import Banner from '../../components/Banner/ContactBanner/ContactBanner';
+import Banner from '../../components/Banner/SupportBanner/SupportBanner';
 import supportBanner from '../../images/supportbanner.svg'
 import LightbulbOutlinedIcon from '@mui/icons-material/LightbulbOutlined';
 import ContactSupportSharpIcon from '@mui/icons-material/ContactSupportSharp';

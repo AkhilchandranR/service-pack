@@ -70,12 +70,25 @@
     filter: opacity(0.6);
 }
 .navbar__menuItem > img{
-    width: 25px;
+    width: 34px;
     object-fit: contain;
     margin-right: 10px;
+    border-radius: 50%;
 }
 .navbar__menuItem > p{
     white-space: nowrap;
+    font-weight: 500;
+}
+.navbar__itemDesc > p:first-of-type{
+    white-space: nowrap;
+    font-weight: 500;
+}
+.navbar__itemDesc > p:last-of-type{
+    white-space: nowrap;
+    font-weight: 400;
+    font-size: 0.8em;
+    color: grey;
+    margin-top: 3px;
 }
 .navbar__link:hover{
     filter: brightness(1.2);

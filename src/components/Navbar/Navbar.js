@@ -1,20 +1,20 @@
-import React,{ useState } from 'react';
+import React,{ useState,useEffect,useRef } from 'react';
 import './Navbar.css';
 import Logo from '../../images/logo.png';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import MenuIcon from '@mui/icons-material/Menu';
 import { Fade } from 'react-reveal';
 import { Link } from 'react-router-dom';
-import qwicon from '../../images/qwicon.png';
-import smartbot from '../../images/smartbot.png';
-import voicedesk from '../../images/voice.png';
-import textlens from '../../images/lens.png';
-import customer from '../../images/customer.png';
-import operation from '../../images/operational.png';
-import employee from '../../images/employee.png'; 
+import qwicon from '../../images/QualityWorks_Logo.svg';
+import smartbot from '../../images/SmartBot_Logo.svg';
+import voicedesk from '../../images/VoiceDesk_Logo.svg';
+import textlens from '../../images/TextLens_Logo.svg';
+import coco from '../../images/CoCo.svg';
 
 
 function Navbar() {
+    const menuRef = useRef();
+
     const[openDropDown,setOpenDropDown] = useState(false);
     const[openProducts,setOpenProducts] = useState(false);
     const[openSolutions,setOpenSolutions] = useState(false);
@@ -26,6 +26,23 @@ function Navbar() {
     const[opensolutions,setOpensolutions] = useState(false);
     const[opencompany,setOpencompany] = useState(false);
     const[openresource,setOpenresource] = useState(false);
+
+    //click outside to close menu
+    useEffect(() => {
+        const closeDropDowns = (e) =>{
+            if(e.path[2].className !== 'navbar__navLinks'){
+                setOpenProducts(false);
+                setOpenResources(false);
+                setOpenSolutions(false);
+                setOpenCompany(false);
+            }
+        }
+        document.body.addEventListener('click', closeDropDowns);
+
+        //unsubscribe the effect...
+        return ()=> document.body.removeEventListener('click',closeDropDowns)
+    }, []);
+    
 
     const handleProducts = () =>{
         setOpenProducts(!openProducts);
@@ -61,7 +78,7 @@ function Navbar() {
                             <img src={Logo} alt="service-pack-ai"/>
                         </Link>
                     </div>
-                    <ul className="navbar__navLinks">
+                    <ul className="navbar__navLinks" ref={menuRef}>
                         <div className="navbar__link" onClick={handleProducts}>
                             <li>Products</li>
                             <ArrowDropDownIcon/>
@@ -70,31 +87,46 @@ function Navbar() {
                                         <Link to="/qualityworks">
                                             <div className='navbar__menuItem'>
                                                 <img src={qwicon} alt="icon"/>
-                                                <p>Quality Works</p>
+                                                <div className='navbar__itemDesc'>
+                                                    <p>Quality Works</p>
+                                                    <p>Call Quality Monitering</p>
+                                                </div>
                                             </div>
                                         </Link>
                                         <Link to="/smartbot">
                                             <div className='navbar__menuItem'>
                                                 <img src={smartbot} alt="icon"/>
-                                                <p>Smart Bot</p>
+                                                <div className='navbar__itemDesc'>
+                                                    <p>Smart Bot</p>
+                                                    <p>AI Robot</p>
+                                                </div>
                                             </div>
                                         </Link>
                                         <Link to="/voicedesk">
                                             <div className='navbar__menuItem'>
                                                 <img src={voicedesk} alt="icon"/>
-                                                <p>Voice Desk</p>
+                                                <div className='navbar__itemDesc'>
+                                                    <p>Voice Desk</p>
+                                                    <p>Virtual Voice Assistants</p>
+                                                </div>
                                             </div>
                                         </Link>
                                         <Link to="/textlens">
                                             <div className='navbar__menuItem'>
                                                 <img src={textlens} alt="icon"/>
-                                                <p>Text Lens</p>
+                                                <div className='navbar__itemDesc'>
+                                                    <p>Text Lens</p>
+                                                    <p>Text Lens</p>
+                                                </div>
                                             </div>
                                         </Link>
                                         <Link to="/">
                                             <div className='navbar__menuItem'>
-                                                <img src={textlens} alt="icon"/>
-                                                <p>Coco</p>
+                                                <img src={coco} alt="icon"/>
+                                                <div className='navbar__itemDesc'>
+                                                    <p>CoCo</p>
+                                                    <p>Coco</p>
+                                                </div>
                                             </div>
                                         </Link>
                                     </div>
@@ -107,19 +139,16 @@ function Navbar() {
                                     <div className='navbar__dropdownProducts'>
                                         <Link to="/customer-experience">
                                             <div className='navbar__menuItem'>
-                                                <img src={customer} alt="icon"/>
                                                 <p>Customer Experience (CX)</p>
                                             </div>
                                         </Link>
                                         <Link to="/employee-experience">
                                             <div className='navbar__menuItem'>
-                                                <img src={employee} alt="icon"/>
                                                 <p>Employee Experience (EX)</p>
                                             </div>
                                         </Link>
                                         <Link to="/operational-experience">
                                             <div className='navbar__menuItem'>
-                                                <img src={operation} alt="icon"/>
                                                 <p>Operational Experience (OX)</p>
                                             </div>
                                         </Link>
@@ -236,19 +265,16 @@ function Navbar() {
                                     <div className='navbar__dropdownProductsMobile'>
                                         <Link to="/solutions">
                                             <div className='navbar__menuItem'>
-                                                <img src={customer} alt="icon"/>
                                                 <p>Customer Experience(CX)</p>
                                             </div>
                                         </Link>
                                         <Link to="/solutions">
                                             <div className='navbar__menuItem'>
-                                                <img src={employee} alt="icon"/>
                                                 <p>Employee Experience(EX)</p>
                                             </div>
                                         </Link>
                                         <Link to="/solutions">
                                             <div className='navbar__menuItem'>
-                                                <img src={operation} alt="icon"/>
                                                 <p>Operational Experience</p>
                                             </div>
                                         </Link>
