@@ -4,6 +4,7 @@ import Logo from '../../images/logo.png';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import MenuIcon from '@mui/icons-material/Menu';
 import { Fade } from 'react-reveal';
+import { Slide } from 'react-reveal';
 import { Link } from 'react-router-dom';
 import qwicon from '../../images/Quality_Works_Logo.svg';
 import smartbot from '../../images/Smart_Bot_Logo.svg';
@@ -220,7 +221,8 @@ function Navbar() {
                             <div className="navbar__dropLink" onClick={()=>setOpenproducts(!openproducts)}>
                                 <li>Products</li>
                                 <ArrowDropDownIcon/>
-                                {openproducts && <Fade>
+                            </div>
+                            {openproducts && <Slide>
                                     <div className='navbar__dropdownProductsMobile'>
                                         <Link to="/qualityworks">
                                             <div className='navbar__menuItem'>
@@ -260,7 +262,7 @@ function Navbar() {
                                         </Link>
                                         <Link to="/">
                                             <div className='navbar__menuItem'>
-                                                <img src={textlens} alt="icon"/>
+                                                <img src={coco} alt="icon"/>
                                                 <div className='navbar__itemDesc'>
                                                     <p>CoCo</p>
                                                     <p>Contactless Biometric Bot</p>
@@ -268,14 +270,13 @@ function Navbar() {
                                             </div>
                                         </Link>
                                     </div>
-                                </Fade> }
-                                
-                            </div>
+                                </Slide> }
 
                             <div className="navbar__dropLink" onClick={()=>setOpensolutions(!opensolutions)}>
                                 <li>Features</li>
                                 <ArrowDropDownIcon/>
-                                {opensolutions && 
+                            </div>
+                            {opensolutions && 
                                     <Fade>
                                     <div className='navbar__dropdownProductsMobile'>
                                         <Link to="/solutions">
@@ -296,16 +297,18 @@ function Navbar() {
                                     </div>
                                 </Fade>
                             }
-                            </div>
+
                             <div className="navbar__dropLink">
                                 <Link to="/platform">
                                     <li>Platform</li>
                                 </Link>
                             </div>
+
                             <div className="navbar__dropLink" onClick={()=>setOpencompany(!opencompany)}>
                                 <li>Company</li>
                                 <ArrowDropDownIcon/>
-                                {opencompany && 
+                            </div>
+                            {opencompany && 
                                     <Fade>
                                     <div className='navbar__dropdownProductsMobile'>
                                         <Link to="/about">
@@ -331,11 +334,12 @@ function Navbar() {
                                     </div>
                                 </Fade>
                             }
-                            </div>
+
                             <div className="navbar__dropLink" onClick={()=>setOpenresource(!openresource)}>
                                 <li>Resources</li>
                                 <ArrowDropDownIcon/>
-                                {openresource && 
+                            </div>
+                            {openresource && 
                                     <Fade>
                                     <div className='navbar__dropdownProductsMobile'>
                                         <Link to="/blog">
@@ -351,7 +355,7 @@ function Navbar() {
                                     </div>
                                 </Fade>
                             }
-                            </div>
+
                             <button className="navbar__dropDemo">Get a Demo</button>
                         </div> 
                         </Fade>

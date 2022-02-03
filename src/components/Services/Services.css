@@ -40,9 +40,10 @@
 .services__text{
     margin-right: 15px;
     border: 1px solid lightgray;
-    padding: 9px 13px;
+    padding: 8px 10px;
     border-radius: 20px;
     margin-top: 10px;
+    text-align: center;
 }
 .services__text > p:first-of-type{
     font-size: 1em;
@@ -74,6 +75,7 @@
         bottom: 70px;
     }
 }
+
 @media screen and (max-width:991px) {
     .services > h1{
         font-size: 30px !important;
