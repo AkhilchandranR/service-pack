@@ -1,3 +1,14 @@
+.homePage__banner{
+    position: relative;
+}
+.homebg{
+    position: absolute;
+    right: 10%;
+    top: 0;
+    height: 440px;
+    object-fit: contain;
+}
+
 .homepage__customers{
     position: relative;
 }
@@ -123,6 +134,28 @@
 .s_sixteen{
     bottom: 100px;
     left: 100px;
+}
+
+@media screen and (max-width:1295px) {
+    .homebg{
+        height: 375px;
+    }
+}
+@media screen and (max-width:1180px) {
+    .homebg{
+        height: 333px;
+    }
+}
+@media screen and (max-width:1048px) {
+    .homebg{
+        height: 294px;
+    }
+}
+@media screen and (max-width:991px){
+    .homebg{
+        height: unset;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width:880px) {

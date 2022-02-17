@@ -14,6 +14,7 @@ import design from '../../images/design.png';
 import vector1 from '../../images/Vector01.svg';
 import adleft from '../../images/adleft.svg';
 import adright from '../../images/adrightblue.svg';
+import bg from '../../images/bannerbackground.svg';
 import SignIn from '../../components/SigninModal/SignIn';
 
 function HomePage() {
@@ -21,10 +22,13 @@ function HomePage() {
         <div className="homePage">
             <Navbar/>
 
-            <Banner 
-            bannerImage={Homebanner} buttonColor="#000000" 
-            vector={vector1} heading="Empowering Customer Experience with Artificial Intelligence ."
-            caption="────  CX to the power of AI"/>
+            <div className="homePage__banner">
+                <img src={bg} alt="" className="homebg"/>
+                <Banner 
+                bannerImage={Homebanner} buttonColor="#000000" 
+                vector={vector1} heading="Empowering Customer Experience with Artificial Intelligence ."
+                caption="────  CX to the power of AI"/>
+            </div>
 
             <div className="homepage__customers">
                 <div className="dots yellow c_one"></div>

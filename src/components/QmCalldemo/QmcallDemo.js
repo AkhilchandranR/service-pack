@@ -4,7 +4,7 @@ import design from '../../images/design.png';
 
 function QmCallDemo({ illImage }) {
     return (
-        <div className="container">
+        <div className="container-sm">
             <div className="callDemo">
                 <div className="QmcallDemo__image">
                     <img src={illImage} alt="DemoCall"/>

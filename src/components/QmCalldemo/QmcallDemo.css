@@ -6,6 +6,7 @@
 }
 .callDemo__description{
     position: relative;
+    margin-left: 25px;
 }
 .callDemo__description > h1{
     font-size: 35px !important;
@@ -47,7 +48,8 @@
     z-index: -1;
 }
 .QmcallDemo__image > img{
-    width: 430px;
+    height: 286px;
+    max-width: 355px;
     object-fit: contain;
 }
 
@@ -55,6 +57,8 @@
     .QmcallDemo__image > img{
         width: 500px;
         margin-right: 50px;
+        height: unset;
+        max-width: unset;
     }
     .callDemo__description > h1{
         font-size: 30px !important;
@@ -64,18 +68,11 @@
     }
 }
 @media screen and (max-width:1190px) {
-    .QmcallDemo__image >img{
-        width: 360px;
-        margin-right: 20px;
-    }
     .callDemo__thickLine{
         display: none;
     }
 }
  @media screen and (max-width:991px) {
-     .QmcallDemo__image > img{
-         width: 350px;
-     }
      .callDemo__description > h1{
          font-size: 25px !important;
      }

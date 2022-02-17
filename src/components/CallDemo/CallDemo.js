@@ -4,7 +4,7 @@ import design from '../../images/design.png';
 
 function CallDemo({ illImage }) {
     return (
-        <div className="container">
+        <div className="container-sm">
             <div className="callDemo">
                 <div className="callDemo__image">
                     <img src={illImage} alt="DemoCall"/>

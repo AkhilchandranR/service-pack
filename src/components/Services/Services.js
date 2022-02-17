@@ -51,10 +51,10 @@ function Services() {
         <QmcallDemo illImage={calldemo}/>
         }
         {(selected === 2) && 
-        <CallDemo illImage={banner3}/>
+        <CallDemo illImage={banner4}/>
         }
         {(selected === 3) && 
-        <CallDemo illImage={banner4}/>
+        <CallDemo illImage={banner3}/>
         }
         {(selected === 4) && 
         <CallDemo illImage={banner5}/>
