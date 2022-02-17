@@ -121,7 +121,7 @@ function Navbar() {
                                                 </div>
                                             </div>
                                         </Link>
-                                        <Link to="/">
+                                        <Link to="/coco">
                                             <div className='navbar__menuItem'>
                                                 <img src={coco} alt="icon"/>
                                                 <div className='navbar__itemDesc'>
@@ -260,7 +260,7 @@ function Navbar() {
                                                 </div>
                                             </div>
                                         </Link>
-                                        <Link to="/">
+                                        <Link to="/coco">
                                             <div className='navbar__menuItem'>
                                                 <img src={coco} alt="icon"/>
                                                 <div className='navbar__itemDesc'>

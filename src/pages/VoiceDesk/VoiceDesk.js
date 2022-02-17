@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../../components/Navbar/Navbar';
-import Banner2 from '../../components/Banner2/Banner2';
+import Banner2 from '../../components/Banner/VdBanner/VdBanner';
 import Stats from '../../components/Stats/Stats';
 import DashboardSample from '../../components/DashboardSample/DashboardSample';
 import TrustedClients from '../../components/TrustedClients/TrustedClients';

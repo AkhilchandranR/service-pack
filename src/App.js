@@ -19,6 +19,7 @@ import Articles from './pages/Articles/Articles';
 import Cx from './pages/Cx/Cx';
 import Ex from './pages/Ex/Ex';
 import Ox from './pages/Ox/Ox';
+import Coco from './pages/Coco/Coco';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/blog" element={<Blog/>}/>
         <Route path="/platform" element={<Platform/>}/>
+        <Route path="/coco" element={<Coco/>}/>
         <Route path="/textlens" element={<Textlens/>}/>
         <Route path="/voicedesk" element={<VoiceDesk/>}/>
         <Route path="/smartbot" element={<Smartbot/>}/>

@@ -1,36 +1,35 @@
-.TlBanner{
+.cocoBanner{
     background-color: white;
 }
-.TlBanner__contents{
+.cocoBanner__contents{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 65px;
+    margin-top: 30px;
     position: relative;
 }
-.TlBanner__textContent{
+.cocoBanner__textContent{
     display: flex;
     flex-direction: column;
     z-index: 10;
     resize: both;
 }
-.TlBanner__textContent > h1{
+.cocoBanner__textContent > h1{
     font-size: 47px;
     position: relative;
     line-height: 68px;
-    width: 600px;
 }
-.TlBanner__textContent > h1 > img{
+.cocoBanner__textContent > h1 > img{
     position: absolute;
     bottom: 6px;
 }
-.TlBanner__subCaption{
+.cocoBanner__subCaption{
     width: 400px;
     line-height: 24px;
     margin-top: 15px;
 }
-.TlBanner__textContent > button{
-    margin-top: 15px;
+.cocoBanner__textContent > button{
+    margin-top: 25px;
     color: white;
     border: none;
     width: 220px;
@@ -40,74 +39,75 @@
     font-weight: 500;
     transition: transform 0.2s;
 }
-.TlBanner__textContent > button:hover{
+.cocoBanner__textContent > button:hover{
     filter: opacity(0.9);
     transform: scale(1.05);
 }
 
-.TlBanner__image > img{
-    width: 461px;
+.cocoBanner__image > img{
+    width: 450px;
     object-fit: contain;
 }
-.TlBanner__vector{
+
+.cocoBanner__vector{
     position: absolute;
-    top: -58px;
-    right: 50px;
+    top: -60px;
+    right: 10px;
 }
 
 @media screen and (max-width:1396px) {
-    .TlBanner__textContent > h1{
+    .cocoBanner__textContent > h1{
         font-size: 40px;
         line-height: 65px;
     }
 }
-@media screen and (max-width:1276px) {
-    .TlBanner__image > img{
-        width: 383px;
-    }
-}
 @media screen and (max-width:1185px) {
-    .TlBanner__textContent > h1{
+    .cocoBanner__textContent > h1{
         font-size: 2.5em !important;
         line-height: 60px;
-        width:unset;
+    }
+    .cocoBanner__image > img{
+        width: 440px;
     }
 }
-@media screen and (max-width: 1135px) {
-    .TlBanner__textContent > h1{
+@media screen and (max-width: 1102px) {
+    .cocoBanner__textContent > h1{
         font-size: 2.3em !important;
         line-height: 47px;
     }
 }
+@media screen and (max-width: 1048px) {
+    .cocoBanner__image > img{
+        width: 400px;
+    }
+}
 @media screen and (max-width: 991px) {
-    .TlBanner__contents{
+    .cocoBanner__contents{
         flex-direction: column-reverse;
     }
-    .TlBanner__subCaption{
+    .cocoBanner__subCaption{
         width: unset;
     }
-    .TlBanner__vector{
+    .cocoBanner__vector{
         display: none;
     }
-    .TlBanner__image > img{
+    .cocoBanner__image > img{
         width: 100%;
     }
 }
 @media screen and (max-width: 500px) {
-    .TlBanner__textContent > h1{
+    .cocoBanner__textContent > h1{
         font-size: 2.1em !important;
         line-height: unset;
     }
 }
 @media screen and (min-width:1600px) {
-    .TlBanner__image > img{
+    .cocoBanner__image > img{
         width: 500px;
     }
-    .TlBanner__vector{
+    .cocoBanner__vector{
         width: 100%;
-        top: -220px;
-    }
-    .TlBanner__textContent > h1{
-        width: fit-content;
+        top: -280px;
+        right: 0px;
     }
 }

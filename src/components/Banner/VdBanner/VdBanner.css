@@ -1,35 +1,35 @@
-.TlBanner{
+.vdBanner{
     background-color: white;
 }
-.TlBanner__contents{
+.vdBanner__contents{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 65px;
+    margin-top: 45px;
     position: relative;
 }
-.TlBanner__textContent{
+.vdBanner__textContent{
     display: flex;
     flex-direction: column;
     z-index: 10;
     resize: both;
 }
-.TlBanner__textContent > h1{
+.vdBanner__textContent > h1{
     font-size: 47px;
     position: relative;
     line-height: 68px;
     width: 600px;
 }
-.TlBanner__textContent > h1 > img{
+.vdBanner__textContent > h1 > img{
     position: absolute;
     bottom: 6px;
 }
-.TlBanner__subCaption{
+.vdBanner__subCaption{
     width: 400px;
     line-height: 24px;
     margin-top: 15px;
 }
-.TlBanner__textContent > button{
+.vdBanner__textContent > button{
     margin-top: 15px;
     color: white;
     border: none;
@@ -40,74 +40,76 @@
     font-weight: 500;
     transition: transform 0.2s;
 }
-.TlBanner__textContent > button:hover{
+.vdBanner__textContent > button:hover{
     filter: opacity(0.9);
     transform: scale(1.05);
 }
 
-.TlBanner__image > img{
-    width: 461px;
+.vdBanner__image > img{
+    width: 470px;
     object-fit: contain;
 }
-.TlBanner__vector{
+
+.vdBanner__vector{
     position: absolute;
-    top: -58px;
+    top: -60px;
     right: 50px;
 }
-
 @media screen and (max-width:1396px) {
-    .TlBanner__textContent > h1{
+    .vdBanner__textContent > h1{
         font-size: 40px;
         line-height: 65px;
     }
 }
-@media screen and (max-width:1276px) {
-    .TlBanner__image > img{
-        width: 383px;
+@media screen and (max-width:1295px) {
+    .vdBanner__image > img{
+        width: 400px;
     }
 }
+
 @media screen and (max-width:1185px) {
-    .TlBanner__textContent > h1{
+    .vdBanner__textContent > h1{
         font-size: 2.5em !important;
         line-height: 60px;
         width:unset;
     }
 }
-@media screen and (max-width: 1135px) {
-    .TlBanner__textContent > h1{
+@media screen and (max-width: 1102px) {
+    .vdBanner__textContent > h1{
         font-size: 2.3em !important;
         line-height: 47px;
     }
 }
 @media screen and (max-width: 991px) {
-    .TlBanner__contents{
+    .vdBanner__contents{
         flex-direction: column-reverse;
     }
-    .TlBanner__subCaption{
+    .vdBanner__subCaption{
         width: unset;
     }
-    .TlBanner__vector{
+    .vdBanner__vector{
         display: none;
     }
-    .TlBanner__image > img{
+    .vdBanner__image > img{
         width: 100%;
     }
 }
 @media screen and (max-width: 500px) {
-    .TlBanner__textContent > h1{
+    .vdBanner__textContent > h1{
         font-size: 2.1em !important;
         line-height: unset;
     }
 }
 @media screen and (min-width:1600px) {
-    .TlBanner__image > img{
-        width: 500px;
+    .vdBanner__image > img{
+        width: 600px;
     }
-    .TlBanner__vector{
+    .vdBanner__vector{
         width: 100%;
         top: -220px;
     }
-    .TlBanner__textContent > h1{
+    .vdBanner__textContent > h1{
         width: fit-content;
     }
 }
+

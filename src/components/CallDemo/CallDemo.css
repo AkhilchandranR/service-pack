@@ -47,7 +47,7 @@
     z-index: -1;
 }
 .callDemo__image > img{
-    width: 360px;
+    width: 385px;
     object-fit: contain;
 }
 

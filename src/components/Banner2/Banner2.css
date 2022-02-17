@@ -63,8 +63,7 @@
 }
 @media screen and (max-width:1295px) {
     .banner2__image > img{
-        width: 400px;
-        padding-top: 20px;
+        width: 430px;
     }
 }
 
@@ -73,10 +72,6 @@
         font-size: 2.5em !important;
         line-height: 60px;
         width:unset;
-    }
-    .banner2__image > img{
-        width: 380px;
-        padding-top: 30px
     }
 }
 @media screen and (max-width: 1102px) {

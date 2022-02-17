@@ -3,11 +3,12 @@ import './Services.css';
 import design from '../../images/design.png';
 import CallDemo from '../../components/CallDemo/CallDemo';
 import QmcallDemo from '../../components/QmCalldemo/QmcallDemo';
-import calldemo from '../../images/calldemo.svg';
+import calldemo from '../../images/banner2.svg';
 
 import banner3 from '../../images/banner3.svg';
 import banner4 from '../../images/banner4.svg';
 import banner5 from '../../images/banner5.svg';
+import cocobanner from '../../images/cocobanner.svg';
 import Slide from 'react-reveal/Slide';
 
 function Services() {
@@ -59,7 +60,7 @@ function Services() {
         <CallDemo illImage={banner5}/>
         }
         {(selected === 5) && 
-        <QmcallDemo illImage={calldemo}/>
+        <QmcallDemo illImage={cocobanner}/>
         }
         </>
     )

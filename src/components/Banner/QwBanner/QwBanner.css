@@ -63,8 +63,7 @@
 }
 @media screen and (max-width:1295px) {
     .QwBanner__image > img{
-        width: 400px;
-        padding-top: 20px;
+        width: 389px;
     }
 }
 
@@ -74,10 +73,6 @@
         line-height: 60px;
         width:unset;
     }
-    .QwBanner__image > img{
-        width: 440px;
-        padding-top: 30px
-    }
 }
 @media screen and (max-width: 1102px) {
     .QwBanner__textContent > h1{
@@ -85,11 +80,7 @@
         line-height: 47px;
     }
 }
-@media screen and (max-width: 1048px) {
-    .QwBanner__image > img{
-        width: 410px;
-    }
-}
+
 @media screen and (max-width: 991px) {
     .QwBanner__contents{
         flex-direction: column-reverse;
