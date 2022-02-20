@@ -50,8 +50,8 @@
 
 .banner__vector{
     position: absolute;
-    top: -115px;
-    right: 175px;
+    top: -245px;
+    right: 185px;
 }
 
 @media screen and (max-width:1396px) {
@@ -108,9 +108,10 @@
         line-height: unset;
     }
 }
-@media screen and (min-width:1700px) {
+@media screen and (min-width:1600px) {
     .banner__vector{
         width: 100%;
-        top: -220px;
+        height: 964px;
+        top: -200px;
     }
 }
