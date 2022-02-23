@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 47px;
+    margin-top: 2.9375rem;
     position: relative;
 }
 .featuresBanner__textContent{
@@ -15,30 +15,30 @@
     resize: both;
 }
 .featuresBanner__textContent > h1{
-    font-size: 48px;
+    font-size: 3rem;
     position: relative;
-    line-height: 68px;
+    line-height: 4.25rem;
 }
 .featuresBanner__textContent > h1 > img{
     position: absolute;
-    bottom: 15px;
-    left: 110px;
-    width: 32px;
+    bottom: 0.9375rem;
+    left: 6.875rem;
+    width: 2rem;
     object-fit: contain;
 }
 .featuresBanner__subCaption{
-    width: 400px;
-    line-height: 24px;
-    margin-top: 15px;
+    width: 25rem;
+    line-height: 1.5rem;
+    margin-top: 0.9375rem;
 }
 .featuresBanner__textContent > button{
-    margin-top: 15px;
+    margin-top: 0.9375rem;
     color: white;
     border: none;
-    width: 220px;
-    padding: 12px;
-    border-radius: 4px;
-    font-size: 15px;
+    width: 13.75rem;
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    font-size: 0.9375rem;
     font-weight: 500;
     transition: transform 0.2s;
 }
@@ -48,28 +48,28 @@
 }
 
 .featuresBanner__image > img{
-    width: 455px;
+    width: 28.4375rem;
     object-fit: contain;
 }
 
 .featuresBanner__vector{
     position: absolute;
-    top: -120px;
+    top: -7.5rem;
     right: 0;
 }
 
 @media screen and (max-width:1185px) {
     .featuresBanner__textContent > h1{
         font-size: 2.5em !important;
-        line-height: 60px;
+        line-height: 3.75rem;
     }
     .featuresBanner__image > img{
-        width: 430px;
+        width: 26.875rem;
     }
     .featuresBanner__textContent > h1 > img{
-        bottom: 15px;
-        left: 110px;
-        width: 32px;
+        bottom: 0.9375rem;
+        left: 6.875rem;
+        width: 2rem;
         object-fit: contain;
     }
 
@@ -81,7 +81,7 @@
 }
 @media screen and (max-width: 1048px) {
     .featuresBanner__image > img{
-        width: 400px;
+        width: 25rem;
     }
 }
 @media screen and (max-width: 991px) {
@@ -102,7 +102,7 @@
     }
     .featuresBanner__textContent > h1 > img{
         left: unset;
-        padding-left: 10px;
+        padding-left: 0.625rem;
     }
 }
 @media screen and (max-width: 510px) {
@@ -114,22 +114,22 @@
         display: block;
     }
     .featuresBanner__textContent > h1 > img{
-        bottom: 10px;
+        bottom: 0.625rem;
     }
 }
 @media screen and (min-width:1600px) {
     .featuresBanner__image > img{
-        width: 600px;
+        width: 37.5rem;
     }
     .featuresBanner__textContent > h1{
-        font-size: 60px;
+        font-size: 3.75rem;
     }
     .featuresBanner__textContent > h1 > img{
-        left: 150px;
+        left: 9.375rem;
     }
     .featuresBanner__vector{
         width: 100%;
-        top: -280px;
-        right: 0px;
+        top: -17.5rem;
+        right: 0;
     }
 }

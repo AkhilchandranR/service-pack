@@ -1,32 +1,32 @@
 .advertisement{
     background-color: #f6f6f6;
-    padding: 20px;
-    margin-top: 100px;
+    padding: 1.25rem;
+    margin-top: 6.25rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-radius: 20px;
+    border-radius: 1.25rem;
 }
 .advertisement__description{
     text-align: center;
 }
 .advertisement__description > h1{
-    font-size: 35px !important;
+    font-size: 2.1875rem !important;
 }
 .advertisement__description > p{
     font-size: 1.1em ; 
-    width: 440px;
-    margin-top: 15px;
+    width: 27.5rem;
+    margin-top: 0.9375rem;
 }
 .advertisement__description > button{
     color: white;
     border: none;
-    width: 220px;
-    padding: 12px;
-    border-radius: 4px;
-    font-size: 15px;
+    width: 13.75rem;
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    font-size: 0.9375rem;
     font-weight: 500;
-    margin-top: 35px;
+    margin-top: 2.1875rem;
     transition: transform 0.2s;
 }
 .advertisement__description > button:hover{
@@ -34,12 +34,12 @@
     transform: scale(1.05);
 }
 .advertisement > img{
-    width: 270px;
+    width: 16.875rem;
     object-fit: contain;
 }
 @media screen and (max-width:1290px) {
     .advertisement__description > h1{
-        font-size: 28px !important;
+        font-size: 1.75rem !important;
     }
     .advertisement__description > p{
         font-size: 1em;
@@ -48,18 +48,18 @@
         font-size: 1em;
     }
     .advertisement > img{
-        width: 260px;
+        width: 16.25rem;
         object-fit: contain;
     } 
 }
 @media screen and (max-width:1240px) {
     .advertisement > img{
-        width: 170px;
+        width: 10.625rem;
     }
 }
 @media screen and (max-width:1100px) {
     .advertisement > img{
-        width: 150px;
+        width: 9.375rem;
     }
 }
 @media screen and (max-width:991px) {
@@ -68,11 +68,11 @@
         justify-content: center;
     }
     .advertisement > img{
-        width: 320px;
+        width: 20rem;
     }
     .advertisement__description{
-        margin-top: 15px;
-        margin-bottom: 15px;
+        margin-top: 0.9375rem;
+        margin-bottom: 0.9375rem;
     }
     .advertisement__description > p{
         width: unset;

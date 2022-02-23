@@ -4,7 +4,7 @@
 .banner__contents{
     display: flex;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 3.125rem;
     position: relative;
 }
 .banner__textContent{
@@ -14,27 +14,27 @@
     resize: both;
 }
 .banner__textContent > h1{
-    font-size: 47px;
+    font-size: 2.9375rem;
     position: relative;
-    line-height: 68px;
+    line-height: 4.25rem;
 }
 .banner__textContent > h1 > img{
     position: absolute;
-    bottom: 6px;
+    bottom: 0.375rem;
 }
 .banner__subCaption{
-    width: 400px;
-    line-height: 24px;
-    margin-top: 15px;
+    width: 25rem;
+    line-height: 1.5rem;
+    margin-top: 0.9375rem;
 }
 .banner__textContent > button{
-    margin-top: 15px;
+    margin-top: 0.9375rem;
     color: white;
     border: none;
-    width: 220px;
-    padding: 12px;
-    border-radius: 4px;
-    font-size: 15px;
+    width: 13.75rem;
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    font-size: 0.9375rem;
     font-weight: 500;
     transition: transform 0.2s;
 }
@@ -44,48 +44,48 @@
 }
 
 .banner__image > img{
-    width: 580px;
+    width: 36.25rem;
     object-fit: contain;
 }
 
 .banner__vector{
     position: absolute;
-    top: -245px;
-    right: 185px;
+    top: -15.3125rem;
+    right: 11.5625rem;
 }
 
 @media screen and (max-width:1396px) {
     .banner__textContent > h1{
-        font-size: 40px;
-        line-height: 65px;
+        font-size: 2.5rem;
+        line-height: 4.0675rem;
     }
 }
 @media screen and (max-width:1295px) {
     .banner__image > img{
-        width: 500px;
-        padding-top: 20px;
+        width: 31.25rem;
+        padding-top: 1.25rem;
     }
 }
 
 @media screen and (max-width:1185px) {
     .banner__textContent > h1{
         font-size: 2.5em !important;
-        line-height: 60px;
+        line-height: 3.75rem;
     }
     .banner__image > img{
-        width: 440px;
-        padding-top: 30px
+        width: 27.5rem;
+        padding-top: 1.875rem;
     }
 }
 @media screen and (max-width: 1102px) {
     .banner__textContent > h1{
         font-size: 2.3em !important;
-        line-height: 47px;
+        line-height: 2.9375rem;
     }
 }
 @media screen and (max-width: 1048px) {
     .banner__image > img{
-        width: 410px;
+        width: 25.625rem;
     }
 }
 @media screen and (max-width: 991px) {
