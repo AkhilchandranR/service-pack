@@ -3,58 +3,58 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-top: 25px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    margin-top: 1.56rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
     width: 100vw;
-    border-radius: 6px;
+    border-radius: 0.375rem;
 }
 .stats__heading{
-    font-size: 35px !important;
+    font-size: 2.1875rem !important;
     text-align: center;
 }
 .stats__statComponent{
     border-right: 1px solid black;
-    padding-right: 100px;
-    margin-left: 60px;
+    padding-right: 6.25rem;
+    margin-left: 3.75rem;
 }
 .stats__statComponent:last-of-type{
     border-right: none;
 }
 @media screen and (max-width:1100px) {
     .stats__statComponent{
-        padding-right: 50px;
-        margin-left: 20px;
+        padding-right: 3.125rem;
+        margin-left: 1.25rem;
         
     }
 }
 @media screen and (max-width:991px) {
     .stats__heading{
-        font-size: 30px !important;
+        font-size: 1.875rem !important;
     }
 }
 @media screen and (max-width:870px) {
     .stats__statComponent{
-        padding-right: 25px;
-        margin-left: 10px;
+        padding-right: 1.56rem;
+        margin-left: 0.675rem;
     }
 }
 
 @media screen and (max-width: 770px) {
     .stats{
         flex-direction: column;
-        padding: 30px;
-        margin-top: 20px;
+        padding: 1.875rem;
+        margin-top: 1.25rem;
 
     }   
     .stats > *{
-        margin-top: 30px;
+        margin-top: 1.875rem;
     }
     .stats__statComponent{
         border-right: none;
-        padding-right: 0px !important;
+        padding-right: 0rem !important;
         text-align: center;
-        margin-left: 0px;
+        margin-left: 0rem;
     }
 }
 
@@ -78,7 +78,7 @@
 }
 .statsComponent__cloud{
     position: absolute;
-    left: -20px;
+    left: -1.25rem;
     top: 0;
 }
 .statcomponent__number{
@@ -89,7 +89,7 @@
 
 @media screen and (max-width:1100px){
     .statComponent{
-        padding-left: 20px;
+        padding-left: 1.25rem;
     }
     .statComponent > h1{
         font-size: 2.5em;

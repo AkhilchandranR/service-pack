@@ -4,30 +4,30 @@
     align-items: center;
     justify-content: center;
     background-color: #f6f6f6;
-    padding: 15px;
-    border-radius: 4px;
+    padding: 0.9375rem;
+    border-radius: 0.25rem;
     position: relative;
-    padding-bottom: 30px;
+    padding-bottom: 1.875rem;
 }
 .productCard > img{
-    width: 330px;
+    width: 20.625rem;
     object-fit: cover;
 }
 .productCard__description{
-    width: 330px;
-    line-height: 20px;
-    margin-top: 10px;
+    width: 20.625rem;
+    line-height: 1.25rem;
+    margin-top: 0.625rem;
 }
 .productCard__heading{
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 .productCard > button{
     position: absolute;
-    bottom: -25px;
+    bottom: -1.5rem;
     color: white;
     border: none;
     border-radius: 100%;
-    padding: 10px 12px;
+    padding: 0.625rem 0.75rem;
     transition: filter 0.2s;
 }
 .productCard > button:hover{
@@ -36,11 +36,11 @@
 
 @media screen and (max-width:1374px) {
     .productCard > img{
-        width: 280px;
+        width: 17.5rem;
     }
     .productCard__description{
-        width: 280px;
-        line-height: 17px;
+        width: 17.5rem;
+        line-height: 1.0625rem;
     }
     .productCard__heading{
         font-size: 1.3em;
@@ -50,10 +50,10 @@
 
 @media screen and (max-width:1175px) {
     .productCard > img{
-        width: 260px;
+        width: 16.25rem;
     }
     .productCard__description{
-        width: 260px;
+        width: 16.25rem;
     }
     .productCard__heading{
         font-size: 1.2em;
@@ -61,20 +61,20 @@
 }
 @media screen and (max-width:1106px){
     .productCard > img{
-        width: 230px;
+        width: 14.375rem;
     }
     .productCard__description{
-        width: 230px;
+        width: 14.375rem;
     }
 
 }
 @media screen and (max-width: 964px) {
     .productCard > img{
-        width: 400px;
+        width: 25rem;
     }
     .productCard__description{
-        width: 400px;
-        line-height: 25px;
+        width: 25rem;
+        line-height: 1.5625rem;
     }
     .productCard__heading{
         font-size: 2em;

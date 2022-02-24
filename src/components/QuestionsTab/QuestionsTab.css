@@ -1,25 +1,25 @@
 .questionsTab{
-    width: 320px;
-    border-radius: 7px;
-    margin-bottom: 25px;
+    width: 20rem;
+    border-radius: 0.4375rem;
+    margin-bottom: 1.56rem;
 }
 .questionsTab__heading{
     background-color: black;
     color: white;
     font-weight: 600;
-    padding: 7px;
+    padding: 0.4375rem;
     border-radius: 7px 7px 0px 0px;
 }
 .questionsTab__body{
     border: 1px solid lightgray;
-    padding: 12px 10px;
+    padding: 0.75rem 0.625rem;
     border-radius: 0px 0px 7px 7px;
     height: max-content;
 }
 .questionsTab__body > p{
     color: grey;
     font-size: 0.9rem;
-    margin-top: 5px;
+    margin-top: 0.3125rem;
 }
 @media screen and (max-width:740px) {
     .questionsTab{

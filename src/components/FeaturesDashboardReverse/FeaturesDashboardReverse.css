@@ -10,22 +10,22 @@
 .featuresReverse__fill{
     position: absolute;
     background-image: linear-gradient(to right, #cfcfcf, #d8d8d8, #e2e2e2, #ebebeb, #f5f5f5);
-    width: 300px;
-    height: 265px;
+    width: 18.75rem;
+    height: 16.5625rem;
     right: -15%;
-    top: 160px;
-    border-radius: 19px;
+    top: 10rem;
+    border-radius: 1.1875rem;
 }
 .featuresDashboardReverse > img{
-    width: 520px;
+    width: 32.5rem;
     object-fit: contain;
     z-index: 10;
     box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
 .featuresDashboard__content > h1{
-    font-size: 36px !important;
-    width: 350px;
-    margin-bottom: 15px;
+    font-size: 2.25rem !important;
+    width: 21.875rem;
+    margin-bottom: 0.9375rem;
     position: relative;
 }
 .featuresDashboard__content > h1 > img{
@@ -33,17 +33,17 @@
     bottom: 0;
 }
 .features__subCaption{
-    width: 370px;
+    width: 23.125rem;
 }
 .featuresDashboard__content > button{
-    margin-top: 15px;
+    margin-top: 0.9375rem;
     color: white;
     background-color: black;
     border: none;
-    width: 220px;
-    padding: 12px;
-    border-radius: 4px;
-    font-size: 15px;
+    width: 13.75rem;
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    font-size: 0.9375rem;
     font-weight: 500;
     transition: filter 0.2s;
 }
@@ -52,10 +52,10 @@
 }
 @media screen and (max-width:1100px) {
     .featuresDashboardReverse > img{
-        width: 450px;
+        width: 28.125rem;
     }
     .featuresReverse__fill{
-        top: 100px;
+        top: 6.25rem;
     }
 }
 @media screen and (max-width:991px) {
@@ -67,7 +67,7 @@
     .featuresDashboardReverse > img {
         width: 80vw;
         margin-right: unset;
-        margin-top: 20px;
+        margin-top: 1.25rem;
     }
     .featuresDashboard__content > h1{
         width: unset;

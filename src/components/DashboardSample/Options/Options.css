@@ -2,35 +2,35 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    width: 470px;
+    width: 29.375rem;
 }
 .options__logo{
-    margin-right: 30px;
+    margin-right: 1.875rem;
 }
 .options__logo > img{
-    width: 55px;
+    width: 3.4375rem;
     object-fit: contain;
 }
 .options__description > h1{
-    font-size: 30px !important;
+    font-size: 1.875rem !important;
     font-weight: 550 !important;
-    margin-bottom: 13px;
+    margin-bottom: 0.8125rem;
 }
 .options__description > p{
     color: gray;
 }
 @media screen and (max-width: 1110px) {
     .options{
-        width: 370px;
+        width: 23.125rem;
     }
     .options__logo > img{
-        width: 50px;
+        width: 3.125rem;
     }
     .options__logo{
-        margin-right: 15px;
+        margin-right: 0.9375rem;
     }
     .options__description > h1{
-        font-size: 26px !important;
+        font-size: 1.625rem !important;
     }
     .options__description > p{
         font-size: 0.9rem;

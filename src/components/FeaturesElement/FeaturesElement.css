@@ -10,42 +10,42 @@
 .cloud{
     position: absolute;
     z-index: -1;
-    width: 600px;
+    width: 37.5rem;
     object-fit: contain;
 }
 .featuresElement > img{
-    height: 285px;
-    max-width: 391px;
+    height: 17.8125rem;
+    max-width: 24.4375rem;
     object-fit: contain;
     z-index: 10;
-    margin-right: 20px;
+    margin-right: 1.25rem;
 }
 .featuresElement__content > h1{
-    font-size: 46px !important;
-    width: 380px;
-    margin-bottom: 20px;
+    font-size: 2.875rem !important;
+    width: 23.75rem;
+    margin-bottom: 1.25rem;
     position: relative;
 }
 .featuresElement__content > h1 > img{
     position: absolute;
-    width: 35px;
+    width: 2.1875rem;
     object-fit: contain;
-    bottom: 10px;
-    padding-left: 10px;
+    bottom: 0.625rem;
+    padding-left: 0.625em;
 }
 .featuresElement__subCaption{
-    width: 370px;
-    margin-bottom: 15px;
+    width: 23.125rem;
+    margin-bottom: 0.9375rem;
 }
 .featuresElement__content > button{
-    margin-top: 15px;
+    margin-top: 0.9375rem;
     color: white;
     background-color: black;
     border: none;
-    width: 220px;
-    padding: 12px;
-    border-radius: 4px;
-    font-size: 15px;
+    width: 13.75rem;
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    font-size: 0.9375rem;
     font-weight: 500;
     transition: filter 0.2s;
 }
@@ -61,7 +61,7 @@
     .featuresElement > img {
         max-width: 80vw;
         margin-right: unset;
-        margin-top: 20px;
+        margin-top: 1.25rem;
     }
     .featuresElement__content > h1{
         width: unset;

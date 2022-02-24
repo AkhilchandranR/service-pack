@@ -2,30 +2,30 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 60px;
+    margin-top: 3.75rem;
 }
 .callDemo__description{
     position: relative;
-    margin-left: 25px;
+    margin-left: 1.56rem;
 }
 .callDemo__description > h1{
-    font-size: 35px !important;
+    font-size: 2.1875rem !important;
 }
 .callDemo__description > p{
-    margin-top: 23px;
-    width: 380px;
+    margin-top: 1.4375rem;
+    width: 23.75rem;
     font-size: 1.1em;
 }
 .callDemo__description > button{
     background-color: black;
     color: white;
     border: none;
-    width: 220px;
-    padding: 12px;
-    border-radius: 4px;
-    font-size: 15px;
+    width: 13.75rem;
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    font-size: 0.9375rem;
     font-weight: 500;
-    margin-top: 15px;
+    margin-top: 0.9375rem;
     transition: transform 0.2s;
 }
 .callDemo__description > button:hover{
@@ -33,40 +33,27 @@
     transform: scale(1.05);
 }
 .callDemo__thickLine{
-    height: 45px;
-    width: 15px;
+    height: 2.8125rem;
+    width: 0.9375rem;
     background-color: black;
     position: absolute;
     top: 0;
-    left: -35px;
+    left: -2.1875rem;
 }
 
 .callDemo__description > img{
     position: absolute;
-    bottom: 10px;
-    right: 40px;
+    bottom: 0.625rem;
+    right: 2.5rem;
     z-index: -1;
 }
 .QmcallDemo__image > img{
-    height: 286px;
-    max-width: 355px;
+    height: 17.875rem;
+    max-width: 22.1875rem;
     object-fit: contain;
 }
 
-@media screen and (min-width:1600px) {
-    .QmcallDemo__image > img{
-        width: 500px;
-        margin-right: 50px;
-        height: unset;
-        max-width: unset;
-    }
-    .callDemo__description > h1{
-        font-size: 30px !important;
-    }
-    .callDemo__description > p{
-        width: unset;
-    }
-}
+
 @media screen and (max-width:1190px) {
     .callDemo__thickLine{
         display: none;
@@ -74,7 +61,7 @@
 }
  @media screen and (max-width:991px) {
      .callDemo__description > h1{
-         font-size: 25px !important;
+         font-size: 1.5625rem !important;
      }
      .callDemo__description > p{
          font-size: 0.9em;
@@ -87,12 +74,12 @@
  @media screen and (max-width:1228px) {
     .callDemo__description > img{
         right: 0;
-        bottom: -27px;
+        bottom: -1.6875rem;
     }
  }
  @media screen and (max-width:943px) {
      .callDemo__description > img{
-         bottom: -40px;
+         bottom: -2.5rem;
      }
  }
  @media screen and (max-width:830px) {
@@ -102,7 +89,7 @@
      }
      .callDemo__description{
          text-align: center;
-         margin-top: 20px;
+         margin-top: 1.25rem;
      }
      .callDemo__description > p{
          width: 85vw;
@@ -111,7 +98,7 @@
          display: none;
      }
      .QmcallDemo__image > img{
-         margin-right: 0px !important;
+         margin-right: 0rem !important;
      }
  }
  @media screen and (max-width:500px) {
@@ -125,6 +112,21 @@
          display: none;
      }
  }
+
+ @media screen and (min-width:1600px) {
+    .QmcallDemo__image > img{
+        width: 500px;
+        margin-right: 50px;
+        height: unset;
+        max-width: unset;
+    }
+    .callDemo__description > h1{
+        font-size: 30px !important;
+    }
+    .callDemo__description > p{
+        width: unset;
+    }
+}
 
  @media screen and (min-width: 1700px) {
      .QmcallDemo__image > img{

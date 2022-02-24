@@ -2,13 +2,13 @@
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
-    margin-top: 20px;
-    margin-left: 30px;
+    margin-top: 1.25rem;
+    margin-left: 1.875rem;
 }
 .breadCrumbs > p{
     color: gray;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
 }
 .breadCrumbs > p:last-of-type{
     color: black;

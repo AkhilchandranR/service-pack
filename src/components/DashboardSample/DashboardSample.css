@@ -6,8 +6,8 @@
     text-align: center;
 }
 .dashboardSample > h1{
-    margin-top: 13px;
-    font-size: 35px !important;
+    margin-top: 0.8125rem;
+    font-size: 2.1875rem !important;
     text-align: center;
 }
 .dashboardSample__body{
@@ -15,56 +15,74 @@
     align-items: flex-start;
     justify-content: space-around;
     width: 82vw;
-    padding: 50px 0px;
+    padding: 3.125rem 0rem;
     margin-left: auto;
     margin-right: auto;
 }
 .dashboard__option{
-    padding: 16px 23px;
-    margin-top: 20px;
+    padding: 1rem 1.5rem;
+    margin-top: 1.25rem;
     cursor: pointer;
 }
 .dashboard__illustration{
-    padding-top: 10px;
+    padding-top: 0.625rem;
     z-index: 10;
 }
 .dashboard__illustration > img{
-    width: 500px;
+    width: 31.25rem;
     object-fit: contain;
     box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
 .dashboard__contents{
     width: 100vw;
     position: relative;
-    margin-top: 15px;
+    margin-top: 0.9375rem;
 }
 .dashboard__fill{
     position: absolute;
     /* background-image: linear-gradient(to right, #bddff6,#c6e4f8,#cfe9fa,#d8eefd,#e1f3ff); */
-    width: 300px;
-    height: 265px;
+    width: 18.75rem;
+    height: 16.5625rem;
     right: 0;
-    top: 216px;
-    border-radius: 19px;
+    top: 13.5rem;
+    border-radius: 1.1875rem;
 }
 .activeOption{
     background-color: white;
     box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-    border-radius: 10px;
-    margin-right: 10px;
+    border-radius: 0.625rem;
+    margin-right: 0.625rem;
 }
 @media screen and (max-width: 992px) {
     .dashboard__illustration{
-        margin-top: 100px;
+        margin-top: 6.25rem;
     }
     .dashboard__illustration > img{
-        width: 360px;
+        width: 22.5rem;
     }
     .dashboard__fill{
         /* height: 150px; */
-        top: 240px;
+        top: 15rem;
     }
 }
+
+@media screen and (max-width: 850px) {
+    .dashboard__fill{
+        display: none;
+    }
+    .dashboardSample__body{
+        flex-direction: column;
+        align-items: center;
+    }
+    .dashboardSample > h1{
+        font-size: 1.75rem !important;
+    }
+    .dashboard__illustration > img{
+        width: 100%;
+        margin-top: 2vw;
+    }
+}
+
 @media screen and (min-width: 1590px) {
     .dashboardSample__body{
         justify-content: center;
@@ -75,21 +93,5 @@
     .dashboard__fill{
         top: 370px;
         width: 500px;
-    }
-}
-@media screen and (max-width: 850px) {
-    .dashboard__fill{
-        display: none;
-    }
-    .dashboardSample__body{
-        flex-direction: column;
-        align-items: center;
-    }
-    .dashboardSample > h1{
-        font-size: 28px !important;
-    }
-    .dashboard__illustration > img{
-        width: 100%;
-        margin-top: 2vw;
     }
 }
