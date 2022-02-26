@@ -2,40 +2,40 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 110px;
+    margin-top: 6.875rem;
 }
 .about__sectionTwo{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 90px;
+    margin-top: 5.625rem;
 }
 .about__sectionOne > img{
-    height: 290px;
+    height: 18.125rem;
     object-fit: contain;
 }
 .about__sectionTwo > img{
-    height: 275px;
+    height: 17.1875rem;
     object-fit: contain;
 }
 .about__sectionOneHeading > h1{
-    font-size: 40px !important;
-    width: 450px;
-    margin-bottom: 15px;
+    font-size: 2.5rem !important;
+    width: 28.125rem;
+    margin-bottom: 0.9375rem;
 }
 .aboutOne__subCaption{
-    width: 400px;
-    margin-bottom: 15px;
+    width: 25rem;
+    margin-bottom: 0.9375rem;
 }
 .about__sectionOneHeading > button{
-    margin-top: 15px;
+    margin-top: 0.9375rem;
     color: white;
     background-color: black;
     border: none;
-    width: 220px;
-    padding: 12px;
-    border-radius: 4px;
-    font-size: 15px;
+    width: 13.75rem;
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    font-size: 0.9375rem;
     font-weight: 500;
     transition: filter 0.2s;
 }
@@ -45,13 +45,13 @@
 
 @media screen and (max-width:1100px) {
     .about__sectionOne > img{
-        margin-right: 20px;
+        margin-right: 1.25rem;
     }
     .about__sectionTwo > img{
-        margin-left: 20px;
+        margin-left: 1.25rem;
     }
     .about__sectionOneHeading > h1{
-        font-size: 30px !important;
+        font-size: 1.875rem !important;
         width: unset;
     }
     .aboutOne__subCaption{

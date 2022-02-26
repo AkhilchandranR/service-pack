@@ -6,7 +6,7 @@
     width: 75vw;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 130px;
+    margin-top: 8.125rem;
 }
 .clicked{
     background-color: black !important;
@@ -22,8 +22,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px 0px;
-    font-size: 15px;
+    padding: 0.625rem 0rem;
+    font-size: 0.9375rem;
     transition: filter 0.2;
     cursor: pointer;
     z-index: 99;
@@ -32,12 +32,12 @@
     filter: opacity(0.9);
 }
 .support__buttons > button > p{
-    margin-left: 5px;
+    margin-left: 0.3125rem;
     white-space: nowrap;
 }
 @media screen and (max-width:991px) {
     .support__buttons{
-        margin-top: 70px;
+        margin-top: 4.375rem;
     }
 }
 @media screen and (max-width: 800px) {
@@ -47,6 +47,6 @@
         align-items: unset;
     }
     .support__buttons > button{
-        margin-top: 15px;
+        margin-top: 0.9375rem;
     }
 }

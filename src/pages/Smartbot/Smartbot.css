@@ -1,14 +1,14 @@
 .smartbot__stats{
-    margin-top: 60px;
+    margin-top: 3.75rem;
 }
 .smartbot__dashboard{
-    margin-top: 60px;
+    margin-top: 3.75rem;
 }
 .smartbot__chatbot{
     position: relative;
 }
 .smartbot__products{
-    margin-top: 90px;
+    margin-top: 5.625rem;
 }
 .chatbot_dots{
     position: absolute;

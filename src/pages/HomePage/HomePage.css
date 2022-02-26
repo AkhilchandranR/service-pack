@@ -5,7 +5,7 @@
     position: absolute;
     right: 10%;
     top: 0;
-    height: 440px;
+    height: 27.5rem;
     object-fit: contain;
 }
 
@@ -17,18 +17,18 @@
 }
 .homepage__clients > img{
     position: absolute;
-    top: -50px;
-    left: 250px;
+    top: -3.125rem;
+    left: 15.625rem;
     z-index: -4;
 }
 .homepage__services{
     position: relative;
 }
 .homepage__stats{
-    margin-top: 90px;
+    margin-top: 5.625rem;
 }
 .homepage__products{
-    margin-top: 90px;
+    margin-top: 5.625rem;
 }
 .dots{
     position: absolute;
@@ -138,17 +138,17 @@
 
 @media screen and (max-width:1295px) {
     .homebg{
-        height: 375px;
+        height: 23.4375rem;
     }
 }
 @media screen and (max-width:1180px) {
     .homebg{
-        height: 333px;
+        height: 2.8125rem;
     }
 }
 @media screen and (max-width:1048px) {
     .homebg{
-        height: 294px;
+        height: 18.375rem;
     }
 }
 @media screen and (max-width:991px){

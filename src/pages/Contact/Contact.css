@@ -3,33 +3,33 @@
 }
 .contact__addressCard{
     text-align: center;
-    margin-right: 10px;
+    margin-right: 0.625rem;
     border-right: 1px solid lightgray;
-    padding-left: 45px;
-    padding-right: 45px;
+    padding-left: 2.8125rem;
+    padding-right: 2.8125rem;
     z-index: 10;
 }
 .contact__address{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 70px;
+    margin-top: 4.375rem;
 }
 .contact__address > .contact__addressCard:last-of-type{
     border-right: none;
 }
 .contact__addressCard > img{
-    width: 100px;
+    width: 6.25rem;
     object-fit: contain;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 }
 .contact__addressCard > h1{
-    font-size: 32px !important;
-    margin-bottom: 10px;
+    font-size: 2rem !important;
+    margin-bottom: 0.625rem;
 }
 .contact__addressCard > p{
     font-size: 1.1em !important;
-    margin-bottom: 3px;
+    margin-bottom: 0.1875rem;
 }
 
 .bluedot{
@@ -144,10 +144,10 @@
     }
     .contact__addressCard{
         border-right: none;
-        margin-bottom: 30px;
+        margin-bottom: 1.875rem;
     }
     .contact__addressCard > img{
-        width: 200px;
+        width: 12.5rem;
     }
     .crdots{
         display: none;
