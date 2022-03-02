@@ -7,8 +7,8 @@ import Slide from 'react-reveal/Slide';
 function CocoBanner({bannerImage,buttonColor,vector,heading,caption}) {
     return (
         <div className="cocoBanner">
-            <img className='cocoBanner__vector' src={vector} alt=''/>
             <div className="container">
+            <img className='cocoBanner__vector' src={vector} alt=''/>
                 <div className="cocoBanner__contents">
                     <div className="cocoBanner__textContent">
                         <p>{caption}</p>

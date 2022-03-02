@@ -100,16 +100,4 @@
         line-height: unset;
     }
 }
-@media screen and (min-width:1600px) {
-    .vdBanner__image > img{
-        width: 37.5rem;
-    }
-    .vdBanner__vector{
-        width: 100%;
-        top: -13.75rem;
-    }
-    .vdBanner__textContent > h1{
-        width: fit-content;
-    }
-}
 

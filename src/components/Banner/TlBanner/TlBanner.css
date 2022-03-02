@@ -99,15 +99,4 @@
         line-height: unset;
     }
 }
-@media screen and (min-width:1600px) {
-    .TlBanner__image > img{
-        width: 31.25rem;
-    }
-    .TlBanner__vector{
-        width: 100%;
-        top: -13.75rem;
-    }
-    .TlBanner__textContent > h1{
-        width: fit-content;
-    }
-}
+

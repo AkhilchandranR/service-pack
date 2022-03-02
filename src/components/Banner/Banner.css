@@ -107,11 +107,7 @@
         font-size: 2.1em !important;
         line-height: unset;
     }
-}
-@media screen and (min-width:1600px) {
-    .banner__vector{
-        width: 100%;
-        height: 964px;
-        top: -200px;
+    .banner__textContent > h1 > img {
+        position: unset;
     }
 }

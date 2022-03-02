@@ -117,19 +117,3 @@
         bottom: 0.625rem;
     }
 }
-@media screen and (min-width:1600px) {
-    .featuresBanner__image > img{
-        width: 37.5rem;
-    }
-    .featuresBanner__textContent > h1{
-        font-size: 3.75rem;
-    }
-    .featuresBanner__textContent > h1 > img{
-        left: 9.375rem;
-    }
-    .featuresBanner__vector{
-        width: 100%;
-        top: -17.5rem;
-        right: 0;
-    }
-}

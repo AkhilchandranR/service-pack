@@ -6,6 +6,7 @@
     margin-left: auto;
     margin-right: auto;
     position: relative;
+    max-width: 1218px;
 }
 .cloud{
     position: absolute;
@@ -68,16 +69,5 @@
     }
     .featuresElementRev__subCaption{
         width: unset;
-    }
-}
-@media screen and (min-width:1600px) {
-    .featuresElementRev > img{
-        max-width: unset;
-        width: 550px;
-        height: unset;
-    }
-    .featuresElementRev__content > h1{
-        width: 600px;
-        font-size: 55px;
     }
 }

@@ -93,15 +93,4 @@
         line-height: unset;
     }
 }
-@media screen and (min-width:1600px) {
-    .careersBanner__image > img{
-        width: 31.25rem;
-    }
-    .careersBanner__vector{
-        width: 100%;
-        top: -13.75rem;
-    }
-    .careersBanner__textContent > h1{
-        width: fit-content;
-    }
-}
+

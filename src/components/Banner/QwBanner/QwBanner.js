@@ -6,8 +6,8 @@ import './QwBanner.css';
 function QwBanner({bannerImage,buttonColor,vector,heading,caption}) {
     return (
         <div className='QwBanner'>
-            <img className='QwBanner__vector' src={vector} alt=''/>
             <div className="container">
+            <img className='QwBanner__vector' src={vector} alt=''/>
                 <div className="QwBanner__contents">
                     <div className="QwBanner__textContent">
                         <p>{caption}</p>

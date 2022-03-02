@@ -6,8 +6,8 @@ import './TlBanner.css';
 function TlBanner({bannerImage,buttonColor,vector,heading,caption}) {
     return (
         <div className='TlBanner'>
-            <img className='TlBanner__vector' src={vector} alt=''/>
             <div className="container">
+            <img className='TlBanner__vector' src={vector} alt=''/>
                 <div className="TlBanner__contents">
                     <div className="TlBanner__textContent">
                         <p>{caption}</p>

@@ -7,8 +7,8 @@ import Slide from 'react-reveal/Slide';
 function contactBanner({bannerImage,buttonColor,vector,heading,caption}) {
     return (
         <div className="contactBanner">
-            <img className='contactBanner__vector' src={vector} alt=''/>
             <div className="container">
+            <img className='contactBanner__vector' src={vector} alt=''/>
                 <div className="contactBanner__contents">
                     <div className="contactBanner__textContent">
                         <p>{caption}</p>

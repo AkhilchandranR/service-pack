@@ -78,13 +78,3 @@
         width: unset;
     }
 }
-@media screen and (min-width: 1600px) {
-    .about__sectionTwo > img , .about__sectionOne > img{
-        width: 600px;
-        height: unset;
-    }
-    .about__sectionOneHeading > h1{
-        font-size: 55px;
-        width: 500px;
-    }
-}

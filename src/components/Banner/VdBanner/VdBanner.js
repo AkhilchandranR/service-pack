@@ -6,8 +6,8 @@ import './VdBanner.css';
 function VdBanner({bannerImage,buttonColor,vector,heading,caption}) {
     return (
         <div className='vdBanner'>
-            <img className='vdBanner__vector' src={vector} alt=''/>
             <div className="container">
+            <img className='vdBanner__vector' src={vector} alt=''/>
                 <div className="vdBanner__contents">
                     <div className="vdBanner__textContent">
                         <p>{caption}</p>

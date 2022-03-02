@@ -13,8 +13,3 @@
     margin-top: 15px;
 }
 
-@media screen and (min-width:1600px) {
-    .chatbotaction > img{
-        width: 500px;
-    }
-}

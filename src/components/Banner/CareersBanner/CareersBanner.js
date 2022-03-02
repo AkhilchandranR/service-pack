@@ -7,8 +7,8 @@ import Slide from 'react-reveal/Slide';
 function careersBanner({bannerImage,buttonColor,vector,heading,caption}) {
     return (
         <div className="careersBanner">
-            <img className='careersBanner__vector' src={vector} alt=''/>
             <div className="container">
+            <img className='careersBanner__vector' src={vector} alt=''/>
                 <div className="careersBanner__contents">
                     <div className="careersBanner__textContent">
                         <p>{caption}</p>

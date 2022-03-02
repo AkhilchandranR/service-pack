@@ -101,15 +101,4 @@
         line-height: unset;
     }
 }
-@media screen and (min-width:1600px) {
-    .QwBanner__image > img{
-        width: 37.5rem;
-    }
-    .QwBanner__vector{
-        width: 100%;
-        top: -13.75rem;
-    }
-    .QwBanner__textContent > h1{
-        width: fit-content;
-    }
-}
+

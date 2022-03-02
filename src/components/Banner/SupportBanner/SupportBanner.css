@@ -93,15 +93,4 @@
         line-height: unset;
     }
 }
-@media screen and (min-width:1600px) {
-    .supportBanner__image > img{
-        width: 31.25rem;
-    }
-    .supportBanner__vector{
-        width: 100%;
-        top: -13.75rem;
-    }
-    .supportBanner__textContent > h1{
-        width: fit-content;
-    }
-}
+

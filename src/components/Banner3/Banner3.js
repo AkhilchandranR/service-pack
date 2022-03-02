@@ -6,8 +6,8 @@ import './Banner3.css';
 function Banner3({bannerImage,buttonColor,vector,heading,caption}) {
     return (
         <div className='banner3'>
-            <img className='banner3__vector' src={vector} alt=''/>
             <div className="container">
+            <img className='banner3__vector' src={vector} alt=''/>
                 <div className="banner3__contents">
                     <div className="banner3__textContent">
                         <p>{caption}</p>

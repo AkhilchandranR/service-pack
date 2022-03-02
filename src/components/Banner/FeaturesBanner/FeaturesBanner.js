@@ -6,8 +6,8 @@ import Slide from 'react-reveal/Slide';
 function FeaturesBanner({bannerImage,buttonColor,vector,heading,caption,abb}) {
   return(
     <div className="featuresBanner">
-        <img className='featuresBanner__vector' src={vector} alt=''/>
         <div className="container">
+        <img className='featuresBanner__vector' src={vector} alt=''/>
             <div className="featuresBanner__contents">
                 <div className="featuresBanner__textContent">
                     <p>{caption}</p>

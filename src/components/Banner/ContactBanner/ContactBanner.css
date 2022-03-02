@@ -93,15 +93,4 @@
         line-height: unset;
     }
 }
-@media screen and (min-width:1600px) {
-    .contactBanner__image > img{
-        width: 31.25rem;
-    }
-    .contactBanner__vector{
-        width: 100%;
-        top: -13.75rem;
-    }
-    .contactBanner__textContent > h1{
-        width: fit-content;
-    }
-}
+

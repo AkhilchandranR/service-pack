@@ -135,8 +135,10 @@
         margin-top: 5rem;
     }
 }
-@media screen and (min-width:1600px){
-    .footer__container{
-        justify-content: space-around;
+
+@media screen and (min-width:1600px) {
+    .footer__sphere{
+        right: -1.1875rem;
+        top: -3.0625rem;
     }
 }

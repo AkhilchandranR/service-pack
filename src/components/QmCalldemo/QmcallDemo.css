@@ -112,27 +112,3 @@
          display: none;
      }
  }
-
- @media screen and (min-width:1600px) {
-    .QmcallDemo__image > img{
-        width: 500px;
-        margin-right: 50px;
-        height: unset;
-        max-width: unset;
-    }
-    .callDemo__description > h1{
-        font-size: 30px !important;
-    }
-    .callDemo__description > p{
-        width: unset;
-    }
-}
-
- @media screen and (min-width: 1700px) {
-     .QmcallDemo__image > img{
-         width: 546px;
-     }
-     .callDemo__description > h1{
-         font-size: 49px !important;
-     }
- }

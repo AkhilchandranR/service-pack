@@ -101,15 +101,3 @@
         line-height: unset;
     }
 }
-@media screen and (min-width:1600px) {
-    .banner3__image > img{
-        width: 29.6875rem;
-    }
-    .banner3__vector{
-        width: 100%;
-        top: -13.75rem;
-    }
-    .banner3__textContent > h1{
-        width: fit-content;
-    }
-}

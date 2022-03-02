@@ -6,8 +6,8 @@ import './Banner2.css';
 function Banner2({bannerImage,buttonColor,vector,heading,caption}) {
     return (
         <div className='banner2'>
-            <img className='banner2__vector' src={vector} alt=''/>
             <div className="container">
+            <img className='banner2__vector' src={vector} alt=''/>
                 <div className="banner2__contents">
                     <div className="banner2__textContent">
                         <p>{caption}</p>
