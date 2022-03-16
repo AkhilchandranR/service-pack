@@ -29,16 +29,16 @@ function Services() {
             <Slide bottom>
                 <div className="services__container">
                     <div className={`services__text ${(selected === 1) ? "active":""}`}>
-                        <p onClick={()=>setSelected(1)}>Quality Monitering</p>
+                        <p onClick={()=>setSelected(1)}>Conversational Intelligence</p>
                     </div>
                     <div className={`services__text ${(selected === 2) ? "active":""}`}>
-                        <p onClick={()=>setSelected(2)}>Virtual Assistants</p>
+                        <p onClick={()=>setSelected(2)}>Conversational AI</p>
                     </div>
                     <div className={`services__text ${(selected === 3) ? "active":""}`}>
-                        <p onClick={()=>setSelected(3)}>Conersational AI</p>
+                        <p onClick={()=>setSelected(3)}>Conersational IVR</p>
                     </div>
                     <div className={`services__text ${(selected === 4) ? "active":""}`}>
-                        <p onClick={()=>setSelected(4)}>Review Analytics</p>
+                        <p onClick={()=>setSelected(4)}>Feedback Analytics</p>
                     </div>
                     <div className={`services__text ${(selected === 5) ? "active":""}`}>
                         <p onClick={()=>setSelected(5)}>Biometric Bot</p>

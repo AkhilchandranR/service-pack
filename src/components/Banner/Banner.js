@@ -18,8 +18,7 @@ function Banner({bannerImage,buttonColor,vector,heading,caption}) {
                             {heading} 
                             <img src={rocket} alt="rocket"/> 
                         </h1>
-                        <p className="banner__subCaption">Accelerating Omni-Channel CX with Natural Language Processing, making it
-                         <span className='scrollToServices'><Link to="services" smooth={true}>'One-Stop shop for Contact Center AI'</Link></span>needs.</p>
+                        <p className="banner__subCaption">Accelerating Omni-Channel CX with Natural Language Processing, making it <span className='scrollToServices'><Link to="services" smooth={true}>One-Stop shop for Contact Center AI</Link></span> needs.</p>
                         <button style={{backgroundColor:buttonColor}}>Let's Talk</button>
                     </div>
                     <div className="banner__image">

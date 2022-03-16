@@ -5,7 +5,8 @@ import './Stats.css';
 function Stats({ colour1,symbol1,amount1,caption1,
     colour2,symbol2,amount2,caption2,
     colour3,symbol3,amount3,caption3,
-    colour4,symbol4,amount4,caption4 }) {
+    colour4,symbol4,amount4,caption4,
+    colour5,symbol5,amount5,caption5 }) {
 
     const ref = React.useRef();
     const onScreen = useOnScreen(ref,"-200px");
@@ -51,7 +52,8 @@ function Stats({ colour1,symbol1,amount1,caption1,
         counter("statsComponent__cloudnumber1",0,amount1,2000);
         counter("statsComponent__cloudnumber2",0,amount2,2000);
         counter("statsComponent__cloudnumber3",0,amount3,2000);
-        counter("statsComponent__cloudnumber4",0,amount4,2000);        
+        counter("statsComponent__cloudnumber4",0,amount4,2000); 
+        counter("statsComponent__cloudnumber5",0,amount5,2000);        
     }, [onScreen])
 
     
@@ -102,8 +104,8 @@ function Stats({ colour1,symbol1,amount1,caption1,
                 <div className="statComponent">
                         
                         <div className="statcomponent__number" ref={ref}>
-                        <h1 style={{color:colour4}} id="statsComponent__cloudnumber4">{amount4}</h1>
-                        <span style={{color:colour4}}>{symbol4}</span>
+                        <h1 style={{color:colour5}} id="statsComponent__cloudnumber5">{amount5}</h1>
+                        <span style={{color:colour5}}>{symbol5}</span>
                         </div>
                         <p>{caption4}</p>
                     </div>
