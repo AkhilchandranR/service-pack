@@ -2,7 +2,7 @@ import React from 'react';
 import './CallDemo.css';
 import design from '../../images/design.png';
 
-function CallDemo({ illImage }) {
+function CallDemo({ illImage,heading,content }) {
     return (
         <div className="container-sm">
             <div className="callDemo">
@@ -11,8 +11,8 @@ function CallDemo({ illImage }) {
                 </div>
                 <div className="callDemo__description">
                     <div className="callDemo__thickLine"></div>
-                    <h1>Heading about Call Quality</h1>
-                    <p>Our cognitive AI suit helps understand your customers well and nurture them across all channels</p>
+                    <h1>{heading}</h1>
+                    <p>{content}</p>
                     <button>Request for a Demo</button>
                     <img src={design} alt="design"/>
                 </div>

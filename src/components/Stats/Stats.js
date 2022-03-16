@@ -98,6 +98,16 @@ function Stats({ colour1,symbol1,amount1,caption1,
                         <p>{caption4}</p>
                     </div>
                 </div>
+                <div className="stats__statComponent">
+                <div className="statComponent">
+                        
+                        <div className="statcomponent__number" ref={ref}>
+                        <h1 style={{color:colour4}} id="statsComponent__cloudnumber4">{amount4}</h1>
+                        <span style={{color:colour4}}>{symbol4}</span>
+                        </div>
+                        <p>{caption4}</p>
+                    </div>
+                </div>
             </div>
         </div>
     )

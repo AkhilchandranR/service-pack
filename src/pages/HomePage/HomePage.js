@@ -26,7 +26,7 @@ function HomePage() {
                 <img src={bg} alt="" className="homebg"/>
                 <Banner 
                 bannerImage={Homebanner} buttonColor="#000000" 
-                vector={vector1} heading="Empowering Customer Experience with Artificial Intelligence ."
+                vector={vector1} heading="Transforming Customer Experience with Artificial Intelligence ."
                 caption="────  CX to the power of AI"/>
             </div>
 
@@ -69,10 +69,11 @@ function HomePage() {
 
             <div className='homepage__stats'>
                 <Stats 
-                colour1="#0070c0" amount1="20" symbol1="%" caption1="Clickthrough Rate"
-                colour2="#ffcd3a" amount2="60" symbol2="+" caption2="Downloads"
-                colour3="#32cd32" amount3="20" symbol3="+" caption3="Active Users"
-                colour4="#ff0066" amount4="60" symbol4="+" caption4="Downloads"
+                colour1="#0070c0" amount1="25" symbol1="%" caption1="Increase in revenue"
+                colour2="#ffcd3a" amount2="35" symbol2="%" caption2="Increase in Avg. response time"
+                colour3="#32cd32" amount3="40" symbol3="%" caption3="Reduction in AHT"
+                colour4="#ff0066" amount4="45" symbol4="%" caption4="Increase in First Contact Resolution"
+                colour5="#ff4500" amount5="55" symbol5="%" caption5="Reduction in Operational Cost"
                 />
             </div>
 

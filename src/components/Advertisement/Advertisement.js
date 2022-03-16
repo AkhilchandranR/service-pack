@@ -11,7 +11,8 @@ function Advertisement({ buttoncolor,imageLeft,imageRight }) {
                 <img src={imageLeft} alt="futureaiLeft"/>
                 <div className="advertisement__description">
                     <h1>Ready to Start ?</h1>
-                    <p>Footer call to action description Footer call to action description Footer call to action description</p>
+                    <p>We are a group of problem solvers offering a revolutionary
+                         solution that singularly meets all your Contact Center AI needs.</p>
                     <button style={{backgroundColor:buttoncolor}}>Request for a Demo</button>
                 </div>
                 <img src={imageRight} alt="futureaiRight"/>

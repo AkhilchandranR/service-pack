@@ -48,19 +48,31 @@ function Services() {
 
         </div>
         {(selected === 1) &&
-        <QmcallDemo illImage={calldemo}/>
+        <QmcallDemo illImage={calldemo}
+        heading="Enabling 100% call sampling with Conversational Intelligence Platform, powered by AI."
+        content="Unlock the full potential of Speech Analytics for an efficient Quality Monitoring,
+         Compliance Automation, Agent Coaching & Reporting."/>
         }
         {(selected === 2) && 
-        <CallDemo illImage={banner4}/>
+        <CallDemo illImage={banner4}
+        heading="Emphasizing Customer Empathy with Conversational AI."
+        content="Provide unmatched Customer Service with our highly customizable Zero code AI
+         bot with Sentiment Prediction and Lead Generation capabilities."/>
         }
         {(selected === 3) && 
-        <CallDemo illImage={banner3}/>
+        <CallDemo illImage={banner3}
+        heading="Ensuring zero response time with Conversational IVR."
+        content="Hyper intelligent Conversational IVR for Customer Service, Reminders, Reservations & Routing."/>
         }
         {(selected === 4) && 
-        <CallDemo illImage={banner5}/>
+        <CallDemo illImage={banner5}
+        heading="Elevating the voice of customers with text analytics powered by NLP."
+        content="Comprehensive Feedback and Survey Analytics summary to make an informed decision."/>
         }
         {(selected === 5) && 
-        <QmcallDemo illImage={cocobanner}/>
+        <QmcallDemo illImage={cocobanner}
+        heading="Evolving new age biometrics with contactless AI"
+        content="Embracing Contactless Biometrics for identification and access control"/>
         }
         </>
     )

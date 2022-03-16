@@ -1,6 +1,9 @@
 .banner{
     background-color: white;
 }
+.scrollToServices > a{
+    color: black !important;
+}
 .banner__contents{
     display: flex;
     align-items: center;

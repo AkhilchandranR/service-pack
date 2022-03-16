@@ -90,7 +90,7 @@ function Navbar() {
                                                 <img src={qwicon} alt="icon"/>
                                                 <div className='navbar__itemDesc'>
                                                     <p>Quality Works</p>
-                                                    <p>Call Complaince Automation</p>
+                                                    <p>Conversational Intelligence Platform</p>
                                                 </div>
                                             </div>
                                         </Link>
@@ -108,7 +108,7 @@ function Navbar() {
                                                 <img src={voicedesk} alt="icon"/>
                                                 <div className='navbar__itemDesc'>
                                                     <p>Voice Desk</p>
-                                                    <p>Virtual Voice Bots</p>
+                                                    <p>Conversational IVR</p>
                                                 </div>
                                             </div>
                                         </Link>
@@ -117,7 +117,7 @@ function Navbar() {
                                                 <img src={textlens} alt="icon"/>
                                                 <div className='navbar__itemDesc'>
                                                     <p>Text Lens</p>
-                                                    <p>Review Analytics Platform</p>
+                                                    <p>Text Analytics Platform</p>
                                                 </div>
                                             </div>
                                         </Link>
@@ -229,7 +229,7 @@ function Navbar() {
                                                 <img src={qwicon} alt="icon"/>
                                                 <div className='navbar__itemDesc'>
                                                     <p>Quality Works</p>
-                                                    <p>Call Complaince Automation</p>
+                                                    <p>Conversational Intelligence Platform</p>
                                                 </div>
                                             </div>
                                         </Link>
@@ -247,7 +247,7 @@ function Navbar() {
                                                 <img src={voicedesk} alt="icon"/>
                                                 <div className='navbar__itemDesc'>
                                                     <p>Voice Desk</p>
-                                                    <p>Virtual Voice Bots</p>
+                                                    <p>Conversational IVR</p>
                                                 </div>
                                             </div>
                                         </Link>
@@ -256,7 +256,7 @@ function Navbar() {
                                                 <img src={textlens} alt="icon"/>
                                                 <div className='navbar__itemDesc'>
                                                     <p>Text Lens</p>
-                                                    <p>Review Analytics Platform</p>
+                                                    <p>Text Analytics Platform</p>
                                                 </div>
                                             </div>
                                         </Link>
