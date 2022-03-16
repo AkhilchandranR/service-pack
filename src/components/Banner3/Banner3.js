@@ -15,8 +15,7 @@ function Banner3({bannerImage,buttonColor,vector,heading,caption}) {
                             {heading} 
                             <img src={rocket} alt="rocket"/> 
                         </h1>
-                        <p className="banner3__subCaption">Our cognitive AI suit helps understand your customers
-                         well and nurture them across all channels</p>
+                        <p className="banner3__subCaption">Bringing a unified omni-channel CX platform powered by AI.</p>
                         <button style={{backgroundColor:buttonColor}}>Let's Talk</button>
                     </div>
                     <div className="banner3__image">

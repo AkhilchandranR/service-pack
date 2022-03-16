@@ -23,20 +23,24 @@ function VoiceDesk() {
             <Navbar/>
             <Banner2 
             bannerImage={banner4} buttonColor="#ffbf00"
-            heading="Empowering Customer Experience with Artificial Intelligence ."
+            heading="Ensuring zero response time with Conversational IVR."
             caption="────  CX to the power of AI" vector={vector}/>
 
             <div className='voiceDesk__stats'>
                 <Stats 
-                colour1="#ffbf00" amount1="20" symbol1="%" caption1="Clickthrough Rate"
-                colour2="#ffbf00" amount2="60" symbol2="+" caption2="Downloads"
-                colour3="#ffbf00" amount3="20" symbol3="+" caption3="Active Users"
-                colour4="#ffbf00" amount4="60" symbol4="+" caption4="Downloads"
+                colour1="#ffbf00" amount1="25" symbol1="%" caption1="Increase in revenue"
+                colour2="#ffbf00" amount2="35" symbol2="%" caption2="Increase in Avg. response time"
+                colour3="#ffbf00" amount3="40" symbol3="%" caption3="Reduction in AHT"
+                colour4="#ffbf00" amount4="45" symbol4="%" caption4="Increase in First Contact Resolution"
+                colour5="#ffbf00" amount5="55" symbol5="%" caption5="Reduction in Operational Cost"
                 />
             </div>
 
             <div className='voiceDesk__dashboard'>
-                <DashboardSample colour="#ffbf00" bgcolor="#fff8e2" bgImage="to right,  #f1d993, #f5e0a4, #f8e7b4, #fceec5, #fff5d6"/>
+                <DashboardSample colour="#ffbf00" bgcolor="#fff8e2" bgImage="to right,  #f1d993, #f5e0a4, #f8e7b4, #fceec5, #fff5d6"
+                heading1="Automated Service Desk" caption1="Appointment Bookings, Reservations," 
+                heading2="Availability & Scalability" caption2="100% uptime and scalable as per business requirements." 
+                heading3="Integration" caption3="Hassle free integration into existing tools."/>
             </div>
 
             <TrustedClients heading="Hassle free integration with your existing tools"/>

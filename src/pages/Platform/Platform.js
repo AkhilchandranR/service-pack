@@ -22,15 +22,16 @@ function Platform() {
             <Navbar/>
             <Banner3
             bannerImage={banner6} buttonColor="#7030a0"
-            heading="Heading about omni- Channel Customer Service Platform"
+            heading="A good product brings you customers, but a great customer experience retains them."
             vector={vector}/>
 
             <div className='platform__stats'>
                 <Stats 
-                colour1="#7030a0" amount1="20" symbol1="%" caption1="Clickthrough Rate"
-                colour2="#7030a0" amount2="60" symbol2="+" caption2="Downloads"
-                colour3="#7030a0" amount3="20" symbol3="+" caption3="Active Users"
-                colour4="#7030a0" amount4="60" symbol4="+" caption4="Downloads"
+                colour1="#7030a0" amount1="25" symbol1="%" caption1="Increase in revenue"
+                colour2="#7030a0" amount2="35" symbol2="%" caption2="Increase in Avg. response time"
+                colour3="#7030a0" amount3="40" symbol3="%" caption3="Reduction in AHT"
+                colour4="#7030a0" amount4="45" symbol4="%" caption4="Increase in First Contact Resolution"
+                colour5="#7030a0" amount5="55" symbol5="%" caption5="Reduction in Operational Cost"
                 />
             </div>
 

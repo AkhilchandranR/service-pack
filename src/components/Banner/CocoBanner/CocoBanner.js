@@ -16,8 +16,9 @@ function CocoBanner({bannerImage,buttonColor,vector,heading,caption}) {
                             {heading} 
                             <img src={rocket} alt="rocket"/> 
                         </h1>
-                        <p className="cocoBanner__subCaption">Our cognitive AI suit helps understand your customers
-                         well and nurture them across all channels</p>
+                        <p className="cocoBanner__subCaption">Embracing Contactless Biometrics for
+                         identification and access control</p>
+                         
                         <button style={{backgroundColor:buttonColor}}>Let's Talk</button>
                     </div>
                     <div className="cocoBanner__image">

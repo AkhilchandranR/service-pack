@@ -20,20 +20,24 @@ function Smartbot() {
             <Navbar/>
             <Banner2 
             bannerImage={banner3} buttonColor="#ff0066"
-            heading="Empowering Customer Experience with Artificial Intelligence ."
+            heading="Emphasizing Customer Empathy with Conversational AI."
             caption="────  CX to the power of AI" vector={vector}/>
 
             <div className='smartbot__stats'>
                 <Stats 
-                colour1="#ff0066" amount1="20" symbol1="%" caption1="Clickthrough Rate"
-                colour2="#ff0066" amount2="60" symbol2="+" caption2="Downloads"
-                colour3="#ff0066" amount3="20" symbol3="+" caption3="Active Users"
-                colour4="#ff0066" amount4="60" symbol4="+" caption4="Downloads"
+                colour1="#ff0066" amount1="25" symbol1="%" caption1="Increase in revenue"
+                colour2="#ff0066" amount2="35" symbol2="%" caption2="Increase in Avg. response time"
+                colour3="#ff0066" amount3="40" symbol3="%" caption3="Reduction in AHT"
+                colour4="#ff0066" amount4="45" symbol4="%" caption4="Increase in First Contact Resolution"
+                colour5="#ff0066" amount5="55" symbol5="%" caption5="Reduction in Operational Cost"
                 />
             </div>
 
             <div className='smartbot__dashboard'>
-                <DashboardSample colour="#ff0066" bgcolor="#ffeef5" bgImage="to right, #fbb4d1,#fcc0d9,#fdcce0,#fed8e8,#ffe4e4"/>
+                <DashboardSample colour="#ff0066" bgcolor="#ffeef5" bgImage="to right, #fbb4d1,#fcc0d9,#fdcce0,#fed8e8,#ffe4e4"
+                heading1="Conversational Insights" caption1="Extracting sentiment, topic, intent, categories from customer conversations."
+                heading2="Lead Generation" caption2="Capturing real time leads with intent scoring techniques."
+                heading3="Agent Handoffs" caption3="Warm handoff for human intervention using NLU"/>
             </div>
 
             <TrustedClients heading="Hassle free integration with your existing tools"/>

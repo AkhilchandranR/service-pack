@@ -16,12 +16,12 @@ function Careers() {
         <Navbar/>
         <CareersBanner
         bannerImage={careerbanner} buttonColor="#000000" 
-        heading="An exciting statement to lit a curiosity of working with us "
+        heading="Team work makes the dream work!"
         vector={vector}
         />
 
         <div className='careers__postings'>
-            <h1>Title about job search title about job search title</h1>
+            <h1>Current Openings</h1>
             <div className='careers__search'>
                 <div className='careers__typeSearch'>
                     <SearchIcon/>

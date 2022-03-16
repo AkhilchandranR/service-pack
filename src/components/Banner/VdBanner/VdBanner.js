@@ -15,8 +15,8 @@ function VdBanner({bannerImage,buttonColor,vector,heading,caption}) {
                             {heading} 
                             <img src={rocket} alt="rocket"/> 
                         </h1>
-                        <p className="vdBanner__subCaption">Our cognitive AI suit helps understand your customers
-                         well and nurture them across all channels</p>
+                        <p className="vdBanner__subCaption">Hyper intelligent Conversational IVR for Customer Service,
+                         Reminders, Reservations & Routing.</p>
                         <button style={{backgroundColor:buttonColor}}>Let's Talk</button>
                     </div>
                     <div className="vdBanner__image">

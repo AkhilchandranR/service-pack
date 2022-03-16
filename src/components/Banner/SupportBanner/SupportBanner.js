@@ -16,8 +16,7 @@ function supportBanner({bannerImage,buttonColor,vector,heading,caption}) {
                             {heading} 
                             <img src={rocket} alt="rocket"/> 
                         </h1>
-                        <p className="supportBanner__subCaption">Our cognitive AI suit helps understand your customers
-                         well and nurture them across all channels</p>
+                        <p className="supportBanner__subCaption">Group of experts at your service.</p>
                         <button style={{backgroundColor:buttonColor}}>Let's Talk</button>
                     </div>
                     <div className="supportBanner__image">

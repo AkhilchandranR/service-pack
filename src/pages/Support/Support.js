@@ -18,7 +18,7 @@ function Support() {
             <Navbar/>
             <Banner 
             bannerImage={supportBanner} buttonColor="#000000" 
-             heading="A title about our availability around the clock ."
+             heading="We can help you with it!"
              vector={vector}/>
 
              <div className='support__buttons'>

@@ -11,6 +11,7 @@ import cxfeature1 from '../../images/cxfeature1.svg';
 import cxfeature2 from '../../images/cxfeature2.svg';
 import cxfeature3 from '../../images/cxfeature3.svg';
 import cxfeature4 from '../../images/cxfeature4.svg';
+import oxcard4 from '../../images/oxcard4.png';
 import adleft from '../../images/adleftblack.svg';
 import adright from '../../images/adrightblack.svg';
 import Navbar from '../../components/Navbar/Navbar';
@@ -29,13 +30,20 @@ function Cx() {
     <div className='cx'>
         <Navbar/>
         <FeaturesBanner bannerImage={cxbanner} buttonColor="#000000"
-            heading="Customer Experience" abb="(CX)" vector={cxvector}/>
+            heading="Customer Experience" abb="(CX)" vector={cxvector}
+            subCaption="Did you know, There is an 80% increase in revenue for businesses that focus on improving customer experience. -Forbes.
+            Presenting laser focused solutions for Customer Experience"/>
 
             <div className="cx__cards">
-                <FeaturesCard cardImg={cxcard1} cardHeading="Average Response Time"/>
-                <FeaturesCard cardImg={cxcard2} cardHeading="Customer Service Satisfaction"/>
-                <FeaturesCard cardImg={cxcard3} cardHeading="NPS"/>
-                <FeaturesCard cardImg={cxcard4} cardHeading="Churn Reduction"/>
+                <FeaturesCard cardImg={cxcard1} cardHeading="Average Response Time"
+                cardBody=" Quick response to customer queries. 
+                Reduce average response time by 35% with Chat & Voice AI."/>
+                <FeaturesCard cardImg={cxcard2} cardHeading="Customer Service Satisfaction"
+                cardBody="Refining Service Quality & Customer Satisfaction .
+                Increase CSAT Score by 25% with precise solutions offered by intent prediction rather than content analysis."/>
+                <FeaturesCard cardImg={oxcard4} cardHeading="Customer Delight" 
+                cardBody="Proactively providing multiple solutions to choose from. 
+                Increase customer retention by 20% with remedial recommendation engines."/>
             </div>
 
             <div className='cx__features1'>

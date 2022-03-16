@@ -18,7 +18,7 @@ function About() {
             <Navbar/>
             <AboutBanner
             bannerImage={aboutbanner} buttonColor="#000000" 
-            heading="Our vision statement our vision statement our vision"
+            heading="Our Vision :"
             vector={vector}/>
 
             <div className='container'>
@@ -26,22 +26,22 @@ function About() {
                     <img src={about2} alt="who we are"/>
                     <div className='about__sectionOneHeading'>
                         <h1>
-                            Who we are ? Who we are ? Who we are ?
+                            Who we are ?:
                             <img src={rocket} alt="rocket"/> 
                         </h1>
-                        <p className="aboutOne__subCaption">Our cognitive AI suit helps understand your customers
-                         well and nurture them across all channels</p>
+                        <p className="aboutOne__subCaption"> Group of product enthusiasts focused on
+                         problem solving using leading edge AI technologies.</p>
                         <button>Let's Talk</button>
                     </div>
                 </div>
                 <div className='about__sectionTwo'>
                     <div className='about__sectionOneHeading'>
                         <h1>
-                            What we do ? What we do ? What we do ?
+                            What we do ?:
                             <img src={rocket} alt="rocket"/> 
                         </h1>
-                        <p className="aboutOne__subCaption">Our cognitive AI suit helps understand your customers
-                         well and nurture them across all channels</p>
+                        <p className="aboutOne__subCaption">(Customer/Employee/Operational) Experience with 
+                        Artificial Intelligence.</p>
                         <button>Let's Talk</button>
                     </div>
                     <img src={about3} alt='what we do'/>

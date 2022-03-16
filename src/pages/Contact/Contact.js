@@ -41,7 +41,7 @@ function Contact() {
             <Navbar/>
             <ContactBanner
             bannerImage={contactbanner} buttonColor="#000000"
-            heading="A title about our locations a title about"/>
+            heading="Feel free to say Hi !!"/>
 
             <div className='contact__address'>
                 <div className='contact__addressCard'>

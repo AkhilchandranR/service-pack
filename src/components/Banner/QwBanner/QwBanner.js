@@ -15,8 +15,9 @@ function QwBanner({bannerImage,buttonColor,vector,heading,caption}) {
                             {heading} 
                             <img src={rocket} alt="rocket"/> 
                         </h1>
-                        <p className="QwBanner__subCaption">Our cognitive AI suit helps understand your customers
-                         well and nurture them across all channels</p>
+                        <p className="QwBanner__subCaption">Unlock the
+                         full potential of Speech Analytics for an efficient Quality Monitoring, 
+                         Compliance Automation, Agent Coaching & Reporting.</p>
                         <button style={{backgroundColor:buttonColor}}>Let's Talk</button>
                     </div>
                     <div className="QwBanner__image">

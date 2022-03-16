@@ -16,8 +16,8 @@ function aboutBanner({bannerImage,buttonColor,vector,heading,caption}) {
                             {heading} 
                             <img src={rocket} alt="rocket"/> 
                         </h1>
-                        <p className="aboutBanner__subCaption">Our cognitive AI suit helps understand your customers
-                         well and nurture them across all channels</p>
+                        <p className="aboutBanner__subCaption"> Is to be a One-Stop destination for Customer, 
+                        Employee & Operational Experience for your business.</p>
                         <button style={{backgroundColor:buttonColor}}>Let's Talk</button>
                     </div>
                     <div className="aboutBanner__image">

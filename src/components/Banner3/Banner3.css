@@ -14,9 +14,9 @@
     resize: both;
 }
 .banner3__textContent > h1{
-    font-size: 2.9375rem;
+    font-size: 2.7375rem;
     position: relative;
-    line-height: 4.25rem;
+    line-height: 4rem;
     width: 37.5rem;
 }
 .banner3__textContent > h1 > img{
@@ -58,7 +58,6 @@
 @media screen and (max-width:1396px) {
     .banner3__textContent > h1{
         font-size: 2.5rem;
-        line-height: 4.0625rem;
     }
 }
 @media screen and (max-width:1295px) {

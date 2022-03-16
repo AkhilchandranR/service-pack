@@ -6,6 +6,8 @@ import oxcard1 from '../../images/oxcard1.png';
 import oxcard2 from '../../images/oxcard2.png';
 import oxcard3 from '../../images/oxcard3.png';
 import oxcard4 from '../../images/oxcard4.png';
+import cxcard4 from '../../images/cxcard4.svg';
+import cxcard1 from '../../images/cxcard1.svg';
 import cloud from '../../images/cloud.svg';
 import oxfeature1 from '../../images/oxfeature1.svg';
 import oxfeature2 from '../../images/oxfeature2.svg';
@@ -29,13 +31,20 @@ function Ox() {
     <div className='ox'>
         <Navbar/>
         <FeaturesBanner bannerImage={oxbanner} buttonColor="#000000"
-            heading="Operational Experience" abb="(OX)" vector={cxvector}/>
+            heading="Operational Experience" abb="(OX)" vector={cxvector} subCaption="Did you Know, 75% of executives fear going out of business within five years if they don’t scale AI. - SEMRush.
+            Featuring cutting edge scalable AI solutions for efficient operational excellence."/>
 
             <div className="ox__cards">
-                <FeaturesCard cardImg={oxcard1} cardHeading="Process Automation"/>
-                <FeaturesCard cardImg={oxcard2} cardHeading="Cost Saving"/>
-                <FeaturesCard cardImg={oxcard3} cardHeading="CSAT"/>
-                <FeaturesCard cardImg={oxcard4} cardHeading="Customer Insights"/>
+                <FeaturesCard cardImg={cxcard1} cardHeading="Business Intelligence"
+                cardBody="Enabling data driven decision making 
+                According to McKinsky, Companies that make use of customer analytics are 23 times more 
+                likely to outperform their competitors in customer acquisition & retention."/>
+                <FeaturesCard cardImg={oxcard2} cardHeading="Cost Saving" 
+                cardBody=" Improvised cost saving through machine learning and automation.
+                According to NASSCOM, organizations that implement RPA can reduce operational costs upto 65%."/>
+                <FeaturesCard cardImg={cxcard4} cardHeading="Churn Reduction" 
+                cardBody="Deescalating irate customers by offering precise solutions and churn reduction. 
+                According to Forbes, an astounding 85% of customer churn can be prevented through rich customer Experience. "/>
             </div>
 
             <div className='ox__features1'>

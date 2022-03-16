@@ -6,6 +6,7 @@ import cxcard1 from '../../images/cxcard1.svg';
 import excard2 from '../../images/excard2.png';
 import excard3 from '../../images/cxcard3.png';
 import excard4 from '../../images/excard4.svg';
+import oxcard1 from '../../images/oxcard1.png';
 import cloud from '../../images/cloud.svg';
 import exfeature1 from '../../images/exfeature1.svg';
 import exfeature2 from '../../images/exfeature2.svg';
@@ -29,13 +30,20 @@ function Ex() {
     <div className='ex'>
         <Navbar/>
         <FeaturesBanner bannerImage={exbanner} buttonColor="#000000"
-            heading="Employee Experience" abb="(EX)" vector={cxvector}/>
+            heading="Employee Experience" abb="(EX)" vector={cxvector} subCaption=" Did you know,71% of Executives say that 
+            employee experience is critical to their company's success. -FastTrack360."/>
 
             <div className="ex__cards">
-                <FeaturesCard cardImg={cxcard1} cardHeading="ESAT Index"/>
-                <FeaturesCard cardImg={excard2} cardHeading="Employee Productivity"/>
-                <FeaturesCard cardImg={excard3} cardHeading="Employee NPS"/>
-                <FeaturesCard cardImg={excard4} cardHeading="Voice of Employee"/>
+                <FeaturesCard cardImg={oxcard1} cardHeading="Robotic Process Automation"
+                cardBody="Simplifying Complex repetitive tasks with ML.
+                A Deloitte RPA survey reported 86% improvement in productivity, 90% in quality and 92% in compliance.  
+                CTA: Know More"/>
+                <FeaturesCard cardImg={excard2} cardHeading="Employee Productivity"
+                cardBody="Boosting productivity through targeted training.
+                Increase in employee productivity by 40% with performance monitoring and targeted training."/>
+                <FeaturesCard cardImg={excard4} cardHeading="Voice of Employee"
+                cardBody=" Capturing employee pulse through feedback analytics.
+                14% Lower turnover rates in the companies that implement regular employee feedback."/>
             </div>
 
             <div className='ex__features1'>

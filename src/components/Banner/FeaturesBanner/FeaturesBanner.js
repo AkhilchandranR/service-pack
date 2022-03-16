@@ -3,7 +3,7 @@ import './FeaturesBanner.css';
 import rocket from '../../../images/rocket.svg';
 import Slide from 'react-reveal/Slide';
 
-function FeaturesBanner({bannerImage,buttonColor,vector,heading,caption,abb}) {
+function FeaturesBanner({bannerImage,buttonColor,vector,heading,caption,abb,subCaption}) {
   return(
     <div className="featuresBanner">
         <div className="container">
@@ -15,8 +15,7 @@ function FeaturesBanner({bannerImage,buttonColor,vector,heading,caption,abb}) {
                         {heading} <br/> {abb}
                         <img src={rocket} alt="rocket"/> 
                     </h1>
-                    <p className="featuresBanner__subCaption">Our cognitive AI suit helps understand your customers
-                    well and nurture them across all channels</p>
+                    <p className="featuresBanner__subCaption">{subCaption}</p>
                     <button style={{backgroundColor:buttonColor}}>Let's Talk</button>
                 </div>
                 <div className="featuresBanner__image">
