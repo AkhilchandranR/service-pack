@@ -2,7 +2,7 @@ import React from 'react';
 import './FeaturesElement.css';
 import rocket from '../../images/rocket.svg';
 
-function FeaturesElement({heading,featuresImg,cloud}) {
+function FeaturesElement({heading,featuresImg,cloud,caption}) {
   return(
       <div className='featuresElement'>
           <img src={featuresImg} alt="feature"/>
@@ -10,10 +10,8 @@ function FeaturesElement({heading,featuresImg,cloud}) {
           <div className="featuresElement__content">
             <h1>
                 {heading}
-              <img src={rocket} alt="rocket"/> 
             </h1>
-            <p className="featuresElement__subCaption">Our cognitive AI suit helps understand your customers
-            well and nurture them across all channels</p>
+            <p className="featuresElement__subCaption">{caption}</p>
             <button>Let's Talk</button>
           </div>
       </div>

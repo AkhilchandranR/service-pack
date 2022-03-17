@@ -1,6 +1,5 @@
 import React from 'react';
 import './AboutBanner.css';
-import rocket from '../../../images/rocket.png';
 import Slide from 'react-reveal/Slide';
 
 
@@ -14,7 +13,6 @@ function aboutBanner({bannerImage,buttonColor,vector,heading,caption}) {
                         <p>{caption}</p>
                         <h1>
                             {heading} 
-                            <img src={rocket} alt="rocket"/> 
                         </h1>
                         <p className="aboutBanner__subCaption"> Is to be a One-Stop destination for Customer, 
                         Employee & Operational Experience for your business.</p>

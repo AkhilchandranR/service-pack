@@ -31,8 +31,8 @@ function Ox() {
     <div className='ox'>
         <Navbar/>
         <FeaturesBanner bannerImage={oxbanner} buttonColor="#000000"
-            heading="Operational Experience" abb="(OX)" vector={cxvector} subCaption="Did you Know, 75% of executives fear going out of business within five years if they don’t scale AI. - SEMRush.
-            Featuring cutting edge scalable AI solutions for efficient operational excellence."/>
+            heading="OX:Did you Know, 75% of executives fear going out of business within five years if they don’t scale AI. - SEMRush."
+             vector={cxvector} subCaption="Featuring cutting edge scalable AI solutions for efficient operational excellence."/>
 
             <div className="ox__cards">
                 <FeaturesCard cardImg={cxcard1} cardHeading="Business Intelligence"
@@ -48,20 +48,24 @@ function Ox() {
             </div>
 
             <div className='ox__features1'>
-                <FeaturesElement featuresImg={oxfeature1} heading="Heading about Quality Audit Automation" cloud={cloud}/>
+                <FeaturesElement featuresImg={oxfeature1} heading="Enabling data driven decision making" cloud={cloud}
+                caption="According to McKinsky, Companies that make use of customer analytics are 23 times more likely to
+                 outperform their competitors in customer acquisition & retention."/>
             </div>
 
             <div className='ox__features1'>
-                <FeaturesElementRev featuresImg={oxfeature2} heading="Heading about Quality Metric 1"/>
+                <FeaturesElementRev featuresImg={oxfeature2} heading="Improvised cost saving through machine learning and automation."
+                caption="According to NASSCOM, organizations that implement RPA can reduce operational costs upto 65%."/>
             </div>
 
             <div className='ox__features1'>
-                <FeaturesElement featuresImg={oxfeature3} heading="Heading about Quality Metric 1"/>
+                <FeaturesElement featuresImg={oxfeature3} heading="Deescalating irate customers by offering precise solutions and churn reduction."
+                caption="According to Forbes, an astounding 85% of customer churn can be prevented through rich customer Experience."/>
             </div>
 
-            <div className='ox__features1'>
+            {/* <div className='ox__features1'>
                 <FeaturesElementRev featuresImg={oxfeature4} heading="Heading about Quality Metric 1"/>
-            </div>
+            </div> */}
 
             <TrustedClients heading="Hassle free integration with your existing tools"/>
           

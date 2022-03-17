@@ -43,6 +43,8 @@ function Contact() {
             bannerImage={contactbanner} buttonColor="#000000"
             heading="Feel free to say Hi !!"/>
 
+            <h1 className='contact__addressHeading'>Our Presence</h1>
+
             <div className='contact__address'>
                 <div className='contact__addressCard'>
                     <img src={usa} alt="USA"/>

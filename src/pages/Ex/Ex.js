@@ -30,8 +30,9 @@ function Ex() {
     <div className='ex'>
         <Navbar/>
         <FeaturesBanner bannerImage={exbanner} buttonColor="#000000"
-            heading="Employee Experience" abb="(EX)" vector={cxvector} subCaption=" Did you know,71% of Executives say that 
-            employee experience is critical to their company's success. -FastTrack360."/>
+            heading="EX:Did you know,71% of Executives say that 
+            employee experience is critical to their company's success. -FastTrack360." vector={cxvector} subCaption="Offering a wide
+            range of smart solutions to deliver seamless employee experience"/>
 
             <div className="ex__cards">
                 <FeaturesCard cardImg={oxcard1} cardHeading="Robotic Process Automation"
@@ -47,20 +48,24 @@ function Ex() {
             </div>
 
             <div className='ex__features1'>
-                <FeaturesElement featuresImg={exfeature1} heading="Heading about Quality Audit Automation" cloud={cloud}/>
+                <FeaturesElement featuresImg={exfeature1} heading="Simplifying Complex repetitive tasks with ML." cloud={cloud}
+                caption="A Deloitte RPA survey reported 86% improvement in productivity, 90% in quality and 92% in compliance.  
+                CTA: Know More"/>
             </div>
 
             <div className='ex__features1'>
-                <FeaturesElementRev featuresImg={exfeature2} heading="Heading about Quality Metric 1"/>
+                <FeaturesElementRev featuresImg={exfeature2} heading="Boosting productivity through targeted training."
+                caption="Increase in employee productivity by 40% with performance monitoring and targeted training."/>
             </div>
 
             <div className='ex__features1'>
-                <FeaturesElement featuresImg={exfeature3} heading="Heading about Quality Metric 1"/>
+                <FeaturesElement featuresImg={exfeature3} heading="Capturing employee pulse through feedback analytics."
+                caption="14% Lower turnover rates in the companies that implement regular employee feedback."/>
             </div>
 
-            <div className='ex__features1'>
+            {/* <div className='ex__features1'>
                 <FeaturesElementRev featuresImg={exfeature4} heading="Heading about Quality Metric 1"/>
-            </div>
+            </div> */}
 
             <TrustedClients heading="Hassle free integration with your existing tools"/>
           

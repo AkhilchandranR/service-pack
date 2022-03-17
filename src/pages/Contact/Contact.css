@@ -13,7 +13,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 4.375rem;
+    margin-top: 4.175rem;
+}
+.contact__addressHeading{
+    text-align: center;
+    margin-top: 5rem;
 }
 .contact__address > .contact__addressCard:last-of-type{
     border-right: none;

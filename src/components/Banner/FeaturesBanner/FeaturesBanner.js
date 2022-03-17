@@ -1,9 +1,8 @@
 import React from 'react';
 import './FeaturesBanner.css';
-import rocket from '../../../images/rocket.svg';
 import Slide from 'react-reveal/Slide';
 
-function FeaturesBanner({bannerImage,buttonColor,vector,heading,caption,abb,subCaption}) {
+function FeaturesBanner({bannerImage,buttonColor,vector,heading,caption,subCaption}) {
   return(
     <div className="featuresBanner">
         <div className="container">
@@ -12,8 +11,7 @@ function FeaturesBanner({bannerImage,buttonColor,vector,heading,caption,abb,subC
                 <div className="featuresBanner__textContent">
                     <p>{caption}</p>
                     <h1>
-                        {heading} <br/> {abb}
-                        <img src={rocket} alt="rocket"/> 
+                        {heading} <br/>
                     </h1>
                     <p className="featuresBanner__subCaption">{subCaption}</p>
                     <button style={{backgroundColor:buttonColor}}>Let's Talk</button>

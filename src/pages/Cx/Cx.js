@@ -30,9 +30,9 @@ function Cx() {
     <div className='cx'>
         <Navbar/>
         <FeaturesBanner bannerImage={cxbanner} buttonColor="#000000"
-            heading="Customer Experience" abb="(CX)" vector={cxvector}
-            subCaption="Did you know, There is an 80% increase in revenue for businesses that focus on improving customer experience. -Forbes.
-            Presenting laser focused solutions for Customer Experience"/>
+            heading="CX:Did you know, There is an 80% increase in revenue for businesses that focus on improving customer experience. -Forbes."
+             vector={cxvector}
+            subCaption="Presenting laser focused solutions for Customer Experience"/>
 
             <div className="cx__cards">
                 <FeaturesCard cardImg={cxcard1} cardHeading="Average Response Time"
@@ -47,20 +47,23 @@ function Cx() {
             </div>
 
             <div className='cx__features1'>
-                <FeaturesElement featuresImg={cxfeature1} heading="Heading about Quality Audit Automation" cloud={cloud}/>
+                <FeaturesElement featuresImg={cxfeature1} heading="Quick response to customer queries." cloud={cloud}
+                caption="Reduce average response time by 35% with Chat & Voice AI."/>
             </div>
 
             <div className='cx__features1'>
-                <FeaturesElementRev featuresImg={cxfeature2} heading="Heading about Quality Metric 1"/>
+                <FeaturesElementRev featuresImg={cxfeature2} heading="Refining Service Quality & Customer Satisfaction "
+                caption="Increase CSAT Score by 25% with precise solutions offered by intent prediction rather than content analysis."/>
             </div>
 
             <div className='cx__features1'>
-                <FeaturesElement featuresImg={cxfeature3} heading="Heading about Quality Metric 1"/>
+                <FeaturesElement featuresImg={cxfeature3} heading="Proactively providing multiple solutions to choose from."
+                caption="Increase customer retention by 20% with remedial recommendation engines."/>
             </div>
 
-            <div className='cx__features1'>
+            {/* <div className='cx__features1'>
                 <FeaturesElementRev featuresImg={cxfeature4} heading="Heading about Quality Metric 1"/>
-            </div>
+            </div> */}
 
             <TrustedClients heading="Hassle free integration with your existing tools"/>
           

@@ -4,7 +4,6 @@ import AboutBanner from '../../components/Banner/AboutBanner/AboutBanner';
 import aboutbanner from '../../images/aboutbanner.svg';
 import about3 from '../../images/about3.svg';
 import about2 from '../../images/about2.svg';
-import rocket from '../../images/rocket.png';
 import adleft from '../../images/adleftblack.svg';
 import adright from '../../images/adrightblack.svg';
 import './About.css';
@@ -18,7 +17,7 @@ function About() {
             <Navbar/>
             <AboutBanner
             bannerImage={aboutbanner} buttonColor="#000000" 
-            heading="Our Vision :"
+            heading="Our Vision"
             vector={vector}/>
 
             <div className='container'>
@@ -26,8 +25,7 @@ function About() {
                     <img src={about2} alt="who we are"/>
                     <div className='about__sectionOneHeading'>
                         <h1>
-                            Who we are ?:
-                            <img src={rocket} alt="rocket"/> 
+                            Who we are ?
                         </h1>
                         <p className="aboutOne__subCaption"> Group of product enthusiasts focused on
                          problem solving using leading edge AI technologies.</p>
@@ -37,8 +35,7 @@ function About() {
                 <div className='about__sectionTwo'>
                     <div className='about__sectionOneHeading'>
                         <h1>
-                            What we do ?:
-                            <img src={rocket} alt="rocket"/> 
+                            What we do ?
                         </h1>
                         <p className="aboutOne__subCaption">(Customer/Employee/Operational) Experience with 
                         Artificial Intelligence.</p>
