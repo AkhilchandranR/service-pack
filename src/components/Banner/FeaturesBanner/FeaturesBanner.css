@@ -17,7 +17,7 @@
 .featuresBanner__textContent > h1{
     font-size: 2.3rem;
     position: relative;
-    line-height: 4rem;
+    line-height: 3.2rem;
 }
 .featuresBanner__textContent > h1 > img{
     position: absolute;
@@ -59,9 +59,6 @@
 }
 
 @media screen and (max-width:1185px) {
-    .featuresBanner__textContent > h1{
-        line-height: 3.75rem;
-    }
     .featuresBanner__image > img{
         width: 26.875rem;
     }

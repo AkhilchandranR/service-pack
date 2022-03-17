@@ -11,7 +11,7 @@ function QmCallDemo({ illImage,heading,content }) {
                 </div>
                 <div className="callDemo__description">
                     <div className="callDemo__thickLine"></div>
-                    <h1>{heading}</h1>
+                    <h2>{heading}</h2>
                     <p>{content}</p>
                     <button>Request for a Demo</button>
                     <img src={design} alt="design"/>

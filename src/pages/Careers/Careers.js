@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{ useEffect } from 'react';
 import Navbar from '../../components/Navbar/Navbar';
 import CareersBanner from '../../components/Banner/CareersBanner/CareersBanner';
 import careerbanner from '../../images/careerbanner.svg';
@@ -8,9 +8,16 @@ import SearchIcon from '@mui/icons-material/Search';
 import MicIcon from '@mui/icons-material/Mic';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import vector from '../../images/cvector.svg';
+import jobData from '../../jobs.json';
 
 
 function Careers() {
+    useEffect(() => {
+      console.log(jobData);
+    }, [])
+     
+
+
   return(
     <div className='careers'>
         <Navbar/>

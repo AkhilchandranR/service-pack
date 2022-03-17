@@ -64,7 +64,7 @@ function Contact() {
                 </div>
                 <div className='contact__addressCard'>
                     <img src={india} alt="india"/>
-                    <h1>UK</h1>
+                    <h1>India</h1>
                     <p>Kemp house,160 City</p>
                     <p>Road, London, EC1V 2NX,</p>
                     <p>United Kingdom</p>

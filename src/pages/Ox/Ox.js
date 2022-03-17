@@ -31,7 +31,7 @@ function Ox() {
     <div className='ox'>
         <Navbar/>
         <FeaturesBanner bannerImage={oxbanner} buttonColor="#000000"
-            heading="OX:Did you Know, 75% of executives fear going out of business within five years if they don’t scale AI. - SEMRush."
+            heading="OX : Did you Know, 75% of executives fear going out of business within five years if they don’t scale AI. - SEMRush."
              vector={cxvector} subCaption="Featuring cutting edge scalable AI solutions for efficient operational excellence."/>
 
             <div className="ox__cards">

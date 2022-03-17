@@ -30,7 +30,7 @@ function Cx() {
     <div className='cx'>
         <Navbar/>
         <FeaturesBanner bannerImage={cxbanner} buttonColor="#000000"
-            heading="CX:Did you know, There is an 80% increase in revenue for businesses that focus on improving customer experience. -Forbes."
+            heading="CX : Did you know, There is an 80% increase in revenue for businesses that focus on improving customer experience. -Forbes."
              vector={cxvector}
             subCaption="Presenting laser focused solutions for Customer Experience"/>
 

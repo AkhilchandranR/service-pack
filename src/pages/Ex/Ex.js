@@ -30,7 +30,7 @@ function Ex() {
     <div className='ex'>
         <Navbar/>
         <FeaturesBanner bannerImage={exbanner} buttonColor="#000000"
-            heading="EX:Did you know,71% of Executives say that 
+            heading="EX : Did you know,71% of Executives say that 
             employee experience is critical to their company's success. -FastTrack360." vector={cxvector} subCaption="Offering a wide
             range of smart solutions to deliver seamless employee experience"/>
 

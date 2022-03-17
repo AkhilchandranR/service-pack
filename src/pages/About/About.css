@@ -3,12 +3,18 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 6.875rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .about__sectionTwo{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 5.625rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .about__sectionOne > img{
     height: 18.125rem;
@@ -26,6 +32,7 @@
 .aboutOne__subCaption{
     width: 25rem;
     margin-bottom: 0.9375rem;
+    line-height: 1.5rem;
 }
 .about__sectionOneHeading > button{
     margin-top: 0.9375rem;

@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
+    width: 76%;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -23,9 +23,10 @@
 }
 .featuresElement__content > h1{
     font-size: 2.675rem !important;
-    max-width: 24.75rem;
     margin-bottom: 1.25rem;
     position: relative;
+    line-height: 3.8rem;
+    max-width: 30rem;
 }
 .featuresElement__content > h1 > img{
     position: absolute;
@@ -37,6 +38,7 @@
 .featuresElement__subCaption{
     width: 23.125rem;
     margin-bottom: 0.9375rem;
+    line-height: 1.5rem;
 }
 .featuresElement__content > button{
     margin-top: 0.9375rem;

@@ -1,0 +1,58 @@
+[
+    {       
+        "category":"Customer Success",
+        "data":[
+            {
+                "role":"Implementation Manager",
+                "location":"Hyderabad"
+            },
+            {
+                "role":"Principal Customer Success Manager",
+                "location":"San Francisco"
+            }
+        ]
+    },
+    {       
+        "category":"Marketing",
+        "data":[
+            {
+                "role":"Head of Content Marketing",
+                "location":"Hyderabad"
+            },
+            {
+                "role":"Head of Inbound Product Marketing",
+                "location":"San Francisco"
+            }
+        ]
+    },
+    {       
+        "category":"Sales",
+        "data":[
+            {
+                "role":"Enterprise Account Executive",
+                "location":"US Remote"
+            },
+            {
+                "role":"Regional Channel Manager",
+                "location":"San Francisco"
+            }
+        ]
+    },
+    {       
+        "category":"Engineering",
+        "data":[
+            {
+                "role":"Devops Engineer",
+                "location":"Banglore"
+            },
+            {
+                "role":"Frontend SDE2",
+                "location":"Banglore"
+            },
+            {
+                "role":"Engineering Manager",
+                "location":"Banglore"
+            }
+        ]
+    }
+]

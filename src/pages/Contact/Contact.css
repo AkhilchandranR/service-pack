@@ -32,8 +32,9 @@
     margin-bottom: 0.625rem;
 }
 .contact__addressCard > p{
-    font-size: 1.1em !important;
+    font-size: 1.1rem !important;
     margin-bottom: 0.1875rem;
+    line-height: 1.55rem;
 }
 
 .bluedot{
