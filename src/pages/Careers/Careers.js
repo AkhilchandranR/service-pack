@@ -18,8 +18,8 @@ function Careers() {
     const [searchTerm,setSearchTerm] = useState('');
     const [searchRole,setSearchRole] = useState('');
     const [searchLocation,setSearchLocation] = useState('');
-    const [roles,setRoles] = useState(["Manager","Engineer"]);
-    const [locations,setLocations] = useState(["Banglore","San Francisco","US","Hyderabad"]);
+    const [roles,setRoles] = useState(["Machine Learning","Software Development","Product Management"]);
+    const [locations,setLocations] = useState(["USA","Hyderabad"]);
 
     useEffect(() => {
         
@@ -32,22 +32,22 @@ function Careers() {
                     return job.role.toLowerCase().includes(searchTerm.toLowerCase())
                 }
                 else if(searchTerm === '' && searchRole !== '' && searchLocation === ''){
-                    return  (job.type.toLowerCase().includes(searchRole.toLowerCase()))
+                    return  (job.category.toLowerCase().includes(searchRole.toLowerCase()))
                 }
                 else if(searchTerm === '' && searchRole === '' && searchLocation !== ''){
                     return  (job.location.toLowerCase().includes(searchLocation.toLowerCase()))
                 }
                 else if(searchTerm !== '' && searchRole !== '' && searchLocation === ''){
                     return  (job.role.toLowerCase().includes(searchRole.toLowerCase()) &&
-                    job.type.toLowerCase().includes(searchTerm.toLowerCase()))
+                    job.category.toLowerCase().includes(searchTerm.toLowerCase()))
                 }
                 else if(searchTerm === '' && searchRole !== '' && searchLocation !== ''){
-                    return  (job.type.toLowerCase().includes(searchRole.toLowerCase()) &&
+                    return  (job.category.toLowerCase().includes(searchRole.toLowerCase()) &&
                     job.location.toLowerCase().includes(searchLocation.toLowerCase()))
                 }
                 else if(searchLocation !== '' && searchTerm === '' && searchRole !== ''){
                     (job.location.toLowerCase().includes(searchLocation.toLowerCase()) &&
-                    job.type.toLowerCase().includes(searchRole.toLowerCase()))
+                    job.category.toLowerCase().includes(searchRole.toLowerCase()))
                 }
                 else if(searchLocation !== '' && searchTerm !== '' && searchRole === ''){
                     (job.location.toLowerCase().includes(searchLocation.toLowerCase()) &&
@@ -55,7 +55,7 @@ function Careers() {
                 }
                 else if(searchLocation !== '' && searchTerm !== '' && searchRole !== ''){
                     return (job.location.toLowerCase().includes(searchLocation.toLowerCase()) &&
-                 job.type.toLowerCase().includes(searchRole.toLowerCase()) &&
+                 job.category.toLowerCase().includes(searchRole.toLowerCase()) &&
                  job.role.toLowerCase().includes(searchTerm.toLowerCase()))
                 }
             }
@@ -144,16 +144,3 @@ function Careers() {
 }
 
 export default Careers;
-
-
-{/* <div className='careers__jobSection'>
-                    <h3>{job?.category}</h3>
-                    <div className='careers__jobPosts'>
-                    {job?.map((j,index)=>(
-                        <div className='related_posts'>
-                            <p>{j.role}</p>
-                            <p>{j.location}</p>
-                        </div>
-                    ))}
-                    </div>
-                </div> */}
