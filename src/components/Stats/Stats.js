@@ -107,7 +107,7 @@ function Stats({ colour1,symbol1,amount1,caption1,
                         <h1 style={{color:colour5}} id="statsComponent__cloudnumber5">{amount5}</h1>
                         <span style={{color:colour5}}>{symbol5}</span>
                         </div>
-                        <p>{caption4}</p>
+                        <p>{caption5}</p>
                     </div>
                 </div>
             </div>

@@ -3,6 +3,7 @@
 }
 .scrollToServices > a{
     color: #0070c0 !important;
+    cursor: pointer;
 }
 .banner__contents{
     display: flex;
@@ -19,7 +20,7 @@
 .banner__textContent > h1{
     font-size: 2.9375rem;
     position: relative;
-    line-height: 4rem;
+    line-height: 2.7rem;
 }
 .banner__textContent > h1 > img{
     position: absolute;
@@ -72,7 +73,7 @@
 @media screen and (max-width:1185px) {
     .banner__textContent > h1{
         font-size: 2.5em !important;
-        line-height: 3.75rem;
+        line-height: 2.7rem;
     }
     .banner__image > img{
         width: 27.5rem;
@@ -82,7 +83,7 @@
 @media screen and (max-width: 1102px) {
     .banner__textContent > h1{
         font-size: 2.3em !important;
-        line-height: 2.9375rem;
+        line-height: 2.7rem;
     }
 }
 @media screen and (max-width: 1048px) {

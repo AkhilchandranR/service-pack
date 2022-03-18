@@ -1,8 +1,11 @@
 import React from 'react';
 import './CallDemo.css';
 import design from '../../images/design.png';
+import { openModal } from '../../redux/rootReducer';
+import { useDispatch } from 'react-redux';
 
 function CallDemo({ illImage,heading,content }) {
+    const dispatch = useDispatch();
     return (
         <div className="container-sm">
             <div className="callDemo">
@@ -13,7 +16,7 @@ function CallDemo({ illImage,heading,content }) {
                     <div className="callDemo__thickLine"></div>
                     <h2>{heading}</h2>
                     <p>{content}</p>
-                    <button>Request for a Demo</button>
+                    <button onClick={()=>dispatch(openModal())}>Request for a Demo</button>
                     <img src={design} alt="design"/>
                 </div>
             </div>

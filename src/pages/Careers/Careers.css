@@ -4,6 +4,15 @@
 .careers__postings > h1{
     text-align: center;
 }
+.reset{
+    position: absolute;
+    right: 0;
+    top: 120%;
+    background-color: #fafafa;
+    border-radius: 50%;
+    margin: 10px;
+    cursor: pointer;
+}
 .careers__typeSearch{
     background-color: #fafafa;
     color: grey;
@@ -13,6 +22,7 @@
     align-items: center;
     padding: 0.5rem;
     flex: 0.25;
+    z-index: 99;
 }
 .careers__search > div:first-of-type{
     flex: 0.4 !important;
@@ -51,6 +61,7 @@ select{
     margin-left: auto;
     margin-right: auto;
     margin-top: 2.5rem;
+    position: relative;
 }
 .careers__jobs{
     width: 75vw;
@@ -100,6 +111,9 @@ select{
     .careers__typeSearch{
         margin-bottom: 0.9375rem;
         width: 100%;
+    }
+    .reset{
+        top:95%;
     }
 }
 @media screen and (max-width:680px) {

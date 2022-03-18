@@ -3,10 +3,13 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 8.75rem;
+    margin-top: 5rem;
     width: 95%;
     margin-left: auto;
     margin-right: auto;
+}
+.cx__stats{
+    margin-top: 5rem;
 }
 .cx__cards > *{
     margin-right: 0.625rem;

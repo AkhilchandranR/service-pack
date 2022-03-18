@@ -13,7 +13,7 @@ function TlBanner({bannerImage,buttonColor,vector,heading,caption}) {
                         <p>{caption}</p>
                         <h1>
                             {heading} 
-                            <img src={rocket} alt="rocket"/> 
+                        
                         </h1>
                         <p className="TlBanner__subCaption">Comprehensive Feedback and Survey Analytics
                          summary to make an informed decision.</p>

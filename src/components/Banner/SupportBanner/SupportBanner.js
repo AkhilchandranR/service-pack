@@ -14,7 +14,6 @@ function supportBanner({bannerImage,buttonColor,vector,heading,caption}) {
                         <p>{caption}</p>
                         <h1>
                             {heading} 
-                            <img src={rocket} alt="rocket"/> 
                         </h1>
                         <p className="supportBanner__subCaption">Group of experts at your service.</p>
                         <button style={{backgroundColor:buttonColor}}>Let's Talk</button>

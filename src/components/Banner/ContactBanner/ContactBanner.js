@@ -14,10 +14,8 @@ function contactBanner({bannerImage,buttonColor,vector,heading,caption}) {
                         <p>{caption}</p>
                         <h1>
                             {heading} 
-                            <img src={rocket} alt="rocket"/> 
                         </h1>
-                        <p className="contactBanner__subCaption">Our cognitive AI suit helps understand your customers
-                         well and nurture them across all channels</p>
+
                         <button style={{backgroundColor:buttonColor}}>Let's Talk</button>
                     </div>
                     <div className="contactBanner__image">

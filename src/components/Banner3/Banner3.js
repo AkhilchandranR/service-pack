@@ -13,7 +13,7 @@ function Banner3({bannerImage,buttonColor,vector,heading,caption}) {
                         <p>{caption}</p>
                         <h1>
                             {heading} 
-                            <img src={rocket} alt="rocket"/> 
+                        
                         </h1>
                         <p className="banner3__subCaption">Bringing a unified omni-channel CX platform powered by AI.</p>
                         <button style={{backgroundColor:buttonColor}}>Let's Talk</button>

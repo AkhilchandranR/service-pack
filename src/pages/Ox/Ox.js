@@ -9,10 +9,10 @@ import oxcard4 from '../../images/oxcard4.png';
 import cxcard4 from '../../images/cxcard4.svg';
 import cxcard1 from '../../images/cxcard1.svg';
 import cloud from '../../images/cloud.svg';
-import oxfeature1 from '../../images/oxfeature1.svg';
+import oxfeature1 from '../../images/exfeature3.svg';
 import oxfeature2 from '../../images/oxfeature2.svg';
 import oxfeature3 from '../../images/oxfeature3.svg';
-import oxfeature4 from '../../images/oxfeature4.svg';
+import oxfeature4 from '../../images/cxfeature4.svg';
 import adleft from '../../images/adleftblack.svg';
 import adright from '../../images/adrightblack.svg';
 import Navbar from '../../components/Navbar/Navbar';
@@ -23,6 +23,7 @@ import FeaturesElementRev from '../../components/FeaturesElementRev/FeaturesElem
 import TrustedClients from '../../components/TrustedClients/TrustedClients';
 import Advertisement from '../../components/Advertisement/Advertisement';
 import Footer from '../../components/Footer/Footer';
+import Stats from '../../components/Stats/Stats';
 
 
 
@@ -31,20 +32,24 @@ function Ox() {
     <div className='ox'>
         <Navbar/>
         <FeaturesBanner bannerImage={oxbanner} buttonColor="#000000"
-            heading="OX : Did you Know, 75% of executives fear going out of business within five years if they don’t scale AI. - SEMRush."
-             vector={cxvector} subCaption="Featuring cutting edge scalable AI solutions for efficient operational excellence."/>
+            heading="Did you Know, 75% of executives fear going out of business within five years if they don’t scale AI."
+             vector={cxvector} subCaption="Featuring cutting edge scalable AI solutions for efficient operational excellence."
+             author="SEMRush"/>
+
+            <div className='cx__stats'>
+                <Stats 
+                colour1="#0070c0" amount1="25" symbol1="%" caption1="Increase in revenue"
+                colour2="#ffcd3a" amount2="35" symbol2="%" caption2="Increase in Avg. response time"
+                colour3="#32cd32" amount3="40" symbol3="%" caption3="Reduction in AHT"
+                colour4="#ff0066" amount4="45" symbol4="%" caption4="Increase in First Contact Resolution"
+                colour5="#ff4500" amount5="55" symbol5="%" caption5="Reduction in Operational Cost"
+                />
+            </div>
 
             <div className="ox__cards">
-                <FeaturesCard cardImg={cxcard1} cardHeading="Business Intelligence"
-                cardBody="Enabling data driven decision making 
-                According to McKinsky, Companies that make use of customer analytics are 23 times more 
-                likely to outperform their competitors in customer acquisition & retention."/>
-                <FeaturesCard cardImg={oxcard2} cardHeading="Cost Saving" 
-                cardBody=" Improvised cost saving through machine learning and automation.
-                According to NASSCOM, organizations that implement RPA can reduce operational costs upto 65%."/>
-                <FeaturesCard cardImg={cxcard4} cardHeading="Churn Reduction" 
-                cardBody="Deescalating irate customers by offering precise solutions and churn reduction. 
-                According to Forbes, an astounding 85% of customer churn can be prevented through rich customer Experience. "/>
+                <FeaturesCard cardImg={cxcard1} cardHeading="Business Intelligence"/>
+                <FeaturesCard cardImg={oxcard2} cardHeading="Cost Saving" />
+                <FeaturesCard cardImg={cxcard4} cardHeading="Churn Reduction"/>
             </div>
 
             <div className='ox__features1'>
@@ -54,12 +59,12 @@ function Ox() {
             </div>
 
             <div className='ox__features1'>
-                <FeaturesElementRev featuresImg={oxfeature2} heading="Improvised cost saving through machine learning and automation."
+                <FeaturesElementRev featuresImg={oxfeature3} heading="Improvised cost saving through machine learning and automation."
                 caption="According to NASSCOM, organizations that implement RPA can reduce operational costs upto 65%."/>
             </div>
 
             <div className='ox__features1'>
-                <FeaturesElement featuresImg={oxfeature3} heading="Deescalating irate customers by offering precise solutions and churn reduction."
+                <FeaturesElement featuresImg={oxfeature4} heading="Deescalating irate customers by offering precise solutions and churn reduction."
                 caption="According to Forbes, an astounding 85% of customer churn can be prevented through rich customer Experience."/>
             </div>
 

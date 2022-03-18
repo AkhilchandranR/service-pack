@@ -1,11 +1,11 @@
 import React from 'react';
 import './TrustedClients.css';
-import buzzfeed from '../../images/buzzfeed.svg';
-import hexatech from '../../images/hexatech.svg';
-import indeed from '../../images/indeed.svg';
-import mode from '../../images/mode.svg';
-import stripe from '../../images/stripe.svg';
-import typeform from '../../images/typeform.svg'; 
+import color from '../../images/128-color.png'; 
+import down from '../../images/download.png';
+import lysonia from '../../images/large_lysonia.png';
+import ordda from '../../images/large_ordda.png';
+import pepaso from '../../images/large_pepaso.png';
+import zewwe from '../../images/large_zewwe.png';
 import Slide from 'react-reveal/Slide';
 
 function TrustedClients({heading}) {
@@ -17,12 +17,12 @@ function TrustedClients({heading}) {
                 </Slide>
                 <Slide bottom>
                     <div className="trustedClients__clients">
-                        <img src={buzzfeed} alt="buzzfeed"/>
-                        <img src={hexatech} alt="hexatech"/>
-                        <img src={indeed} alt="indeed"/>
-                        <img src={mode} alt="mode"/>
-                        <img src={typeform} alt="typeform"/>
-                        <img src={stripe} alt="stripe"/>
+                        <img src={color} alt="128-color"/>
+                        <img src={down} alt="logo"/>
+                        <img src={lysonia} alt="lysonia"/>
+                        <img src={ordda} alt="ordda"/>
+                        <img src={pepaso} alt="pepaso"/>
+                        <img src={zewwe} alt="zewwe"/>
                     </div>
                 </Slide>
             </div>

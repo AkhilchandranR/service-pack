@@ -17,7 +17,7 @@
 .careersBanner__textContent > h1{
     font-size: 2.75rem;
     position: relative;
-    line-height: 4.25rem;
+    line-height: 2.8rem;
 }
 .careersBanner__textContent > h1 > img{
     position: absolute;
@@ -58,19 +58,16 @@
 @media screen and (max-width:1396px) {
     .careersBanner__textContent > h1{
         font-size: 2.5rem;
-        line-height: 4.0625rem;
     }
 }
 @media screen and (max-width:1185px) {
     .careersBanner__textContent > h1{
         font-size: 2.5em !important;
-        line-height: 3.75rem;
     }
 }
 @media screen and (max-width: 1102px) {
     .careersBanner__textContent > h1{
         font-size: 2.3em !important;
-        line-height: 2.9375rem;
     }
 }
 @media screen and (max-width: 991px) {

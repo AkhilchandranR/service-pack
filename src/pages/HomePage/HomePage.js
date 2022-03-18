@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{ useState } from 'react';
 import Banner from '../../components/Banner/Banner';
 import Customers from '../../components/Customers/Customers';
 import Navbar from '../../components/Navbar/Navbar';
@@ -15,9 +15,14 @@ import vector1 from '../../images/Vector01.svg';
 import adleft from '../../images/adleft.svg';
 import adright from '../../images/adrightblue.svg';
 import bg from '../../images/bannerbackground.svg';
+import { useSelector,useDispatch } from 'react-redux';
+import { closeModal } from '../../redux/rootReducer';
 import SignIn from '../../components/SigninModal/SignIn';
 
+
 function HomePage() {
+    const open = useSelector((state)=>state.modal.open);
+    const dispatch = useDispatch();
     return (
         <div className="homePage">
             <Navbar/>
@@ -92,7 +97,7 @@ function HomePage() {
                 <Footer/>
             </footer>
 
-            {/* <SignIn/> */}
+            <SignIn open={open}/>
             
         </div>
     )

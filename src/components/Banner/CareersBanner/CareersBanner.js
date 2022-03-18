@@ -14,7 +14,6 @@ function careersBanner({bannerImage,buttonColor,vector,heading,caption}) {
                         <p>{caption}</p>
                         <h1>
                             {heading} 
-                            <img src={rocket} alt="rocket"/> 
                         </h1>
                         <p className="careersBanner__subCaption">If you think you are a team player.. Let’s talk.</p>
                         <button style={{backgroundColor:buttonColor}}>Let's Talk</button>

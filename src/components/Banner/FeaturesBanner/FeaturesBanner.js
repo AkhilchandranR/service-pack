@@ -2,7 +2,7 @@ import React from 'react';
 import './FeaturesBanner.css';
 import Slide from 'react-reveal/Slide';
 
-function FeaturesBanner({bannerImage,buttonColor,vector,heading,caption,subCaption}) {
+function FeaturesBanner({bannerImage,buttonColor,vector,heading,caption,subCaption,author}) {
   return(
     <div className="featuresBanner">
         <div className="container">
@@ -11,7 +11,7 @@ function FeaturesBanner({bannerImage,buttonColor,vector,heading,caption,subCapti
                 <div className="featuresBanner__textContent">
                     <p>{caption}</p>
                     <h1>
-                        {heading} <br/>
+                        {heading} <span>-{author}</span>
                     </h1>
                     <p className="featuresBanner__subCaption">{subCaption}</p>
                     <button style={{backgroundColor:buttonColor}}>Let's Talk</button>

@@ -13,7 +13,7 @@ function VdBanner({bannerImage,buttonColor,vector,heading,caption}) {
                         <p>{caption}</p>
                         <h1>
                             {heading} 
-                            <img src={rocket} alt="rocket"/> 
+                            
                         </h1>
                         <p className="vdBanner__subCaption">Hyper intelligent Conversational IVR for Customer Service,
                          Reminders, Reservations & Routing.</p>

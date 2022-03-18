@@ -13,7 +13,6 @@ function QwBanner({bannerImage,buttonColor,vector,heading,caption}) {
                         <p>{caption}</p>
                         <h1>
                             {heading} 
-                            <img src={rocket} alt="rocket"/> 
                         </h1>
                         <p className="QwBanner__subCaption">Unlock the
                          full potential of Speech Analytics for an efficient Quality Monitoring, 

@@ -14,7 +14,6 @@ function CocoBanner({bannerImage,buttonColor,vector,heading,caption}) {
                         <p>{caption}</p>
                         <h1>
                             {heading} 
-                            <img src={rocket} alt="rocket"/> 
                         </h1>
                         <p className="cocoBanner__subCaption">Embracing Contactless Biometrics for
                          identification and access control</p>

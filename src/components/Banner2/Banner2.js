@@ -13,7 +13,7 @@ function Banner2({bannerImage,buttonColor,vector,heading,caption}) {
                         <p>{caption}</p>
                         <h1>
                             {heading} 
-                            <img src={rocket} alt="rocket"/> 
+                            
                         </h1>
                         <p className="banner2__subCaption">Provide unmatched Customer Service with our highly
                          customizable Zero code AI bot with Sentiment Prediction and Lead Generation capabilities.</p>
