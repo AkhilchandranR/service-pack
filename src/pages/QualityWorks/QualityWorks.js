@@ -2,7 +2,6 @@ import React from 'react';
 import Navbar from '../../components/Navbar/Navbar';
 import QwBanner from '../../components/Banner/QwBanner/QwBanner';
 import Stats from '../../components/Stats/Stats';
-import TrustedClients from '../../components/TrustedClients/TrustedClients';
 import Advertisement from '../../components/Advertisement/Advertisement';
 import Products from '../../components/Products/Products';
 import Footer from '../../components/Footer/Footer';
@@ -13,6 +12,7 @@ import vector from '../../images/qwvector.svg';
 
 import './QualityWorks.css';
 import DashboardSample from '../../components/DashboardSample/DashboardSample';
+import Tools from '../../components/Tools/Tools';
 
 function QualityWorks() {
     return (
@@ -42,7 +42,7 @@ function QualityWorks() {
                 heading3="Reporting" caption3="Instant multi-level(Org/Team/Agent) reports with single click download."/>
             </div>
 
-            <TrustedClients heading="Hassle free integration with your existing tools"/>
+            <Tools heading="Hassle free integration with your existing tools"/>
 
             <div className='qualityworks__products'>
                 <Products buttoncolor="#0070c0" heading="How AI enhances Customer Experience"/>

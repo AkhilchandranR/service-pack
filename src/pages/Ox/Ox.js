@@ -20,7 +20,7 @@ import FeaturesBanner from '../../components/Banner/FeaturesBanner/FeaturesBanne
 import FeaturesCard from '../../components/FeaturesCard/FeaturesCard';
 import FeaturesElement from '../../components/FeaturesElement/FeaturesElement';
 import FeaturesElementRev from '../../components/FeaturesElementRev/FeaturesElementRev';
-import TrustedClients from '../../components/TrustedClients/TrustedClients';
+import Tools from '../../components/Tools/Tools';
 import Advertisement from '../../components/Advertisement/Advertisement';
 import Footer from '../../components/Footer/Footer';
 import Stats from '../../components/Stats/Stats';
@@ -72,7 +72,7 @@ function Ox() {
                 <FeaturesElementRev featuresImg={oxfeature4} heading="Heading about Quality Metric 1"/>
             </div> */}
 
-            <TrustedClients heading="Hassle free integration with your existing tools"/>
+            <Tools heading="Hassle free integration with your existing tools"/>
           
             <div className="features__adv">
                   <Advertisement 

@@ -3,7 +3,7 @@ import Navbar from '../../components/Navbar/Navbar';
 import Banner3 from '../../components/Banner3/Banner3';
 import Stats from '../../components/Stats/Stats';
 import DashboardSample from '../../components/DashboardSample/DashboardSample';
-import TrustedClients from '../../components/TrustedClients/TrustedClients';
+import Tools from '../../components/Tools/Tools';
 import Products from '../../components/Products/Products';
 import Advertisement from '../../components/Advertisement/Advertisement';
 
@@ -39,7 +39,7 @@ function Platform() {
                 <DashboardSample colour="#7030a0" bgcolor="#f7ecff" bgImage="to right, #d7b1f4, #debdf7, #e5c9fa, #ebd5fc, #f2e1ff"/>
             </div>
 
-            <TrustedClients heading="Hassle free integration with your existing tools"/>
+            <Tools heading="Hassle free integration with your existing tools"/>
 
             <div className='platform__products'>
                 <Products buttoncolor="#7030a0" heading="How AI enhances Customer Experience"/>

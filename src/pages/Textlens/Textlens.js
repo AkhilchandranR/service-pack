@@ -3,7 +3,7 @@ import Navbar from '../../components/Navbar/Navbar';
 import TlBanner from '../../components/Banner/TlBanner/TlBanner';
 import Stats from '../../components/Stats/Stats';
 import DashboardSample from '../../components/DashboardSample/DashboardSample';
-import TrustedClients from '../../components/TrustedClients/TrustedClients';
+import Tools from '../../components/Tools/Tools';
 import Products from '../../components/Products/Products';
 import Advertisement from '../../components/Advertisement/Advertisement';
 
@@ -42,7 +42,7 @@ function Textlens() {
                 heading3="CSAT" caption3="CSAT prediction based on the review intents."/>
             </div>
 
-            <TrustedClients heading="Hassle free integration with your existing tools"/>
+            <Tools heading="Hassle free integration with your existing tools"/>
 
             <div className='textLens__products'>
                 <Products buttoncolor="#32cd32" heading="How AI enhances Customer Experience"/>

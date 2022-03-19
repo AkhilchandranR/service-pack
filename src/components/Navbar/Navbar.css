@@ -1,8 +1,8 @@
 .navbar{
     background-color: black;
     width: 100vw;
-    height: 5rem;
-    padding: 0.9375rem 0rem;
+    min-height: 5rem;
+    padding: 0.5rem 0rem;
 }
 .navbar__hiddenLinks{
     height: 0rem;
@@ -26,9 +26,10 @@
 }
 .navbar__logo{
     z-index: 99;
+    width: 10rem;
 }
 .navbar__logo > a > img{
-    height: 3.125rem;
+    width: 180px;
     object-fit: contain;
     cursor: pointer;
 }

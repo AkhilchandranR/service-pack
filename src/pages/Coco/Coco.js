@@ -3,7 +3,7 @@ import Navbar from '../../components/Navbar/Navbar';
 import CocoBanner from '../../components/Banner/CocoBanner/CocoBanner';
 import Stats from '../../components/Stats/Stats';
 import DashboardSample from '../../components/DashboardSample/DashboardSample';
-import TrustedClients from '../../components/TrustedClients/TrustedClients';
+import Tools from '../../components/Tools/Tools';
 import Products from '../../components/Products/Products';
 import Advertisement from '../../components/Advertisement/Advertisement';
 
@@ -38,7 +38,7 @@ function Coco() {
                 <DashboardSample colour="#ff4500" bgcolor="#F9E3DA" bgImage="to right,#f4baa3,#FEC2AB"/>
         </div>
 
-        <TrustedClients heading="Hassle free integration with your existing tools"/>
+        <Tools heading="Hassle free integration with your existing tools"/>
 
         <div className='coco__products'>
                 <Products buttoncolor="#ff4500" heading="How AI enhances Customer Experience"/>

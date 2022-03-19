@@ -1,11 +1,11 @@
-.trustedClients{
+.tools{
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     margin-top: 6.25rem;
 }
-.trustedClients__clients{
+.tools__clients{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -13,31 +13,32 @@
     width: 100%;
     margin-top: 3.125rem;
 }
-.trustedClients > h1{
+.tools > h1{
     font-size: 2.1875rem !important;
     text-align: center;
 }
-.trustedClients__clients > img{
-    width: 10rem;
+.tools__clients > img{
+    width: 8rem;
+    padding: 0.3rem;
     object-fit: contain;
 }
-@media screen and (max-width:1200px) {
-    .trustedClients__clients{
+@media screen and (max-width:940px) {
+    .tools__clients{
         justify-content: center;
     }
 }
 @media screen and (max-width:991px) {
-    .trustedClients > h1{
+    .tools > h1{
         font-size: 1.875rem !important;
     }
 }
 
 @media screen and (max-width:880px) {
-    .trustedClients__clients{
+    .tools__clients{
         justify-content: center;
         width: 80%;
     }
-    .trustedClients__clients >img{
+    .tools__clients >img{
         margin-top: 2.5rem;
     }
 }

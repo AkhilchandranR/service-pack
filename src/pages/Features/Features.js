@@ -6,7 +6,7 @@ import './Features.css';
 import FeaturesDashboard from '../../components/FeaturesDashboard/FeaturesDashboard';
 import FeaturesDashboardReverse from '../../components/FeaturesDashboardReverse/FeaturesDashboardReverse';
 import FeaturesCard from '../../components/FeaturesCard/FeaturesCard';
-import TrustedClients from '../../components/TrustedClients/TrustedClients';
+import Tools from '../../components/Tools/Tools';
 import Advertisement from '../../components/Advertisement/Advertisement';
 import Footer from '../../components/Footer/Footer';
 import card1 from '../../images/card1.png';
@@ -48,7 +48,7 @@ function Features() {
             <FeaturesDashboardReverse heading="Heading about Quality Metric 1"/>
           </div>
           
-          <TrustedClients heading="Hassle free integration with your existing tools"/>
+          <Tools heading="Hassle free integration with your existing tools"/>
           
           <div className="features__adv">
                 <Advertisement 

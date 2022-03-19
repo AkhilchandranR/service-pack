@@ -18,6 +18,7 @@ import bg from '../../images/bannerbackground.svg';
 import { useSelector,useDispatch } from 'react-redux';
 import { closeModal } from '../../redux/rootReducer';
 import SignIn from '../../components/SigninModal/SignIn';
+import Tools from '../../components/Tools/Tools';
 
 
 function HomePage() {
@@ -82,7 +83,7 @@ function HomePage() {
                 />
             </div>
 
-            <TrustedClients heading="Hassle free integration with your existing tools"/>
+            <Tools heading="Hassle free integration with your existing tools"/>
 
             <div className='homepage__products'>
                 <Products buttoncolor="black" heading="How AI enhances Customer Experience"/>

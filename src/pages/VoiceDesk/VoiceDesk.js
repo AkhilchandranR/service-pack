@@ -3,7 +3,7 @@ import Navbar from '../../components/Navbar/Navbar';
 import Banner2 from '../../components/Banner/VdBanner/VdBanner';
 import Stats from '../../components/Stats/Stats';
 import DashboardSample from '../../components/DashboardSample/DashboardSample';
-import TrustedClients from '../../components/TrustedClients/TrustedClients';
+import Tools from '../../components/Tools/Tools';
 import Products from '../../components/Products/Products';
 import Advertisement from '../../components/Advertisement/Advertisement';
 
@@ -43,7 +43,7 @@ function VoiceDesk() {
                 heading3="Integration" caption3="Hassle free integration into existing tools."/>
             </div>
 
-            <TrustedClients heading="Hassle free integration with your existing tools"/>
+            <Tools heading="Hassle free integration with your existing tools"/>
 
             <div className='voiceDesk__products'>
                 <Products buttoncolor="#ffbf00" heading="How AI enhances Customer Experience"/>

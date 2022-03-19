@@ -3,7 +3,7 @@ import Navbar from '../../components/Navbar/Navbar';
 import Banner2 from '../../components/Banner2/Banner2';
 import Stats from '../../components/Stats/Stats';
 import DashboardSample from '../../components/DashboardSample/DashboardSample';
-import TrustedClients from '../../components/TrustedClients/TrustedClients';
+import Tools from '../../components/Tools/Tools';
 import Products from '../../components/Products/Products';
 import banner3 from '../../images/banner3.svg';
 import './Smartbot.css';
@@ -40,7 +40,7 @@ function Smartbot() {
                 heading3="Agent Handoffs" caption3="Warm handoff for human intervention using NLU"/>
             </div>
 
-            <TrustedClients heading="Hassle free integration with your existing tools"/>
+            <Tools heading="Hassle free integration with your existing tools"/>
             <div className='smartbot__products'>
                 <Products buttoncolor="#ff0066" heading="How AI enhances Customer Experience"/>
             </div>
