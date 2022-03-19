@@ -15,7 +15,7 @@ function TrustedClients({heading}) {
                 <Slide bottom>
                     <h1>{heading}</h1>
                 </Slide>
-                <Slide bottom>
+                <Slide left>
                     <div className="trustedClients__clients">
                         <img src={color} alt="128-color"/>
                         <img src={down} alt="logo"/>

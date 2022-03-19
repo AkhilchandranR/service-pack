@@ -11,10 +11,13 @@ import smartbot from '../../images/Smart_Bot_Logo.svg';
 import voicedesk from '../../images/Voice_Desk_Logo.svg';
 import textlens from '../../images/Text_Lens_Logo.svg';
 import coco from '../../images/CoCo_Bot_Logo.svg';
+import { openModal } from '../../redux/rootReducer';
+import { useDispatch } from 'react-redux';
 
 
 function Navbar() {
     const menuRef = useRef();
+    const dispatch = useDispatch();
 
     const[openDropDown,setOpenDropDown] = useState(false);
     const[openProducts,setOpenProducts] = useState(false);
@@ -207,7 +210,7 @@ function Navbar() {
                                     </div>
                             }
                         </div>
-                        <button className="navbar__demo">Get a Demo</button>
+                        <button className="navbar__demo" onClick={()=>dispatch(openModal())}>Request for Demo</button>
                     </ul>
 
                     {/* menu link in tab/mobile view */}
@@ -356,7 +359,7 @@ function Navbar() {
                                 </Fade>
                             }
 
-                            <button className="navbar__dropDemo">Get a Demo</button>
+                            <button className="navbar__dropDemo" onClick={()=>dispatch(openModal())}>Request for Demo</button>
                         </div> 
                         </Fade>
                     }

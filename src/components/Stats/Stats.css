@@ -22,7 +22,7 @@
 .stats__statComponent{
     border-right: 1px solid black;
     padding-right: 6.25rem;
-    margin-left: 3.75rem;
+    margin-left: 1.75rem;
     height: 134px;
 }
 .stats__statComponent:last-of-type{

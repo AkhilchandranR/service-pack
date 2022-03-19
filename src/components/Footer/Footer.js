@@ -52,6 +52,9 @@ function Footer() {
                         <Link to="/about">
                             <p className="footer__content">About Us</p>
                         </Link>
+                        <Link to="/careers">
+                            <p className="footer__content">Careers</p>
+                        </Link>
                         <Link to="/support">
                             <p className="footer__content">Support</p>
                         </Link>

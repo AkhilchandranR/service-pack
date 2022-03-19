@@ -169,9 +169,6 @@
 }
 
 @media screen and (max-width:1100px) {
-    .navbar__logo > a > img{
-        height: 2.5rem;
-    }
     .navbar__navLinks{
         width: 34.375rem;
     }
