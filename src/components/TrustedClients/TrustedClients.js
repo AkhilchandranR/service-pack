@@ -7,6 +7,8 @@ import ordda from '../../images/large_ordda.png';
 import pepaso from '../../images/large_pepaso.png';
 import zewwe from '../../images/large_zewwe.png';
 import Slide from 'react-reveal/Slide';
+import Carousel, { autoplayPlugin,slidesToShowPlugin } from '@brainhubeu/react-carousel';
+import '@brainhubeu/react-carousel/lib/style.css';
 
 function TrustedClients({heading}) {
     return (
@@ -15,16 +17,57 @@ function TrustedClients({heading}) {
                 <Slide bottom>
                     <h1>{heading}</h1>
                 </Slide>
-                <Slide left>
                     <div className="trustedClients__clients">
-                        <img src={color} alt="128-color"/>
-                        <img src={down} alt="logo"/>
-                        <img src={lysonia} alt="lysonia"/>
-                        <img src={ordda} alt="ordda"/>
-                        <img src={pepaso} alt="pepaso"/>
-                        <img src={zewwe} alt="zewwe"/>
+                        <Carousel
+                                plugins={[
+                                    'infinite',
+                                    {
+                                      resolve: slidesToShowPlugin,
+                                      options: {
+                                       numberOfSlides: 5
+                                      }
+                                    },
+                                    {      
+                                    resolve: autoplayPlugin,
+                                      options: {
+                                        interval: 2000,
+                                      }
+                                    },
+                                  ]}
+
+                                  animationSpeed={4000}
+
+                                  breakpoints={{
+                                    1000: {
+                                        plugins: [
+                                         {
+                                           resolve: slidesToShowPlugin,
+                                           options: {
+                                            numberOfSlides: 3
+                                           }
+                                         },
+                                       ]
+                                      },
+                                    640: {
+                                      plugins: [
+                                       {
+                                         resolve: slidesToShowPlugin,
+                                         options: {
+                                          numberOfSlides: 1
+                                         }
+                                       },
+                                     ]
+                                    }
+                                  }}
+                            >
+                            <img src={color} alt="128-color" className="trustedClients__images"/>
+                            <img src={down} alt="logo" className="trustedClients__images"/>
+                            <img src={lysonia} alt="lysonia" className="trustedClients__images"/>
+                            <img src={ordda} alt="ordda" className="trustedClients__images"/>
+                            <img src={pepaso} alt="pepaso" className="trustedClients__images"/>
+                            <img src={zewwe} alt="zewwe" className="trustedClients__images"/>
+                        </Carousel>
                     </div>
-                </Slide>
             </div>
         </div>
     )

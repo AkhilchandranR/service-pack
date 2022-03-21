@@ -22,7 +22,7 @@
 .stats__statComponent{
     border-right: 1px solid black;
     padding-right: 6.25rem;
-    margin-left: 1.75rem;
+    margin-left: 2.75rem;
     height: 134px;
 }
 .stats__statComponent:last-of-type{
@@ -100,10 +100,10 @@
 
 @media screen and (max-width:1307px) {
     .statComponent > p {
-        font-size: 0.85rem;
+        font-size: 1.1rem;
         font-weight: 600;
         text-align: center;
-        width: 150%;
+        width: 140%;
         margin-top: 4px;
         line-height: 24px;
     }
